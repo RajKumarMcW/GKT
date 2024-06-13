@@ -1,3 +1,0 @@
-[2024-06-13 17:51:06,204][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmprwgyiqh1
-[2024-06-13 17:51:06,204][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmprwgyiqh1/_remote_module_non_scriptable.py
-[2024-06-13 17:51:06,405][__main__][INFO] - Searching /media/ava/DATA3/DATA/raj/GKT/segmentation/logs.
