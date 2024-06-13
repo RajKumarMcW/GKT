@@ -1,8 +1,8 @@
 Global seed set to 2022
 Loaded pretrained weights for efficientnet-b4
-[2024-06-13 12:02:50,373][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpt0p6e8s_
-[2024-06-13 12:02:50,374][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpt0p6e8s_/_remote_module_non_sriptable.py
-[2024-06-13 12:02:51,309][__main__][INFO] - Searching /media/ava/DATA3/DATA/raj/GKT/segmentation/logs.
+[2024-06-13 17:52:10,791][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpeicjaujk
+[2024-06-13 17:52:10,791][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpeicjaujk/_remote_module_non_scriptable.py
+[2024-06-13 17:52:10,992][__main__][INFO] - Searching /media/ava/DATA3/DATA/raj/GKT/segmentation/logs.
 GPU available: True, used: True
 TPU available: False, using: 0 TPU cores
 IPU available: False, using: 0 IPUs
@@ -10,1145 +10,7 @@ HPU available: False, using: 0 HPUs
 `Trainer(limit_train_batches=1.0)` was configured so 100% of the batches per epoch will be used..
 `Trainer(limit_val_batches=1.0)` was configured so 100% of the batches will be used..
 `Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
-Loading weights from: /media/ava/DATA3/DATA/raj/GKT/segmentation/pretrained_models/map_segmentation_gkt_7x1_conv_setting2.ckpt
+Loading weights from: /media/ava/DATA3/DATA/raj/GKT/segmentation/artifacts/map_segmentation_gkt_7x1_conv_setting2.ckpt
 Loaded pretrained weights for efficientnet-b4
-{'cam_idx': tensor([[0, 1, 2, 3, 4, 5],
-        [0, 1, 2, 3, 4, 5],
-        [0, 1, 2, 3, 4, 5],
-        [0, 1, 2, 3, 4, 5]]), 'image': tensor([[[[[0.5098, 0.5098, 0.5098,  ..., 0.5255, 0.5255, 0.5176],
-           [0.5098, 0.5098, 0.5098,  ..., 0.5333, 0.5333, 0.5255],
-           [0.5098, 0.5059, 0.5098,  ..., 0.5373, 0.5373, 0.5333],
-           ...,
-           [0.2039, 0.2078, 0.2039,  ..., 0.2392, 0.2392, 0.2314],
-           [0.2039, 0.2118, 0.2039,  ..., 0.2353, 0.2353, 0.2353],
-           [0.2039, 0.2078, 0.2039,  ..., 0.2392, 0.2314, 0.2353]],
+Validation Iterations:   0%|          | 0/6019 [00:00<?, ?it/s]Validation Iterations:   0%|          | 1/6019 [00:02<4:10:09,  2.49s/it]Validation Iterations:   0%|          | 4/6019 [00:02<50:44,  1.98it/s]  Validation Iterations:   0%|          | 7/6019 [00:02<25:42,  3.90it/s]Validation Iterations:   0%|          | 11/6019 [00:02<14:18,  7.00it/s]Validation Iterations:   0%|          | 15/6019 [00:02<09:34, 10.44it/s]Validation Iterations:   0%|          | 19/6019 [00:03<07:04, 14.15it/s]Validation Iterations:   0%|          | 23/6019 [00:03<05:38, 17.73it/s]Validation Iterations:   0%|          | 27/6019 [00:03<04:46, 20.88it/s]Validation Iterations:   1%|          | 31/6019 [00:03<04:10, 23.95it/s]Validation Iterations:   1%|          | 35/6019 [00:03<03:46, 26.38it/s]Validation Iterations:   1%|          | 39/6019 [00:03<03:32, 28.09it/s]Validation Iterations:   1%|          | 43/6019 [00:03<03:20, 29.76it/s]Validation Iterations:   1%|          | 47/6019 [00:03<03:18, 30.13it/s]Validation Iterations:   1%|          | 51/6019 [00:04<03:13, 30.81it/s]Validation Iterations:   1%|          | 55/6019 [00:04<03:08, 31.69it/s]Validation Iterations:   1%|          | 59/6019 [00:04<03:05, 32.16it/s]Validation Iterations:   1%|          | 63/6019 [00:04<03:09, 31.38it/s]Validation Iterations:   1%|          | 67/6019 [00:04<03:04, 32.29it/s]Validation Iterations:   1%|          | 71/6019 [00:04<03:00, 32.92it/s]Validation Iterations:   1%|          | 75/6019 [00:04<03:01, 32.83it/s]Validation Iterations:   1%|▏         | 79/6019 [00:04<03:05, 31.99it/s]Validation Iterations:   1%|▏         | 83/6019 [00:05<03:04, 32.16it/s]Validation Iterations:   1%|▏         | 87/6019 [00:05<03:11, 30.97it/s]Validation Iterations:   2%|▏         | 91/6019 [00:05<03:15, 30.39it/s]Validation Iterations:   2%|▏         | 95/6019 [00:05<03:09, 31.34it/s]Validation Iterations:   2%|▏         | 99/6019 [00:05<03:06, 31.77it/s]Validation Iterations:   2%|▏         | 103/6019 [00:05<03:08, 31.40it/s]Validation Iterations:   2%|▏         | 107/6019 [00:05<03:05, 31.85it/s]Validation Iterations:   2%|▏         | 111/6019 [00:05<03:01, 32.51it/s]Validation Iterations:   2%|▏         | 115/6019 [00:06<02:59, 32.83it/s]Validation Iterations:   2%|▏         | 119/6019 [00:06<03:11, 30.83it/s]Validation Iterations:   2%|▏         | 123/6019 [00:06<03:12, 30.60it/s]Validation Iterations:   2%|▏         | 127/6019 [00:06<03:05, 31.71it/s]Validation Iterations:   2%|▏         | 131/6019 [00:06<03:01, 32.47it/s]Validation Iterations:   2%|▏         | 135/6019 [00:06<02:57, 33.15it/s]Validation Iterations:   2%|▏         | 139/6019 [00:06<02:59, 32.71it/s]Validation Iterations:   2%|▏         | 143/6019 [00:06<03:05, 31.69it/s]Validation Iterations:   2%|▏         | 147/6019 [00:07<03:02, 32.13it/s]Validation Iterations:   3%|▎         | 151/6019 [00:07<02:58, 32.79it/s]Validation Iterations:   3%|▎         | 155/6019 [00:07<03:00, 32.43it/s]Validation Iterations:   3%|▎         | 159/6019 [00:07<03:02, 32.19it/s]Validation Iterations:   3%|▎         | 163/6019 [00:07<03:31, 27.64it/s]Validation Iterations:   3%|▎         | 166/6019 [00:07<03:46, 25.84it/s]Validation Iterations:   3%|▎         | 169/6019 [00:07<04:02, 24.16it/s]Validation Iterations:   3%|▎         | 172/6019 [00:08<03:57, 24.58it/s]Validation Iterations:   3%|▎         | 175/6019 [00:08<03:59, 24.42it/s]Validation Iterations:   3%|▎         | 178/6019 [00:08<03:57, 24.63it/s]Validation Iterations:   3%|▎         | 181/6019 [00:08<04:05, 23.79it/s]Validation Iterations:   3%|▎         | 184/6019 [00:08<04:03, 23.99it/s]Validation Iterations:   3%|▎         | 187/6019 [00:08<04:00, 24.29it/s]Validation Iterations:   3%|▎         | 190/6019 [00:08<03:54, 24.90it/s]Validation Iterations:   3%|▎         | 193/6019 [00:08<03:49, 25.36it/s]Validation Iterations:   3%|▎         | 196/6019 [00:09<03:47, 25.58it/s]Validation Iterations:   3%|▎         | 199/6019 [00:09<03:44, 25.97it/s]Validation Iterations:   3%|▎         | 202/6019 [00:09<03:42, 26.12it/s]Validation Iterations:   3%|▎         | 205/6019 [00:09<03:42, 26.17it/s]Validation Iterations:   3%|▎         | 208/6019 [00:09<03:41, 26.18it/s]Validation Iterations:   4%|▎         | 211/6019 [00:09<03:39, 26.42it/s]Validation Iterations:   4%|▎         | 214/6019 [00:09<03:39, 26.48it/s]Validation Iterations:   4%|▎         | 217/6019 [00:09<03:40, 26.32it/s]Validation Iterations:   4%|▎         | 220/6019 [00:09<03:40, 26.32it/s]Validation Iterations:   4%|▎         | 223/6019 [00:10<03:36, 26.80it/s]Validation Iterations:   4%|▍         | 226/6019 [00:10<03:38, 26.53it/s]Validation Iterations:   4%|▍         | 229/6019 [00:10<03:42, 25.99it/s]Validation Iterations:   4%|▍         | 232/6019 [00:10<03:40, 26.29it/s]Validation Iterations:   4%|▍         | 236/6019 [00:10<03:21, 28.73it/s]Validation Iterations:   4%|▍         | 240/6019 [00:10<03:06, 31.06it/s]Validation Iterations:   4%|▍         | 244/6019 [00:10<02:56, 32.81it/s]Validation Iterations:   4%|▍         | 248/6019 [00:10<02:56, 32.64it/s]Validation Iterations:   4%|▍         | 252/6019 [00:10<02:50, 33.88it/s]Validation Iterations:   4%|▍         | 256/6019 [00:11<03:27, 27.77it/s]Validation Iterations:   4%|▍         | 259/6019 [00:11<03:45, 25.59it/s]Validation Iterations:   4%|▍         | 262/6019 [00:11<03:58, 24.10it/s]Validation Iterations:   4%|▍         | 265/6019 [00:11<04:09, 23.06it/s]Validation Iterations:   4%|▍         | 268/6019 [00:11<04:12, 22.73it/s]Validation Iterations:   5%|▍         | 271/6019 [00:11<04:23, 21.77it/s]Validation Iterations:   5%|▍         | 274/6019 [00:12<04:28, 21.37it/s]Validation Iterations:   5%|▍         | 277/6019 [00:12<04:29, 21.27it/s]Validation Iterations:   5%|▍         | 280/6019 [00:12<04:27, 21.44it/s]Validation Iterations:   5%|▍         | 283/6019 [00:12<04:30, 21.24it/s]Validation Iterations:   5%|▍         | 286/6019 [00:12<04:32, 21.00it/s]Validation Iterations:   5%|▍         | 289/6019 [00:12<04:32, 21.04it/s]Validation Iterations:   5%|▍         | 292/6019 [00:12<04:30, 21.16it/s]Validation Iterations:   5%|▍         | 295/6019 [00:12<04:30, 21.18it/s]Validation Iterations:   5%|▍         | 298/6019 [00:13<04:16, 22.31it/s]Validation Iterations:   5%|▌         | 301/6019 [00:13<04:03, 23.45it/s]Validation Iterations:   5%|▌         | 304/6019 [00:13<03:50, 24.77it/s]Validation Iterations:   5%|▌         | 307/6019 [00:13<03:46, 25.18it/s]Validation Iterations:   5%|▌         | 311/6019 [00:13<03:20, 28.47it/s]Validation Iterations:   5%|▌         | 315/6019 [00:13<03:04, 30.92it/s]Validation Iterations:   5%|▌         | 319/6019 [00:13<03:01, 31.35it/s]Validation Iterations:   5%|▌         | 323/6019 [00:13<02:52, 32.96it/s]Validation Iterations:   5%|▌         | 327/6019 [00:14<02:47, 33.89it/s]Validation Iterations:   5%|▌         | 331/6019 [00:14<02:43, 34.82it/s]Validation Iterations:   6%|▌         | 335/6019 [00:14<02:40, 35.43it/s]Validation Iterations:   6%|▌         | 339/6019 [00:14<02:38, 35.90it/s]Validation Iterations:   6%|▌         | 343/6019 [00:14<02:36, 36.30it/s]Validation Iterations:   6%|▌         | 347/6019 [00:14<02:35, 36.59it/s]Validation Iterations:   6%|▌         | 351/6019 [00:14<02:37, 36.06it/s]Validation Iterations:   6%|▌         | 355/6019 [00:14<02:36, 36.09it/s]Validation Iterations:   6%|▌         | 359/6019 [00:14<02:35, 36.35it/s]Validation Iterations:   6%|▌         | 363/6019 [00:14<02:34, 36.54it/s]Validation Iterations:   6%|▌         | 367/6019 [00:15<02:33, 36.72it/s]Validation Iterations:   6%|▌         | 371/6019 [00:15<02:33, 36.77it/s]Validation Iterations:   6%|▌         | 375/6019 [00:15<02:32, 36.90it/s]Validation Iterations:   6%|▋         | 379/6019 [00:15<02:32, 36.93it/s]Validation Iterations:   6%|▋         | 383/6019 [00:15<02:32, 36.97it/s]Validation Iterations:   6%|▋         | 387/6019 [00:15<02:32, 36.97it/s]Validation Iterations:   6%|▋         | 391/6019 [00:15<02:32, 37.02it/s]Validation Iterations:   7%|▋         | 395/6019 [00:15<02:32, 36.99it/s]Validation Iterations:   7%|▋         | 399/6019 [00:15<02:32, 36.89it/s]Validation Iterations:   7%|▋         | 403/6019 [00:16<02:31, 36.97it/s]Validation Iterations:   7%|▋         | 407/6019 [00:16<02:31, 36.97it/s]Validation Iterations:   7%|▋         | 411/6019 [00:16<02:31, 36.99it/s]Validation Iterations:   7%|▋         | 415/6019 [00:16<02:31, 36.95it/s]Validation Iterations:   7%|▋         | 419/6019 [00:16<02:36, 35.89it/s]Validation Iterations:   7%|▋         | 423/6019 [00:16<02:35, 36.06it/s]Validation Iterations:   7%|▋         | 427/6019 [00:16<02:33, 36.32it/s]Validation Iterations:   7%|▋         | 431/6019 [00:16<02:33, 36.50it/s]Validation Iterations:   7%|▋         | 435/6019 [00:16<02:37, 35.50it/s]Validation Iterations:   7%|▋         | 439/6019 [00:17<02:37, 35.49it/s]Validation Iterations:   7%|▋         | 443/6019 [00:17<02:35, 35.94it/s]Validation Iterations:   7%|▋         | 447/6019 [00:17<02:34, 36.18it/s]Validation Iterations:   7%|▋         | 451/6019 [00:17<02:32, 36.41it/s]Validation Iterations:   8%|▊         | 455/6019 [00:17<02:31, 36.65it/s]Validation Iterations:   8%|▊         | 459/6019 [00:17<02:31, 36.80it/s]Validation Iterations:   8%|▊         | 463/6019 [00:17<02:30, 36.92it/s]Validation Iterations:   8%|▊         | 467/6019 [00:17<02:30, 36.97it/s]Validation Iterations:   8%|▊         | 471/6019 [00:17<02:30, 36.98it/s]Validation Iterations:   8%|▊         | 475/6019 [00:18<02:30, 36.94it/s]Validation Iterations:   8%|▊         | 479/6019 [00:18<02:33, 36.07it/s]Validation Iterations:   8%|▊         | 483/6019 [00:18<02:32, 36.32it/s]Validation Iterations:   8%|▊         | 487/6019 [00:18<02:31, 36.51it/s]Validation Iterations:   8%|▊         | 491/6019 [00:18<02:30, 36.70it/s]Validation Iterations:   8%|▊         | 495/6019 [00:18<02:29, 36.86it/s]Validation Iterations:   8%|▊         | 499/6019 [00:18<02:29, 36.98it/s]Validation Iterations:   8%|▊         | 503/6019 [00:18<02:28, 37.06it/s]Validation Iterations:   8%|▊         | 507/6019 [00:18<02:28, 37.07it/s]Validation Iterations:   8%|▊         | 511/6019 [00:19<02:29, 36.84it/s]Validation Iterations:   9%|▊         | 515/6019 [00:19<02:33, 35.84it/s]Validation Iterations:   9%|▊         | 519/6019 [00:19<02:34, 35.68it/s]Validation Iterations:   9%|▊         | 523/6019 [00:19<02:32, 36.07it/s]Validation Iterations:   9%|▉         | 527/6019 [00:19<02:31, 36.27it/s]Validation Iterations:   9%|▉         | 531/6019 [00:19<02:30, 36.47it/s]Validation Iterations:   9%|▉         | 535/6019 [00:19<02:29, 36.65it/s]Validation Iterations:   9%|▉         | 539/6019 [00:19<02:29, 36.71it/s]Validation Iterations:   9%|▉         | 543/6019 [00:19<02:28, 36.93it/s]Validation Iterations:   9%|▉         | 547/6019 [00:20<02:27, 36.98it/s]Validation Iterations:   9%|▉         | 551/6019 [00:20<02:27, 36.99it/s]Validation Iterations:   9%|▉         | 555/6019 [00:20<02:27, 36.95it/s]Validation Iterations:   9%|▉         | 559/6019 [00:20<02:27, 37.00it/s]Validation Iterations:   9%|▉         | 563/6019 [00:20<02:27, 37.01it/s]Validation Iterations:   9%|▉         | 567/6019 [00:20<02:27, 36.97it/s]Validation Iterations:   9%|▉         | 571/6019 [00:20<02:27, 36.97it/s]Validation Iterations:  10%|▉         | 575/6019 [00:20<02:27, 36.96it/s]Validation Iterations:  10%|▉         | 579/6019 [00:20<02:27, 37.00it/s]Validation Iterations:  10%|▉         | 583/6019 [00:20<02:27, 36.97it/s]Validation Iterations:  10%|▉         | 587/6019 [00:21<02:26, 36.98it/s]Validation Iterations:  10%|▉         | 591/6019 [00:21<02:26, 36.97it/s]Validation Iterations:  10%|▉         | 595/6019 [00:21<02:26, 36.94it/s]Validation Iterations:  10%|▉         | 599/6019 [00:21<02:26, 36.87it/s]Validation Iterations:  10%|█         | 603/6019 [00:21<02:26, 36.93it/s]Validation Iterations:  10%|█         | 607/6019 [00:21<02:26, 36.99it/s]Validation Iterations:  10%|█         | 611/6019 [00:21<02:26, 36.97it/s]Validation Iterations:  10%|█         | 615/6019 [00:21<02:25, 37.02it/s]Validation Iterations:  10%|█         | 619/6019 [00:21<02:26, 36.95it/s]Validation Iterations:  10%|█         | 623/6019 [00:22<02:25, 37.01it/s]Validation Iterations:  10%|█         | 627/6019 [00:22<02:25, 37.01it/s]Validation Iterations:  10%|█         | 631/6019 [00:22<02:25, 37.08it/s]Validation Iterations:  11%|█         | 635/6019 [00:22<02:25, 37.04it/s]Validation Iterations:  11%|█         | 639/6019 [00:22<02:25, 36.93it/s]Validation Iterations:  11%|█         | 643/6019 [00:22<02:25, 36.95it/s]Validation Iterations:  11%|█         | 647/6019 [00:22<02:27, 36.42it/s]Validation Iterations:  11%|█         | 651/6019 [00:22<02:28, 36.10it/s]Validation Iterations:  11%|█         | 655/6019 [00:22<02:29, 35.85it/s]Validation Iterations:  11%|█         | 659/6019 [00:23<02:29, 35.75it/s]Validation Iterations:  11%|█         | 663/6019 [00:23<02:33, 34.96it/s]Validation Iterations:  11%|█         | 667/6019 [00:23<02:31, 35.30it/s]Validation Iterations:  11%|█         | 671/6019 [00:23<02:29, 35.73it/s]Validation Iterations:  11%|█         | 675/6019 [00:23<02:31, 35.32it/s]Validation Iterations:  11%|█▏        | 679/6019 [00:23<02:29, 35.60it/s]Validation Iterations:  11%|█▏        | 683/6019 [00:23<02:28, 36.00it/s]Validation Iterations:  11%|█▏        | 687/6019 [00:23<02:26, 36.27it/s]Validation Iterations:  11%|█▏        | 691/6019 [00:23<02:26, 36.45it/s]Validation Iterations:  12%|█▏        | 695/6019 [00:24<02:29, 35.72it/s]Validation Iterations:  12%|█▏        | 699/6019 [00:24<02:27, 36.13it/s]Validation Iterations:  12%|█▏        | 703/6019 [00:24<02:26, 36.39it/s]Validation Iterations:  12%|█▏        | 707/6019 [00:24<02:25, 36.50it/s]Validation Iterations:  12%|█▏        | 711/6019 [00:24<02:24, 36.62it/s]Validation Iterations:  12%|█▏        | 715/6019 [00:24<02:24, 36.79it/s]Validation Iterations:  12%|█▏        | 719/6019 [00:24<02:23, 36.89it/s]Validation Iterations:  12%|█▏        | 723/6019 [00:24<02:26, 36.20it/s]Validation Iterations:  12%|█▏        | 727/6019 [00:24<02:25, 36.43it/s]Validation Iterations:  12%|█▏        | 731/6019 [00:25<02:24, 36.58it/s]Validation Iterations:  12%|█▏        | 735/6019 [00:25<02:24, 36.65it/s]Validation Iterations:  12%|█▏        | 739/6019 [00:25<02:23, 36.72it/s]Validation Iterations:  12%|█▏        | 743/6019 [00:25<02:23, 36.79it/s]Validation Iterations:  12%|█▏        | 747/6019 [00:25<02:23, 36.84it/s]Validation Iterations:  12%|█▏        | 751/6019 [00:25<02:23, 36.83it/s]Validation Iterations:  13%|█▎        | 755/6019 [00:25<02:22, 36.87it/s]Validation Iterations:  13%|█▎        | 759/6019 [00:25<02:22, 36.91it/s]Validation Iterations:  13%|█▎        | 763/6019 [00:25<02:22, 36.83it/s]Validation Iterations:  13%|█▎        | 767/6019 [00:26<02:23, 36.59it/s]Validation Iterations:  13%|█▎        | 771/6019 [00:26<02:25, 36.08it/s]Validation Iterations:  13%|█▎        | 775/6019 [00:26<02:24, 36.37it/s]Validation Iterations:  13%|█▎        | 779/6019 [00:26<02:23, 36.54it/s]Validation Iterations:  13%|█▎        | 783/6019 [00:26<02:22, 36.73it/s]Validation Iterations:  13%|█▎        | 787/6019 [00:26<02:22, 36.71it/s]Validation Iterations:  13%|█▎        | 791/6019 [00:26<02:21, 36.83it/s]Validation Iterations:  13%|█▎        | 795/6019 [00:26<02:21, 36.88it/s]Validation Iterations:  13%|█▎        | 799/6019 [00:26<02:21, 36.98it/s]Validation Iterations:  13%|█▎        | 803/6019 [00:27<02:20, 37.06it/s]Validation Iterations:  13%|█▎        | 807/6019 [00:27<02:20, 37.07it/s]Validation Iterations:  13%|█▎        | 811/6019 [00:27<02:20, 37.04it/s]Validation Iterations:  14%|█▎        | 815/6019 [00:27<02:20, 37.07it/s]Validation Iterations:  14%|█▎        | 819/6019 [00:27<02:20, 37.03it/s]Validation Iterations:  14%|█▎        | 823/6019 [00:27<02:24, 36.03it/s]Validation Iterations:  14%|█▎        | 827/6019 [00:27<02:26, 35.49it/s]Validation Iterations:  14%|█▍        | 831/6019 [00:27<02:26, 35.38it/s]Validation Iterations:  14%|█▍        | 835/6019 [00:27<02:25, 35.59it/s]Validation Iterations:  14%|█▍        | 839/6019 [00:28<02:25, 35.64it/s]Validation Iterations:  14%|█▍        | 843/6019 [00:28<02:24, 35.94it/s]Validation Iterations:  14%|█▍        | 847/6019 [00:28<02:26, 35.24it/s]Validation Iterations:  14%|█▍        | 851/6019 [00:28<02:24, 35.78it/s]Validation Iterations:  14%|█▍        | 855/6019 [00:28<02:22, 36.17it/s]Validation Iterations:  14%|█▍        | 859/6019 [00:28<02:21, 36.39it/s]Validation Iterations:  14%|█▍        | 863/6019 [00:28<02:21, 36.52it/s]Validation Iterations:  14%|█▍        | 867/6019 [00:28<02:20, 36.72it/s]Validation Iterations:  14%|█▍        | 871/6019 [00:28<02:19, 36.87it/s]Validation Iterations:  15%|█▍        | 875/6019 [00:28<02:19, 36.86it/s]Validation Iterations:  15%|█▍        | 879/6019 [00:29<02:19, 36.86it/s]Validation Iterations:  15%|█▍        | 883/6019 [00:29<02:19, 36.81it/s]Validation Iterations:  15%|█▍        | 887/6019 [00:29<02:19, 36.89it/s]Validation Iterations:  15%|█▍        | 891/6019 [00:29<02:19, 36.86it/s]Validation Iterations:  15%|█▍        | 895/6019 [00:29<02:19, 36.86it/s]Validation Iterations:  15%|█▍        | 899/6019 [00:29<02:18, 36.90it/s]Validation Iterations:  15%|█▌        | 903/6019 [00:29<02:18, 36.95it/s]Validation Iterations:  15%|█▌        | 907/6019 [00:29<02:24, 35.35it/s]Validation Iterations:  15%|█▌        | 911/6019 [00:29<02:22, 35.81it/s]Validation Iterations:  15%|█▌        | 915/6019 [00:30<02:21, 36.13it/s]Validation Iterations:  15%|█▌        | 919/6019 [00:30<02:20, 36.38it/s]Validation Iterations:  15%|█▌        | 923/6019 [00:30<02:19, 36.57it/s]Validation Iterations:  15%|█▌        | 927/6019 [00:30<02:18, 36.77it/s]Validation Iterations:  15%|█▌        | 931/6019 [00:30<02:18, 36.80it/s]Validation Iterations:  16%|█▌        | 935/6019 [00:30<02:17, 36.92it/s]Validation Iterations:  16%|█▌        | 939/6019 [00:30<02:17, 36.99it/s]Validation Iterations:  16%|█▌        | 943/6019 [00:30<02:17, 37.01it/s]Validation Iterations:  16%|█▌        | 947/6019 [00:30<02:16, 37.04it/s]Validation Iterations:  16%|█▌        | 951/6019 [00:31<02:16, 37.09it/s]Validation Iterations:  16%|█▌        | 955/6019 [00:31<02:16, 37.13it/s]Validation Iterations:  16%|█▌        | 959/6019 [00:31<02:16, 37.06it/s]Validation Iterations:  16%|█▌        | 963/6019 [00:31<02:16, 37.09it/s]Validation Iterations:  16%|█▌        | 967/6019 [00:31<02:16, 37.12it/s]Validation Iterations:  16%|█▌        | 971/6019 [00:31<02:15, 37.16it/s]Validation Iterations:  16%|█▌        | 975/6019 [00:31<02:15, 37.11it/s]Validation Iterations:  16%|█▋        | 979/6019 [00:31<02:15, 37.13it/s]Validation Iterations:  16%|█▋        | 983/6019 [00:31<02:15, 37.11it/s]Validation Iterations:  16%|█▋        | 987/6019 [00:32<02:16, 36.97it/s]Validation Iterations:  16%|█▋        | 991/6019 [00:32<02:15, 37.05it/s]Validation Iterations:  17%|█▋        | 995/6019 [00:32<02:15, 37.09it/s]Validation Iterations:  17%|█▋        | 999/6019 [00:32<02:15, 37.12it/s]Validation Iterations:  17%|█▋        | 1003/6019 [00:32<02:15, 37.04it/s]Validation Iterations:  17%|█▋        | 1007/6019 [00:32<02:15, 37.04it/s]Validation Iterations:  17%|█▋        | 1011/6019 [00:32<02:14, 37.12it/s]Validation Iterations:  17%|█▋        | 1015/6019 [00:32<02:14, 37.10it/s]Validation Iterations:  17%|█▋        | 1019/6019 [00:32<02:14, 37.14it/s]Validation Iterations:  17%|█▋        | 1023/6019 [00:33<02:14, 37.10it/s]Validation Iterations:  17%|█▋        | 1027/6019 [00:33<02:18, 36.14it/s]Validation Iterations:  17%|█▋        | 1031/6019 [00:33<02:21, 35.27it/s]Validation Iterations:  17%|█▋        | 1035/6019 [00:33<02:20, 35.57it/s]Validation Iterations:  17%|█▋        | 1039/6019 [00:33<02:18, 36.02it/s]Validation Iterations:  17%|█▋        | 1043/6019 [00:33<02:16, 36.36it/s]Validation Iterations:  17%|█▋        | 1047/6019 [00:33<02:15, 36.62it/s]Validation Iterations:  17%|█▋        | 1051/6019 [00:33<02:14, 36.82it/s]Validation Iterations:  18%|█▊        | 1055/6019 [00:33<02:14, 36.99it/s]Validation Iterations:  18%|█▊        | 1059/6019 [00:33<02:14, 36.99it/s]Validation Iterations:  18%|█▊        | 1063/6019 [00:34<02:13, 37.08it/s]Validation Iterations:  18%|█▊        | 1067/6019 [00:34<02:13, 37.13it/s]Validation Iterations:  18%|█▊        | 1071/6019 [00:34<02:13, 36.99it/s]Validation Iterations:  18%|█▊        | 1075/6019 [00:34<02:13, 37.07it/s]Validation Iterations:  18%|█▊        | 1079/6019 [00:34<02:13, 37.05it/s]Validation Iterations:  18%|█▊        | 1083/6019 [00:34<02:13, 37.06it/s]Validation Iterations:  18%|█▊        | 1087/6019 [00:34<02:13, 36.94it/s]Validation Iterations:  18%|█▊        | 1091/6019 [00:34<02:13, 36.84it/s]Validation Iterations:  18%|█▊        | 1095/6019 [00:34<02:13, 36.86it/s]Validation Iterations:  18%|█▊        | 1099/6019 [00:35<02:13, 36.79it/s]Validation Iterations:  18%|█▊        | 1103/6019 [00:35<02:13, 36.83it/s]Validation Iterations:  18%|█▊        | 1107/6019 [00:35<02:12, 36.95it/s]Validation Iterations:  18%|█▊        | 1111/6019 [00:35<02:12, 37.00it/s]Validation Iterations:  19%|█▊        | 1115/6019 [00:35<02:13, 36.75it/s]Validation Iterations:  19%|█▊        | 1119/6019 [00:35<02:14, 36.41it/s]Validation Iterations:  19%|█▊        | 1123/6019 [00:35<02:20, 34.92it/s]Validation Iterations:  19%|█▊        | 1127/6019 [00:35<02:17, 35.56it/s]Validation Iterations:  19%|█▉        | 1131/6019 [00:35<02:16, 35.79it/s]Validation Iterations:  19%|█▉        | 1135/6019 [00:36<02:16, 35.86it/s]Validation Iterations:  19%|█▉        | 1139/6019 [00:36<02:15, 36.10it/s]Validation Iterations:  19%|█▉        | 1143/6019 [00:36<02:15, 36.08it/s]Validation Iterations:  19%|█▉        | 1147/6019 [00:36<02:14, 36.34it/s]Validation Iterations:  19%|█▉        | 1151/6019 [00:36<02:14, 36.32it/s]Validation Iterations:  19%|█▉        | 1155/6019 [00:36<02:13, 36.40it/s]Validation Iterations:  19%|█▉        | 1159/6019 [00:36<02:12, 36.56it/s]Validation Iterations:  19%|█▉        | 1163/6019 [00:36<02:13, 36.40it/s]Validation Iterations:  19%|█▉        | 1167/6019 [00:36<02:12, 36.52it/s]Validation Iterations:  19%|█▉        | 1171/6019 [00:37<02:13, 36.36it/s]Validation Iterations:  20%|█▉        | 1175/6019 [00:37<02:12, 36.54it/s]Validation Iterations:  20%|█▉        | 1179/6019 [00:37<02:12, 36.50it/s]Validation Iterations:  20%|█▉        | 1183/6019 [00:37<02:12, 36.51it/s]Validation Iterations:  20%|█▉        | 1187/6019 [00:37<02:12, 36.59it/s]Validation Iterations:  20%|█▉        | 1191/6019 [00:37<02:12, 36.41it/s]Validation Iterations:  20%|█▉        | 1195/6019 [00:37<02:14, 35.79it/s]Validation Iterations:  20%|█▉        | 1199/6019 [00:37<02:13, 36.10it/s]Validation Iterations:  20%|█▉        | 1203/6019 [00:37<02:12, 36.38it/s]Validation Iterations:  20%|██        | 1207/6019 [00:38<02:11, 36.53it/s]Validation Iterations:  20%|██        | 1211/6019 [00:38<02:11, 36.67it/s]Validation Iterations:  20%|██        | 1215/6019 [00:38<02:13, 36.07it/s]Validation Iterations:  20%|██        | 1219/6019 [00:38<02:12, 36.32it/s]Validation Iterations:  20%|██        | 1223/6019 [00:38<02:11, 36.53it/s]Validation Iterations:  20%|██        | 1227/6019 [00:38<02:11, 36.42it/s]Validation Iterations:  20%|██        | 1231/6019 [00:38<02:10, 36.62it/s]Validation Iterations:  21%|██        | 1235/6019 [00:38<02:10, 36.64it/s]Validation Iterations:  21%|██        | 1239/6019 [00:38<02:09, 36.79it/s]Validation Iterations:  21%|██        | 1243/6019 [00:39<02:10, 36.72it/s]Validation Iterations:  21%|██        | 1247/6019 [00:39<02:10, 36.65it/s]Validation Iterations:  21%|██        | 1251/6019 [00:39<02:10, 36.64it/s]Validation Iterations:  21%|██        | 1255/6019 [00:39<02:10, 36.56it/s]Validation Iterations:  21%|██        | 1259/6019 [00:39<02:10, 36.49it/s]Validation Iterations:  21%|██        | 1263/6019 [00:39<02:09, 36.59it/s]Validation Iterations:  21%|██        | 1267/6019 [00:39<02:10, 36.50it/s]Validation Iterations:  21%|██        | 1271/6019 [00:39<02:10, 36.47it/s]Validation Iterations:  21%|██        | 1275/6019 [00:39<02:10, 36.46it/s]Validation Iterations:  21%|██        | 1279/6019 [00:40<02:09, 36.53it/s]Validation Iterations:  21%|██▏       | 1283/6019 [00:40<02:09, 36.69it/s]Validation Iterations:  21%|██▏       | 1287/6019 [00:40<02:08, 36.87it/s]Validation Iterations:  21%|██▏       | 1291/6019 [00:40<02:08, 36.86it/s]Validation Iterations:  22%|██▏       | 1295/6019 [00:40<02:08, 36.90it/s]Validation Iterations:  22%|██▏       | 1299/6019 [00:40<02:07, 37.01it/s]Validation Iterations:  22%|██▏       | 1303/6019 [00:40<02:07, 37.07it/s]Validation Iterations:  22%|██▏       | 1307/6019 [00:40<02:07, 37.08it/s]Validation Iterations:  22%|██▏       | 1311/6019 [00:40<02:07, 36.95it/s]Validation Iterations:  22%|██▏       | 1315/6019 [00:40<02:07, 36.99it/s]Validation Iterations:  22%|██▏       | 1319/6019 [00:41<02:07, 37.00it/s]Validation Iterations:  22%|██▏       | 1323/6019 [00:41<02:07, 36.90it/s]Validation Iterations:  22%|██▏       | 1327/6019 [00:41<02:06, 36.97it/s]Validation Iterations:  22%|██▏       | 1331/6019 [00:41<02:06, 36.99it/s]Validation Iterations:  22%|██▏       | 1335/6019 [00:41<02:06, 37.01it/s]Validation Iterations:  22%|██▏       | 1339/6019 [00:41<02:06, 36.97it/s]Validation Iterations:  22%|██▏       | 1343/6019 [00:41<02:06, 37.03it/s]Validation Iterations:  22%|██▏       | 1347/6019 [00:41<02:05, 37.09it/s]Validation Iterations:  22%|██▏       | 1351/6019 [00:41<02:06, 37.04it/s]Validation Iterations:  23%|██▎       | 1355/6019 [00:42<02:06, 36.96it/s]Validation Iterations:  23%|██▎       | 1359/6019 [00:42<02:06, 36.93it/s]Validation Iterations:  23%|██▎       | 1363/6019 [00:42<02:06, 36.95it/s]Validation Iterations:  23%|██▎       | 1367/6019 [00:42<02:05, 36.99it/s]Validation Iterations:  23%|██▎       | 1371/6019 [00:42<02:06, 36.87it/s]Validation Iterations:  23%|██▎       | 1375/6019 [00:42<02:06, 36.83it/s]Validation Iterations:  23%|██▎       | 1379/6019 [00:42<02:06, 36.59it/s]Validation Iterations:  23%|██▎       | 1383/6019 [00:42<02:07, 36.49it/s]Validation Iterations:  23%|██▎       | 1387/6019 [00:42<02:06, 36.54it/s]Validation Iterations:  23%|██▎       | 1391/6019 [00:43<02:06, 36.45it/s]Validation Iterations:  23%|██▎       | 1395/6019 [00:43<02:10, 35.51it/s]Validation Iterations:  23%|██▎       | 1399/6019 [00:43<02:12, 34.87it/s]Validation Iterations:  23%|██▎       | 1403/6019 [00:43<02:10, 35.41it/s]Validation Iterations:  23%|██▎       | 1407/6019 [00:43<02:08, 35.76it/s]Validation Iterations:  23%|██▎       | 1411/6019 [00:43<02:07, 36.18it/s]Validation Iterations:  24%|██▎       | 1415/6019 [00:43<02:06, 36.43it/s]Validation Iterations:  24%|██▎       | 1419/6019 [00:43<02:05, 36.66it/s]Validation Iterations:  24%|██▎       | 1423/6019 [00:43<02:04, 36.79it/s]Validation Iterations:  24%|██▎       | 1427/6019 [00:44<02:04, 36.93it/s]Validation Iterations:  24%|██▍       | 1431/6019 [00:44<02:03, 37.03it/s]Validation Iterations:  24%|██▍       | 1435/6019 [00:44<02:03, 37.10it/s]Validation Iterations:  24%|██▍       | 1439/6019 [00:44<02:03, 37.09it/s]Validation Iterations:  24%|██▍       | 1443/6019 [00:44<02:03, 37.15it/s]Validation Iterations:  24%|██▍       | 1447/6019 [00:44<02:03, 37.05it/s]Validation Iterations:  24%|██▍       | 1451/6019 [00:44<02:03, 37.05it/s]Validation Iterations:  24%|██▍       | 1455/6019 [00:44<02:03, 36.99it/s]Validation Iterations:  24%|██▍       | 1459/6019 [00:44<02:03, 37.00it/s]Validation Iterations:  24%|██▍       | 1463/6019 [00:45<02:03, 36.93it/s]Validation Iterations:  24%|██▍       | 1467/6019 [00:45<02:03, 36.86it/s]Validation Iterations:  24%|██▍       | 1471/6019 [00:45<02:06, 36.08it/s]Validation Iterations:  25%|██▍       | 1475/6019 [00:45<02:09, 35.20it/s]Validation Iterations:  25%|██▍       | 1479/6019 [00:45<02:07, 35.74it/s]Validation Iterations:  25%|██▍       | 1483/6019 [00:45<02:06, 35.83it/s]Validation Iterations:  25%|██▍       | 1487/6019 [00:45<02:05, 36.13it/s]Validation Iterations:  25%|██▍       | 1491/6019 [00:45<02:05, 36.22it/s]Validation Iterations:  25%|██▍       | 1495/6019 [00:45<02:04, 36.33it/s]Validation Iterations:  25%|██▍       | 1499/6019 [00:46<02:04, 36.30it/s]Validation Iterations:  25%|██▍       | 1503/6019 [00:46<02:04, 36.23it/s]Validation Iterations:  25%|██▌       | 1507/6019 [00:46<02:05, 35.98it/s]Validation Iterations:  25%|██▌       | 1511/6019 [00:46<02:04, 36.10it/s]Validation Iterations:  25%|██▌       | 1515/6019 [00:46<02:03, 36.42it/s]Validation Iterations:  25%|██▌       | 1519/6019 [00:46<02:03, 36.34it/s]Validation Iterations:  25%|██▌       | 1523/6019 [00:46<02:03, 36.44it/s]Validation Iterations:  25%|██▌       | 1527/6019 [00:46<02:02, 36.61it/s]Validation Iterations:  25%|██▌       | 1531/6019 [00:46<02:04, 36.01it/s]Validation Iterations:  26%|██▌       | 1535/6019 [00:47<02:03, 36.22it/s]Validation Iterations:  26%|██▌       | 1539/6019 [00:47<02:02, 36.44it/s]Validation Iterations:  26%|██▌       | 1543/6019 [00:47<02:02, 36.60it/s]Validation Iterations:  26%|██▌       | 1547/6019 [00:47<02:08, 34.92it/s]Validation Iterations:  26%|██▌       | 1551/6019 [00:47<02:31, 29.45it/s]Validation Iterations:  26%|██▌       | 1555/6019 [00:47<02:46, 26.85it/s]Validation Iterations:  26%|██▌       | 1558/6019 [00:47<02:54, 25.57it/s]Validation Iterations:  26%|██▌       | 1561/6019 [00:48<03:00, 24.71it/s]Validation Iterations:  26%|██▌       | 1564/6019 [00:48<03:06, 23.93it/s]Validation Iterations:  26%|██▌       | 1567/6019 [00:48<03:14, 22.95it/s]Validation Iterations:  26%|██▌       | 1570/6019 [00:48<03:15, 22.75it/s]Validation Iterations:  26%|██▌       | 1573/6019 [00:48<03:15, 22.73it/s]Validation Iterations:  26%|██▌       | 1576/6019 [00:48<03:16, 22.64it/s]Validation Iterations:  26%|██▌       | 1579/6019 [00:48<03:15, 22.72it/s]Validation Iterations:  26%|██▋       | 1582/6019 [00:48<03:17, 22.48it/s]Validation Iterations:  26%|██▋       | 1585/6019 [00:49<03:14, 22.84it/s]Validation Iterations:  26%|██▋       | 1588/6019 [00:49<03:15, 22.70it/s]Validation Iterations:  26%|██▋       | 1591/6019 [00:49<03:14, 22.80it/s]Validation Iterations:  26%|██▋       | 1594/6019 [00:49<03:13, 22.92it/s]Validation Iterations:  27%|██▋       | 1597/6019 [00:49<03:12, 22.99it/s]Validation Iterations:  27%|██▋       | 1600/6019 [00:49<03:12, 22.96it/s]Validation Iterations:  27%|██▋       | 1604/6019 [00:49<02:47, 26.31it/s]Validation Iterations:  27%|██▋       | 1608/6019 [00:49<02:31, 29.13it/s]Validation Iterations:  27%|██▋       | 1612/6019 [00:50<02:21, 31.09it/s]Validation Iterations:  27%|██▋       | 1616/6019 [00:50<02:15, 32.58it/s]Validation Iterations:  27%|██▋       | 1620/6019 [00:50<02:09, 33.88it/s]Validation Iterations:  27%|██▋       | 1624/6019 [00:50<02:06, 34.85it/s]Validation Iterations:  27%|██▋       | 1628/6019 [00:50<02:04, 35.41it/s]Validation Iterations:  27%|██▋       | 1632/6019 [00:50<02:02, 35.76it/s]Validation Iterations:  27%|██▋       | 1636/6019 [00:50<02:01, 36.02it/s]Validation Iterations:  27%|██▋       | 1640/6019 [00:50<02:20, 31.07it/s]Validation Iterations:  27%|██▋       | 1644/6019 [00:51<02:37, 27.72it/s]Validation Iterations:  27%|██▋       | 1647/6019 [00:51<02:47, 26.15it/s]Validation Iterations:  27%|██▋       | 1650/6019 [00:51<03:01, 24.14it/s]Validation Iterations:  27%|██▋       | 1653/6019 [00:51<03:06, 23.36it/s]Validation Iterations:  28%|██▊       | 1656/6019 [00:51<03:13, 22.58it/s]Validation Iterations:  28%|██▊       | 1659/6019 [00:51<03:18, 21.94it/s]Validation Iterations:  28%|██▊       | 1662/6019 [00:51<03:20, 21.77it/s]Validation Iterations:  28%|██▊       | 1665/6019 [00:52<03:20, 21.71it/s]Validation Iterations:  28%|██▊       | 1668/6019 [00:52<03:22, 21.53it/s]Validation Iterations:  28%|██▊       | 1671/6019 [00:52<03:24, 21.26it/s]Validation Iterations:  28%|██▊       | 1674/6019 [00:52<03:23, 21.37it/s]Validation Iterations:  28%|██▊       | 1677/6019 [00:52<03:24, 21.26it/s]Validation Iterations:  28%|██▊       | 1680/6019 [00:52<03:25, 21.13it/s]Validation Iterations:  28%|██▊       | 1683/6019 [00:52<03:25, 21.11it/s]Validation Iterations:  28%|██▊       | 1686/6019 [00:53<03:23, 21.34it/s]Validation Iterations:  28%|██▊       | 1690/6019 [00:53<02:54, 24.86it/s]Validation Iterations:  28%|██▊       | 1694/6019 [00:53<02:36, 27.64it/s]Validation Iterations:  28%|██▊       | 1698/6019 [00:53<02:24, 29.88it/s]Validation Iterations:  28%|██▊       | 1702/6019 [00:53<02:17, 31.33it/s]Validation Iterations:  28%|██▊       | 1706/6019 [00:53<02:11, 32.89it/s]Validation Iterations:  28%|██▊       | 1710/6019 [00:53<02:06, 34.01it/s]Validation Iterations:  28%|██▊       | 1714/6019 [00:53<02:03, 34.92it/s]Validation Iterations:  29%|██▊       | 1718/6019 [00:53<02:00, 35.55it/s]Validation Iterations:  29%|██▊       | 1722/6019 [00:54<01:59, 35.99it/s]Validation Iterations:  29%|██▊       | 1726/6019 [00:54<01:58, 36.33it/s]Validation Iterations:  29%|██▊       | 1730/6019 [00:54<01:57, 36.50it/s]Validation Iterations:  29%|██▉       | 1734/6019 [00:54<01:56, 36.68it/s]Validation Iterations:  29%|██▉       | 1738/6019 [00:54<01:56, 36.82it/s]Validation Iterations:  29%|██▉       | 1742/6019 [00:54<01:56, 36.85it/s]Validation Iterations:  29%|██▉       | 1746/6019 [00:54<01:55, 36.84it/s]Validation Iterations:  29%|██▉       | 1750/6019 [00:54<01:56, 36.78it/s]Validation Iterations:  29%|██▉       | 1754/6019 [00:54<01:56, 36.74it/s]Validation Iterations:  29%|██▉       | 1758/6019 [00:55<01:56, 36.62it/s]Validation Iterations:  29%|██▉       | 1762/6019 [00:55<01:56, 36.66it/s]Validation Iterations:  29%|██▉       | 1766/6019 [00:55<01:55, 36.75it/s]Validation Iterations:  29%|██▉       | 1770/6019 [00:55<01:55, 36.76it/s]Validation Iterations:  29%|██▉       | 1774/6019 [00:55<01:55, 36.82it/s]Validation Iterations:  30%|██▉       | 1778/6019 [00:55<01:55, 36.85it/s]Validation Iterations:  30%|██▉       | 1782/6019 [00:55<01:55, 36.77it/s]Validation Iterations:  30%|██▉       | 1786/6019 [00:55<01:55, 36.59it/s]Validation Iterations:  30%|██▉       | 1790/6019 [00:55<01:55, 36.71it/s]Validation Iterations:  30%|██▉       | 1794/6019 [00:56<01:54, 36.74it/s]Validation Iterations:  30%|██▉       | 1798/6019 [00:56<01:55, 36.65it/s]Validation Iterations:  30%|██▉       | 1802/6019 [00:56<01:55, 36.50it/s]Validation Iterations:  30%|███       | 1806/6019 [00:56<01:55, 36.39it/s]Validation Iterations:  30%|███       | 1810/6019 [00:56<01:55, 36.39it/s]Validation Iterations:  30%|███       | 1814/6019 [00:56<01:55, 36.26it/s]Validation Iterations:  30%|███       | 1818/6019 [00:56<01:55, 36.34it/s]Validation Iterations:  30%|███       | 1822/6019 [00:56<01:55, 36.45it/s]Validation Iterations:  30%|███       | 1826/6019 [00:56<01:55, 36.21it/s]Validation Iterations:  30%|███       | 1830/6019 [00:56<01:54, 36.45it/s]Validation Iterations:  30%|███       | 1834/6019 [00:57<01:54, 36.55it/s]Validation Iterations:  31%|███       | 1838/6019 [00:57<01:54, 36.64it/s]Validation Iterations:  31%|███       | 1842/6019 [00:57<01:53, 36.68it/s]Validation Iterations:  31%|███       | 1846/6019 [00:57<01:53, 36.85it/s]Validation Iterations:  31%|███       | 1850/6019 [00:57<01:53, 36.89it/s]Validation Iterations:  31%|███       | 1854/6019 [00:57<01:52, 36.87it/s]Validation Iterations:  31%|███       | 1858/6019 [00:57<01:52, 36.84it/s]Validation Iterations:  31%|███       | 1862/6019 [00:57<01:53, 36.77it/s]Validation Iterations:  31%|███       | 1866/6019 [00:57<01:53, 36.68it/s]Validation Iterations:  31%|███       | 1870/6019 [00:58<01:54, 36.21it/s]Validation Iterations:  31%|███       | 1874/6019 [00:58<01:54, 36.28it/s]Validation Iterations:  31%|███       | 1878/6019 [00:58<01:58, 34.92it/s]Validation Iterations:  31%|███▏      | 1882/6019 [00:58<01:57, 35.30it/s]Validation Iterations:  31%|███▏      | 1886/6019 [00:58<01:55, 35.74it/s]Validation Iterations:  31%|███▏      | 1890/6019 [00:58<01:54, 35.98it/s]Validation Iterations:  31%|███▏      | 1894/6019 [00:58<01:54, 36.16it/s]Validation Iterations:  32%|███▏      | 1898/6019 [00:58<01:54, 36.11it/s]Validation Iterations:  32%|███▏      | 1902/6019 [00:58<01:54, 36.03it/s]Validation Iterations:  32%|███▏      | 1906/6019 [00:59<01:53, 36.26it/s]Validation Iterations:  32%|███▏      | 1910/6019 [00:59<01:53, 36.30it/s]Validation Iterations:  32%|███▏      | 1914/6019 [00:59<01:52, 36.37it/s]Validation Iterations:  32%|███▏      | 1918/6019 [00:59<01:52, 36.47it/s]Validation Iterations:  32%|███▏      | 1922/6019 [00:59<01:51, 36.64it/s]Validation Iterations:  32%|███▏      | 1926/6019 [00:59<01:51, 36.62it/s]Validation Iterations:  32%|███▏      | 1930/6019 [00:59<01:51, 36.78it/s]Validation Iterations:  32%|███▏      | 1934/6019 [00:59<01:51, 36.73it/s]Validation Iterations:  32%|███▏      | 1938/6019 [00:59<01:52, 36.39it/s]Validation Iterations:  32%|███▏      | 1942/6019 [01:00<01:51, 36.47it/s]Validation Iterations:  32%|███▏      | 1946/6019 [01:00<01:51, 36.43it/s]Validation Iterations:  32%|███▏      | 1950/6019 [01:00<01:51, 36.51it/s]Validation Iterations:  32%|███▏      | 1954/6019 [01:00<01:51, 36.39it/s]Validation Iterations:  33%|███▎      | 1958/6019 [01:00<01:51, 36.41it/s]Validation Iterations:  33%|███▎      | 1962/6019 [01:00<01:51, 36.36it/s]Validation Iterations:  33%|███▎      | 1966/6019 [01:00<01:51, 36.28it/s]Validation Iterations:  33%|███▎      | 1970/6019 [01:00<01:51, 36.30it/s]Validation Iterations:  33%|███▎      | 1974/6019 [01:00<01:51, 36.36it/s]Validation Iterations:  33%|███▎      | 1978/6019 [01:01<01:51, 36.35it/s]Validation Iterations:  33%|███▎      | 1982/6019 [01:01<01:50, 36.37it/s]Validation Iterations:  33%|███▎      | 1986/6019 [01:01<01:50, 36.35it/s]Validation Iterations:  33%|███▎      | 1990/6019 [01:01<01:50, 36.34it/s]Validation Iterations:  33%|███▎      | 1994/6019 [01:01<01:51, 36.24it/s]Validation Iterations:  33%|███▎      | 1998/6019 [01:01<01:50, 36.35it/s]Validation Iterations:  33%|███▎      | 2002/6019 [01:01<01:50, 36.34it/s]Validation Iterations:  33%|███▎      | 2006/6019 [01:01<01:50, 36.45it/s]Validation Iterations:  33%|███▎      | 2010/6019 [01:01<01:50, 36.33it/s]Validation Iterations:  33%|███▎      | 2014/6019 [01:02<01:50, 36.37it/s]Validation Iterations:  34%|███▎      | 2018/6019 [01:02<01:50, 36.24it/s]Validation Iterations:  34%|███▎      | 2022/6019 [01:02<01:55, 34.74it/s]Validation Iterations:  34%|███▎      | 2026/6019 [01:02<01:53, 35.24it/s]Validation Iterations:  34%|███▎      | 2030/6019 [01:02<01:52, 35.60it/s]Validation Iterations:  34%|███▍      | 2034/6019 [01:02<01:50, 35.91it/s]Validation Iterations:  34%|███▍      | 2038/6019 [01:02<01:51, 35.80it/s]Validation Iterations:  34%|███▍      | 2042/6019 [01:02<01:50, 35.98it/s]Validation Iterations:  34%|███▍      | 2046/6019 [01:02<01:50, 36.06it/s]Validation Iterations:  34%|███▍      | 2050/6019 [01:03<01:50, 36.00it/s]Validation Iterations:  34%|███▍      | 2054/6019 [01:03<01:49, 36.12it/s]Validation Iterations:  34%|███▍      | 2058/6019 [01:03<01:49, 36.26it/s]Validation Iterations:  34%|███▍      | 2062/6019 [01:03<01:53, 34.96it/s]Validation Iterations:  34%|███▍      | 2066/6019 [01:03<01:52, 35.22it/s]Validation Iterations:  34%|███▍      | 2070/6019 [01:03<01:51, 35.50it/s]Validation Iterations:  34%|███▍      | 2074/6019 [01:03<01:49, 35.95it/s]Validation Iterations:  35%|███▍      | 2078/6019 [01:03<01:49, 36.01it/s]Validation Iterations:  35%|███▍      | 2082/6019 [01:03<01:48, 36.25it/s]Validation Iterations:  35%|███▍      | 2086/6019 [01:04<01:50, 35.61it/s]Validation Iterations:  35%|███▍      | 2090/6019 [01:04<01:49, 35.74it/s]Validation Iterations:  35%|███▍      | 2094/6019 [01:04<01:49, 35.79it/s]Validation Iterations:  35%|███▍      | 2098/6019 [01:04<01:48, 36.13it/s]Validation Iterations:  35%|███▍      | 2102/6019 [01:04<01:47, 36.39it/s]Validation Iterations:  35%|███▍      | 2106/6019 [01:04<01:47, 36.47it/s]Validation Iterations:  35%|███▌      | 2110/6019 [01:04<01:46, 36.54it/s]Validation Iterations:  35%|███▌      | 2114/6019 [01:04<01:46, 36.62it/s]Validation Iterations:  35%|███▌      | 2118/6019 [01:04<01:46, 36.69it/s]Validation Iterations:  35%|███▌      | 2122/6019 [01:05<01:46, 36.51it/s]Validation Iterations:  35%|███▌      | 2126/6019 [01:05<01:46, 36.65it/s]Validation Iterations:  35%|███▌      | 2130/6019 [01:05<01:46, 36.57it/s]Validation Iterations:  35%|███▌      | 2134/6019 [01:05<01:47, 36.17it/s]Validation Iterations:  36%|███▌      | 2138/6019 [01:05<01:48, 35.93it/s]Validation Iterations:  36%|███▌      | 2142/6019 [01:05<01:47, 35.92it/s]Validation Iterations:  36%|███▌      | 2146/6019 [01:05<01:47, 36.11it/s]Validation Iterations:  36%|███▌      | 2150/6019 [01:05<01:46, 36.39it/s]Validation Iterations:  36%|███▌      | 2154/6019 [01:05<01:45, 36.54it/s]Validation Iterations:  36%|███▌      | 2158/6019 [01:06<01:45, 36.48it/s]Validation Iterations:  36%|███▌      | 2162/6019 [01:06<01:47, 35.80it/s]Validation Iterations:  36%|███▌      | 2166/6019 [01:06<01:48, 35.36it/s]Validation Iterations:  36%|███▌      | 2170/6019 [01:06<01:50, 34.91it/s]Validation Iterations:  36%|███▌      | 2174/6019 [01:06<01:51, 34.54it/s]Validation Iterations:  36%|███▌      | 2178/6019 [01:06<01:51, 34.46it/s]Validation Iterations:  36%|███▋      | 2182/6019 [01:06<01:52, 34.17it/s]Validation Iterations:  36%|███▋      | 2186/6019 [01:06<01:52, 34.03it/s]Validation Iterations:  36%|███▋      | 2190/6019 [01:06<01:52, 34.05it/s]Validation Iterations:  36%|███▋      | 2194/6019 [01:07<01:49, 34.85it/s]Validation Iterations:  37%|███▋      | 2198/6019 [01:07<01:47, 35.48it/s]Validation Iterations:  37%|███▋      | 2202/6019 [01:07<01:46, 35.89it/s]Validation Iterations:  37%|███▋      | 2206/6019 [01:07<01:45, 36.03it/s]Validation Iterations:  37%|███▋      | 2210/6019 [01:07<01:49, 34.83it/s]Validation Iterations:  37%|███▋      | 2214/6019 [01:07<01:47, 35.45it/s]Validation Iterations:  37%|███▋      | 2218/6019 [01:07<01:46, 35.82it/s]Validation Iterations:  37%|███▋      | 2222/6019 [01:07<01:45, 35.98it/s]Validation Iterations:  37%|███▋      | 2226/6019 [01:07<01:44, 36.19it/s]Validation Iterations:  37%|███▋      | 2230/6019 [01:08<01:44, 36.34it/s]Validation Iterations:  37%|███▋      | 2234/6019 [01:08<01:44, 36.25it/s]Validation Iterations:  37%|███▋      | 2238/6019 [01:08<01:43, 36.37it/s]Validation Iterations:  37%|███▋      | 2242/6019 [01:08<01:44, 36.21it/s]Validation Iterations:  37%|███▋      | 2246/6019 [01:08<01:43, 36.45it/s]Validation Iterations:  37%|███▋      | 2250/6019 [01:08<01:42, 36.67it/s]Validation Iterations:  37%|███▋      | 2254/6019 [01:08<01:42, 36.83it/s]Validation Iterations:  38%|███▊      | 2258/6019 [01:08<01:41, 36.93it/s]Validation Iterations:  38%|███▊      | 2262/6019 [01:08<01:41, 36.90it/s]Validation Iterations:  38%|███▊      | 2266/6019 [01:09<01:43, 36.24it/s]Validation Iterations:  38%|███▊      | 2270/6019 [01:09<01:43, 36.05it/s]Validation Iterations:  38%|███▊      | 2274/6019 [01:09<01:43, 36.12it/s]Validation Iterations:  38%|███▊      | 2278/6019 [01:09<01:42, 36.34it/s]Validation Iterations:  38%|███▊      | 2282/6019 [01:09<01:42, 36.49it/s]Validation Iterations:  38%|███▊      | 2286/6019 [01:09<01:41, 36.66it/s]Validation Iterations:  38%|███▊      | 2290/6019 [01:09<01:41, 36.80it/s]Validation Iterations:  38%|███▊      | 2294/6019 [01:09<01:40, 36.88it/s]Validation Iterations:  38%|███▊      | 2298/6019 [01:09<01:40, 36.85it/s]Validation Iterations:  38%|███▊      | 2302/6019 [01:10<01:40, 36.83it/s]Validation Iterations:  38%|███▊      | 2306/6019 [01:10<01:40, 36.78it/s]Validation Iterations:  38%|███▊      | 2310/6019 [01:10<01:40, 36.82it/s]Validation Iterations:  38%|███▊      | 2314/6019 [01:10<01:40, 36.86it/s]Validation Iterations:  39%|███▊      | 2318/6019 [01:10<01:40, 36.85it/s]Validation Iterations:  39%|███▊      | 2322/6019 [01:10<01:40, 36.87it/s]Validation Iterations:  39%|███▊      | 2326/6019 [01:10<01:40, 36.91it/s]Validation Iterations:  39%|███▊      | 2330/6019 [01:10<01:39, 36.94it/s]Validation Iterations:  39%|███▉      | 2334/6019 [01:10<01:39, 36.94it/s]Validation Iterations:  39%|███▉      | 2338/6019 [01:11<01:39, 36.99it/s]Validation Iterations:  39%|███▉      | 2342/6019 [01:11<01:39, 37.03it/s]Validation Iterations:  39%|███▉      | 2346/6019 [01:11<01:39, 36.95it/s]Validation Iterations:  39%|███▉      | 2350/6019 [01:11<01:39, 36.98it/s]Validation Iterations:  39%|███▉      | 2354/6019 [01:11<01:39, 36.99it/s]Validation Iterations:  39%|███▉      | 2358/6019 [01:11<01:39, 36.97it/s]Validation Iterations:  39%|███▉      | 2362/6019 [01:11<01:38, 36.98it/s]Validation Iterations:  39%|███▉      | 2366/6019 [01:11<01:38, 36.98it/s]Validation Iterations:  39%|███▉      | 2370/6019 [01:11<01:38, 37.00it/s]Validation Iterations:  39%|███▉      | 2374/6019 [01:12<01:38, 37.03it/s]Validation Iterations:  40%|███▉      | 2378/6019 [01:12<01:38, 37.10it/s]Validation Iterations:  40%|███▉      | 2382/6019 [01:12<01:38, 37.09it/s]Validation Iterations:  40%|███▉      | 2386/6019 [01:12<01:38, 36.98it/s]Validation Iterations:  40%|███▉      | 2390/6019 [01:12<01:38, 36.94it/s]Validation Iterations:  40%|███▉      | 2394/6019 [01:12<01:38, 36.98it/s]Validation Iterations:  40%|███▉      | 2398/6019 [01:12<01:37, 36.99it/s]Validation Iterations:  40%|███▉      | 2402/6019 [01:12<01:37, 36.98it/s]Validation Iterations:  40%|███▉      | 2406/6019 [01:12<01:37, 37.05it/s]Validation Iterations:  40%|████      | 2410/6019 [01:12<01:37, 37.09it/s]Validation Iterations:  40%|████      | 2414/6019 [01:13<01:37, 36.96it/s]Validation Iterations:  40%|████      | 2418/6019 [01:13<01:37, 36.95it/s]Validation Iterations:  40%|████      | 2422/6019 [01:13<01:37, 36.98it/s]Validation Iterations:  40%|████      | 2426/6019 [01:13<01:38, 36.42it/s]Validation Iterations:  40%|████      | 2430/6019 [01:13<01:38, 36.43it/s]Validation Iterations:  40%|████      | 2434/6019 [01:13<01:38, 36.48it/s]Validation Iterations:  41%|████      | 2438/6019 [01:13<01:38, 36.38it/s]Validation Iterations:  41%|████      | 2442/6019 [01:13<01:37, 36.52it/s]Validation Iterations:  41%|████      | 2446/6019 [01:13<01:37, 36.70it/s]Validation Iterations:  41%|████      | 2450/6019 [01:14<01:36, 36.87it/s]Validation Iterations:  41%|████      | 2454/6019 [01:14<01:36, 36.92it/s]Validation Iterations:  41%|████      | 2458/6019 [01:14<01:36, 36.81it/s]Validation Iterations:  41%|████      | 2462/6019 [01:14<01:36, 36.82it/s]Validation Iterations:  41%|████      | 2466/6019 [01:14<01:36, 36.80it/s]Validation Iterations:  41%|████      | 2470/6019 [01:14<01:36, 36.84it/s]Validation Iterations:  41%|████      | 2474/6019 [01:14<01:36, 36.91it/s]Validation Iterations:  41%|████      | 2478/6019 [01:14<01:35, 36.94it/s]Validation Iterations:  41%|████      | 2482/6019 [01:14<01:36, 36.75it/s]Validation Iterations:  41%|████▏     | 2486/6019 [01:15<01:39, 35.41it/s]Validation Iterations:  41%|████▏     | 2490/6019 [01:15<01:38, 35.68it/s]Validation Iterations:  41%|████▏     | 2494/6019 [01:15<01:37, 36.11it/s]Validation Iterations:  42%|████▏     | 2498/6019 [01:15<01:37, 36.29it/s]Validation Iterations:  42%|████▏     | 2502/6019 [01:15<01:36, 36.46it/s]Validation Iterations:  42%|████▏     | 2506/6019 [01:15<01:35, 36.59it/s]Validation Iterations:  42%|████▏     | 2510/6019 [01:15<01:35, 36.73it/s]Validation Iterations:  42%|████▏     | 2514/6019 [01:15<01:35, 36.79it/s]Validation Iterations:  42%|████▏     | 2518/6019 [01:15<01:34, 36.90it/s]Validation Iterations:  42%|████▏     | 2522/6019 [01:16<01:34, 36.93it/s]Validation Iterations:  42%|████▏     | 2526/6019 [01:16<01:34, 36.91it/s]Validation Iterations:  42%|████▏     | 2530/6019 [01:16<01:34, 36.73it/s]Validation Iterations:  42%|████▏     | 2534/6019 [01:16<01:35, 36.64it/s]Validation Iterations:  42%|████▏     | 2538/6019 [01:16<01:34, 36.74it/s]Validation Iterations:  42%|████▏     | 2542/6019 [01:16<01:34, 36.72it/s]Validation Iterations:  42%|████▏     | 2546/6019 [01:16<01:34, 36.72it/s]Validation Iterations:  42%|████▏     | 2550/6019 [01:16<01:34, 36.68it/s]Validation Iterations:  42%|████▏     | 2554/6019 [01:16<01:34, 36.50it/s]Validation Iterations:  42%|████▏     | 2558/6019 [01:17<01:34, 36.67it/s]Validation Iterations:  43%|████▎     | 2562/6019 [01:17<01:34, 36.77it/s]Validation Iterations:  43%|████▎     | 2566/6019 [01:17<01:33, 36.84it/s]Validation Iterations:  43%|████▎     | 2570/6019 [01:17<01:35, 36.08it/s]Validation Iterations:  43%|████▎     | 2574/6019 [01:17<01:35, 36.25it/s]Validation Iterations:  43%|████▎     | 2578/6019 [01:17<01:34, 36.41it/s]Validation Iterations:  43%|████▎     | 2582/6019 [01:17<01:34, 36.37it/s]Validation Iterations:  43%|████▎     | 2586/6019 [01:17<01:34, 36.43it/s]Validation Iterations:  43%|████▎     | 2590/6019 [01:17<01:34, 36.43it/s]Validation Iterations:  43%|████▎     | 2594/6019 [01:18<01:34, 36.19it/s]Validation Iterations:  43%|████▎     | 2598/6019 [01:18<01:34, 36.24it/s]Validation Iterations:  43%|████▎     | 2602/6019 [01:18<01:34, 36.23it/s]Validation Iterations:  43%|████▎     | 2606/6019 [01:18<01:33, 36.39it/s]Validation Iterations:  43%|████▎     | 2610/6019 [01:18<01:36, 35.24it/s]Validation Iterations:  43%|████▎     | 2614/6019 [01:18<01:35, 35.65it/s]Validation Iterations:  43%|████▎     | 2618/6019 [01:18<01:34, 36.05it/s]Validation Iterations:  44%|████▎     | 2622/6019 [01:18<01:34, 35.89it/s]Validation Iterations:  44%|████▎     | 2626/6019 [01:18<01:35, 35.67it/s]Validation Iterations:  44%|████▎     | 2630/6019 [01:19<01:34, 36.00it/s]Validation Iterations:  44%|████▍     | 2634/6019 [01:19<01:33, 36.15it/s]Validation Iterations:  44%|████▍     | 2638/6019 [01:19<01:33, 36.16it/s]Validation Iterations:  44%|████▍     | 2642/6019 [01:19<01:32, 36.46it/s]Validation Iterations:  44%|████▍     | 2646/6019 [01:19<01:36, 35.07it/s]Validation Iterations:  44%|████▍     | 2650/6019 [01:19<01:37, 34.54it/s]Validation Iterations:  44%|████▍     | 2654/6019 [01:19<01:36, 34.98it/s]Validation Iterations:  44%|████▍     | 2658/6019 [01:19<01:34, 35.50it/s]Validation Iterations:  44%|████▍     | 2662/6019 [01:19<01:33, 35.90it/s]Validation Iterations:  44%|████▍     | 2666/6019 [01:20<01:33, 36.02it/s]Validation Iterations:  44%|████▍     | 2670/6019 [01:20<01:32, 36.16it/s]Validation Iterations:  44%|████▍     | 2674/6019 [01:20<01:32, 36.08it/s]Validation Iterations:  44%|████▍     | 2678/6019 [01:20<01:31, 36.32it/s]Validation Iterations:  45%|████▍     | 2682/6019 [01:20<01:32, 36.19it/s]Validation Iterations:  45%|████▍     | 2686/6019 [01:20<01:31, 36.34it/s]Validation Iterations:  45%|████▍     | 2690/6019 [01:20<01:31, 36.46it/s]Validation Iterations:  45%|████▍     | 2694/6019 [01:20<01:30, 36.58it/s]Validation Iterations:  45%|████▍     | 2698/6019 [01:20<01:30, 36.67it/s]Validation Iterations:  45%|████▍     | 2702/6019 [01:21<01:30, 36.84it/s]Validation Iterations:  45%|████▍     | 2706/6019 [01:21<01:29, 36.96it/s]Validation Iterations:  45%|████▌     | 2710/6019 [01:21<01:30, 36.61it/s]Validation Iterations:  45%|████▌     | 2714/6019 [01:21<01:29, 36.81it/s]Validation Iterations:  45%|████▌     | 2718/6019 [01:21<01:29, 36.93it/s]Validation Iterations:  45%|████▌     | 2722/6019 [01:21<01:29, 36.95it/s]Validation Iterations:  45%|████▌     | 2726/6019 [01:21<01:28, 37.03it/s]Validation Iterations:  45%|████▌     | 2730/6019 [01:21<01:28, 37.04it/s]Validation Iterations:  45%|████▌     | 2734/6019 [01:21<01:28, 37.07it/s]Validation Iterations:  45%|████▌     | 2738/6019 [01:21<01:28, 37.06it/s]Validation Iterations:  46%|████▌     | 2742/6019 [01:22<01:28, 37.08it/s]Validation Iterations:  46%|████▌     | 2746/6019 [01:22<01:28, 37.01it/s]Validation Iterations:  46%|████▌     | 2750/6019 [01:22<01:28, 37.04it/s]Validation Iterations:  46%|████▌     | 2754/6019 [01:22<01:27, 37.11it/s]Validation Iterations:  46%|████▌     | 2758/6019 [01:22<01:27, 37.12it/s]Validation Iterations:  46%|████▌     | 2762/6019 [01:22<01:27, 37.05it/s]Validation Iterations:  46%|████▌     | 2766/6019 [01:22<01:27, 37.07it/s]Validation Iterations:  46%|████▌     | 2770/6019 [01:22<01:28, 36.87it/s]Validation Iterations:  46%|████▌     | 2774/6019 [01:22<01:28, 36.72it/s]Validation Iterations:  46%|████▌     | 2778/6019 [01:23<01:28, 36.55it/s]Validation Iterations:  46%|████▌     | 2782/6019 [01:23<01:30, 35.90it/s]Validation Iterations:  46%|████▋     | 2786/6019 [01:23<01:29, 36.14it/s]Validation Iterations:  46%|████▋     | 2790/6019 [01:23<01:29, 35.91it/s]Validation Iterations:  46%|████▋     | 2794/6019 [01:23<01:29, 36.22it/s]Validation Iterations:  46%|████▋     | 2798/6019 [01:23<01:28, 36.48it/s]Validation Iterations:  47%|████▋     | 2802/6019 [01:23<01:27, 36.69it/s]Validation Iterations:  47%|████▋     | 2806/6019 [01:23<01:27, 36.78it/s]Validation Iterations:  47%|████▋     | 2810/6019 [01:23<01:27, 36.87it/s]Validation Iterations:  47%|████▋     | 2814/6019 [01:24<01:26, 36.93it/s]Validation Iterations:  47%|████▋     | 2818/6019 [01:24<01:26, 36.99it/s]Validation Iterations:  47%|████▋     | 2822/6019 [01:24<01:26, 36.91it/s]Validation Iterations:  47%|████▋     | 2826/6019 [01:24<01:26, 36.98it/s]Validation Iterations:  47%|████▋     | 2830/6019 [01:24<01:26, 36.82it/s]Validation Iterations:  47%|████▋     | 2834/6019 [01:24<01:26, 36.90it/s]Validation Iterations:  47%|████▋     | 2838/6019 [01:24<01:25, 37.00it/s]Validation Iterations:  47%|████▋     | 2842/6019 [01:24<01:25, 37.06it/s]Validation Iterations:  47%|████▋     | 2846/6019 [01:24<01:25, 37.12it/s]Validation Iterations:  47%|████▋     | 2850/6019 [01:25<01:25, 37.12it/s]Validation Iterations:  47%|████▋     | 2854/6019 [01:25<01:25, 37.11it/s]Validation Iterations:  47%|████▋     | 2858/6019 [01:25<01:25, 37.15it/s]Validation Iterations:  48%|████▊     | 2862/6019 [01:25<01:25, 37.12it/s]Validation Iterations:  48%|████▊     | 2866/6019 [01:25<01:24, 37.18it/s]Validation Iterations:  48%|████▊     | 2870/6019 [01:25<01:24, 37.18it/s]Validation Iterations:  48%|████▊     | 2874/6019 [01:25<01:24, 37.18it/s]Validation Iterations:  48%|████▊     | 2878/6019 [01:25<01:24, 37.07it/s]Validation Iterations:  48%|████▊     | 2882/6019 [01:25<01:24, 36.99it/s]Validation Iterations:  48%|████▊     | 2886/6019 [01:26<01:24, 36.97it/s]Validation Iterations:  48%|████▊     | 2890/6019 [01:26<01:24, 36.86it/s]Validation Iterations:  48%|████▊     | 2894/6019 [01:26<01:24, 36.87it/s]Validation Iterations:  48%|████▊     | 2898/6019 [01:26<01:24, 36.83it/s]Validation Iterations:  48%|████▊     | 2902/6019 [01:26<01:28, 35.20it/s]Validation Iterations:  48%|████▊     | 2906/6019 [01:26<01:27, 35.58it/s]Validation Iterations:  48%|████▊     | 2910/6019 [01:26<01:28, 35.18it/s]Validation Iterations:  48%|████▊     | 2914/6019 [01:26<01:28, 35.16it/s]Validation Iterations:  48%|████▊     | 2918/6019 [01:26<01:27, 35.54it/s]Validation Iterations:  49%|████▊     | 2922/6019 [01:27<01:26, 35.92it/s]Validation Iterations:  49%|████▊     | 2926/6019 [01:27<01:25, 36.18it/s]Validation Iterations:  49%|████▊     | 2930/6019 [01:27<01:24, 36.38it/s]Validation Iterations:  49%|████▊     | 2934/6019 [01:27<01:24, 36.29it/s]Validation Iterations:  49%|████▉     | 2938/6019 [01:27<01:24, 36.39it/s]Validation Iterations:  49%|████▉     | 2942/6019 [01:27<01:24, 36.62it/s]Validation Iterations:  49%|████▉     | 2946/6019 [01:27<01:24, 36.22it/s]Validation Iterations:  49%|████▉     | 2950/6019 [01:27<01:24, 36.33it/s]Validation Iterations:  49%|████▉     | 2954/6019 [01:27<01:23, 36.49it/s]Validation Iterations:  49%|████▉     | 2958/6019 [01:28<01:23, 36.62it/s]Validation Iterations:  49%|████▉     | 2962/6019 [01:28<01:23, 36.55it/s]Validation Iterations:  49%|████▉     | 2966/6019 [01:28<01:23, 36.61it/s]Validation Iterations:  49%|████▉     | 2970/6019 [01:28<01:23, 36.71it/s]Validation Iterations:  49%|████▉     | 2974/6019 [01:28<01:24, 35.93it/s]Validation Iterations:  49%|████▉     | 2978/6019 [01:28<01:23, 36.20it/s]Validation Iterations:  50%|████▉     | 2982/6019 [01:28<01:23, 36.43it/s]Validation Iterations:  50%|████▉     | 2986/6019 [01:28<01:23, 36.29it/s]Validation Iterations:  50%|████▉     | 2990/6019 [01:28<01:23, 36.40it/s]Validation Iterations:  50%|████▉     | 2994/6019 [01:28<01:22, 36.49it/s]Validation Iterations:  50%|████▉     | 2998/6019 [01:29<01:22, 36.56it/s]Validation Iterations:  50%|████▉     | 3002/6019 [01:29<01:22, 36.60it/s]Validation Iterations:  50%|████▉     | 3006/6019 [01:29<01:21, 36.80it/s]Validation Iterations:  50%|█████     | 3010/6019 [01:29<01:22, 36.48it/s]Validation Iterations:  50%|█████     | 3014/6019 [01:29<01:22, 36.53it/s]Validation Iterations:  50%|█████     | 3018/6019 [01:29<01:22, 36.39it/s]Validation Iterations:  50%|█████     | 3022/6019 [01:29<01:22, 36.44it/s]Validation Iterations:  50%|█████     | 3026/6019 [01:29<01:21, 36.51it/s]Validation Iterations:  50%|█████     | 3030/6019 [01:29<01:21, 36.63it/s]Validation Iterations:  50%|█████     | 3034/6019 [01:30<01:21, 36.70it/s]Validation Iterations:  50%|█████     | 3038/6019 [01:30<01:20, 36.81it/s]Validation Iterations:  51%|█████     | 3042/6019 [01:30<01:20, 36.89it/s]Validation Iterations:  51%|█████     | 3046/6019 [01:30<01:20, 36.78it/s]Validation Iterations:  51%|█████     | 3050/6019 [01:30<01:20, 36.80it/s]Validation Iterations:  51%|█████     | 3054/6019 [01:30<01:20, 36.76it/s]Validation Iterations:  51%|█████     | 3058/6019 [01:30<01:20, 36.61it/s]Validation Iterations:  51%|█████     | 3062/6019 [01:30<01:21, 36.35it/s]Validation Iterations:  51%|█████     | 3066/6019 [01:30<01:21, 36.31it/s]Validation Iterations:  51%|█████     | 3070/6019 [01:31<01:20, 36.46it/s]Validation Iterations:  51%|█████     | 3074/6019 [01:31<01:20, 36.51it/s]Validation Iterations:  51%|█████     | 3078/6019 [01:31<01:20, 36.67it/s]Validation Iterations:  51%|█████     | 3082/6019 [01:31<01:19, 36.87it/s]Validation Iterations:  51%|█████▏    | 3086/6019 [01:31<01:20, 36.46it/s]Validation Iterations:  51%|█████▏    | 3090/6019 [01:31<01:20, 36.38it/s]Validation Iterations:  51%|█████▏    | 3094/6019 [01:31<01:20, 36.50it/s]Validation Iterations:  51%|█████▏    | 3098/6019 [01:31<01:19, 36.61it/s]Validation Iterations:  52%|█████▏    | 3102/6019 [01:31<01:19, 36.66it/s]Validation Iterations:  52%|█████▏    | 3106/6019 [01:32<01:19, 36.81it/s]Validation Iterations:  52%|█████▏    | 3110/6019 [01:32<01:18, 36.86it/s]Validation Iterations:  52%|█████▏    | 3114/6019 [01:32<01:18, 36.83it/s]Validation Iterations:  52%|█████▏    | 3118/6019 [01:32<01:18, 36.92it/s]Validation Iterations:  52%|█████▏    | 3122/6019 [01:32<01:18, 36.92it/s]Validation Iterations:  52%|█████▏    | 3126/6019 [01:32<01:18, 36.95it/s]Validation Iterations:  52%|█████▏    | 3130/6019 [01:32<01:18, 36.95it/s]Validation Iterations:  52%|█████▏    | 3134/6019 [01:32<01:17, 37.01it/s]Validation Iterations:  52%|█████▏    | 3138/6019 [01:32<01:17, 37.03it/s]Validation Iterations:  52%|█████▏    | 3142/6019 [01:33<01:18, 36.54it/s]Validation Iterations:  52%|█████▏    | 3146/6019 [01:33<01:18, 36.49it/s]Validation Iterations:  52%|█████▏    | 3150/6019 [01:33<01:18, 36.55it/s]Validation Iterations:  52%|█████▏    | 3154/6019 [01:33<01:18, 36.67it/s]Validation Iterations:  52%|█████▏    | 3158/6019 [01:33<01:22, 34.89it/s]Validation Iterations:  53%|█████▎    | 3162/6019 [01:33<01:20, 35.58it/s]Validation Iterations:  53%|█████▎    | 3166/6019 [01:33<01:19, 35.97it/s]Validation Iterations:  53%|█████▎    | 3170/6019 [01:33<01:18, 36.20it/s]Validation Iterations:  53%|█████▎    | 3174/6019 [01:33<01:18, 36.35it/s]Validation Iterations:  53%|█████▎    | 3178/6019 [01:34<01:17, 36.54it/s]Validation Iterations:  53%|█████▎    | 3182/6019 [01:34<01:17, 36.63it/s]Validation Iterations:  53%|█████▎    | 3186/6019 [01:34<01:17, 36.74it/s]Validation Iterations:  53%|█████▎    | 3190/6019 [01:34<01:16, 36.80it/s]Validation Iterations:  53%|█████▎    | 3194/6019 [01:34<01:16, 36.85it/s]Validation Iterations:  53%|█████▎    | 3198/6019 [01:34<01:16, 36.68it/s]Validation Iterations:  53%|█████▎    | 3202/6019 [01:34<01:16, 36.59it/s]Validation Iterations:  53%|█████▎    | 3206/6019 [01:34<01:16, 36.59it/s]Validation Iterations:  53%|█████▎    | 3210/6019 [01:34<01:16, 36.63it/s]Validation Iterations:  53%|█████▎    | 3214/6019 [01:35<01:16, 36.57it/s]Validation Iterations:  53%|█████▎    | 3218/6019 [01:35<01:16, 36.61it/s]Validation Iterations:  54%|█████▎    | 3222/6019 [01:35<01:16, 36.60it/s]Validation Iterations:  54%|█████▎    | 3226/6019 [01:35<01:16, 36.55it/s]Validation Iterations:  54%|█████▎    | 3230/6019 [01:35<01:16, 36.58it/s]Validation Iterations:  54%|█████▎    | 3234/6019 [01:35<01:15, 36.68it/s]Validation Iterations:  54%|█████▍    | 3238/6019 [01:35<01:15, 36.71it/s]Validation Iterations:  54%|█████▍    | 3242/6019 [01:35<01:15, 36.75it/s]Validation Iterations:  54%|█████▍    | 3246/6019 [01:35<01:15, 36.75it/s]Validation Iterations:  54%|█████▍    | 3250/6019 [01:35<01:15, 36.72it/s]Validation Iterations:  54%|█████▍    | 3254/6019 [01:36<01:15, 36.46it/s]Validation Iterations:  54%|█████▍    | 3258/6019 [01:36<01:15, 36.48it/s]Validation Iterations:  54%|█████▍    | 3262/6019 [01:36<01:17, 35.73it/s]Validation Iterations:  54%|█████▍    | 3266/6019 [01:36<01:16, 36.05it/s]Validation Iterations:  54%|█████▍    | 3270/6019 [01:36<01:16, 36.14it/s]Validation Iterations:  54%|█████▍    | 3274/6019 [01:36<01:16, 35.72it/s]Validation Iterations:  54%|█████▍    | 3278/6019 [01:36<01:16, 35.99it/s]Validation Iterations:  55%|█████▍    | 3282/6019 [01:36<01:16, 35.90it/s]Validation Iterations:  55%|█████▍    | 3286/6019 [01:36<01:15, 36.14it/s]Validation Iterations:  55%|█████▍    | 3290/6019 [01:37<01:15, 36.32it/s]Validation Iterations:  55%|█████▍    | 3294/6019 [01:37<01:14, 36.39it/s]Validation Iterations:  55%|█████▍    | 3298/6019 [01:37<01:14, 36.38it/s]Validation Iterations:  55%|█████▍    | 3302/6019 [01:37<01:14, 36.43it/s]Validation Iterations:  55%|█████▍    | 3306/6019 [01:37<01:14, 36.46it/s]Validation Iterations:  55%|█████▍    | 3310/6019 [01:37<01:14, 36.29it/s]Validation Iterations:  55%|█████▌    | 3314/6019 [01:37<01:16, 35.49it/s]Validation Iterations:  55%|█████▌    | 3318/6019 [01:37<01:15, 35.90it/s]Validation Iterations:  55%|█████▌    | 3322/6019 [01:37<01:14, 36.25it/s]Validation Iterations:  55%|█████▌    | 3326/6019 [01:38<01:14, 36.24it/s]Validation Iterations:  55%|█████▌    | 3330/6019 [01:38<01:13, 36.52it/s]Validation Iterations:  55%|█████▌    | 3334/6019 [01:38<01:13, 36.68it/s]Validation Iterations:  55%|█████▌    | 3338/6019 [01:38<01:12, 36.83it/s]Validation Iterations:  56%|█████▌    | 3342/6019 [01:38<01:14, 35.75it/s]Validation Iterations:  56%|█████▌    | 3346/6019 [01:38<01:16, 35.01it/s]Validation Iterations:  56%|█████▌    | 3350/6019 [01:38<01:16, 34.90it/s]Validation Iterations:  56%|█████▌    | 3354/6019 [01:38<01:16, 34.74it/s]Validation Iterations:  56%|█████▌    | 3358/6019 [01:39<01:17, 34.53it/s]Validation Iterations:  56%|█████▌    | 3362/6019 [01:39<01:17, 34.33it/s]Validation Iterations:  56%|█████▌    | 3366/6019 [01:39<01:16, 34.77it/s]Validation Iterations:  56%|█████▌    | 3370/6019 [01:39<01:16, 34.60it/s]Validation Iterations:  56%|█████▌    | 3374/6019 [01:39<01:17, 34.22it/s]Validation Iterations:  56%|█████▌    | 3378/6019 [01:39<01:17, 34.19it/s]Validation Iterations:  56%|█████▌    | 3382/6019 [01:39<01:16, 34.40it/s]Validation Iterations:  56%|█████▋    | 3386/6019 [01:39<01:16, 34.34it/s]Validation Iterations:  56%|█████▋    | 3390/6019 [01:39<01:16, 34.33it/s]Validation Iterations:  56%|█████▋    | 3394/6019 [01:40<01:16, 34.25it/s]Validation Iterations:  56%|█████▋    | 3398/6019 [01:40<01:16, 34.07it/s]Validation Iterations:  57%|█████▋    | 3402/6019 [01:40<01:17, 33.97it/s]Validation Iterations:  57%|█████▋    | 3406/6019 [01:40<01:16, 34.02it/s]Validation Iterations:  57%|█████▋    | 3410/6019 [01:40<01:16, 34.17it/s]Validation Iterations:  57%|█████▋    | 3414/6019 [01:40<01:16, 34.07it/s]Validation Iterations:  57%|█████▋    | 3418/6019 [01:40<01:15, 34.23it/s]Validation Iterations:  57%|█████▋    | 3422/6019 [01:40<01:14, 34.96it/s]Validation Iterations:  57%|█████▋    | 3426/6019 [01:40<01:13, 35.41it/s]Validation Iterations:  57%|█████▋    | 3430/6019 [01:41<01:13, 35.36it/s]Validation Iterations:  57%|█████▋    | 3434/6019 [01:41<01:13, 35.08it/s]Validation Iterations:  57%|█████▋    | 3438/6019 [01:41<01:14, 34.88it/s]Validation Iterations:  57%|█████▋    | 3442/6019 [01:41<01:14, 34.81it/s]Validation Iterations:  57%|█████▋    | 3446/6019 [01:41<01:13, 34.79it/s]Validation Iterations:  57%|█████▋    | 3450/6019 [01:41<01:12, 35.21it/s]Validation Iterations:  57%|█████▋    | 3454/6019 [01:41<01:11, 35.74it/s]Validation Iterations:  57%|█████▋    | 3458/6019 [01:41<01:10, 36.13it/s]Validation Iterations:  58%|█████▊    | 3462/6019 [01:41<01:10, 36.35it/s]Validation Iterations:  58%|█████▊    | 3466/6019 [01:42<01:09, 36.57it/s]Validation Iterations:  58%|█████▊    | 3470/6019 [01:42<01:09, 36.49it/s]Validation Iterations:  58%|█████▊    | 3474/6019 [01:42<01:09, 36.51it/s]Validation Iterations:  58%|█████▊    | 3478/6019 [01:42<01:09, 36.60it/s]Validation Iterations:  58%|█████▊    | 3482/6019 [01:42<01:09, 36.46it/s]Validation Iterations:  58%|█████▊    | 3486/6019 [01:42<01:10, 35.98it/s]Validation Iterations:  58%|█████▊    | 3490/6019 [01:42<01:10, 36.03it/s]Validation Iterations:  58%|█████▊    | 3494/6019 [01:42<01:09, 36.26it/s]Validation Iterations:  58%|█████▊    | 3498/6019 [01:42<01:09, 36.50it/s]Validation Iterations:  58%|█████▊    | 3502/6019 [01:43<01:08, 36.61it/s]Validation Iterations:  58%|█████▊    | 3506/6019 [01:43<01:08, 36.67it/s]Validation Iterations:  58%|█████▊    | 3510/6019 [01:43<01:08, 36.62it/s]Validation Iterations:  58%|█████▊    | 3514/6019 [01:43<01:08, 36.72it/s]Validation Iterations:  58%|█████▊    | 3518/6019 [01:43<01:09, 35.85it/s]Validation Iterations:  59%|█████▊    | 3522/6019 [01:43<01:09, 36.05it/s]Validation Iterations:  59%|█████▊    | 3526/6019 [01:43<01:08, 36.28it/s]Validation Iterations:  59%|█████▊    | 3530/6019 [01:43<01:08, 36.46it/s]Validation Iterations:  59%|█████▊    | 3534/6019 [01:43<01:07, 36.56it/s]Validation Iterations:  59%|█████▉    | 3538/6019 [01:44<01:07, 36.70it/s]Validation Iterations:  59%|█████▉    | 3542/6019 [01:44<01:07, 36.72it/s]Validation Iterations:  59%|█████▉    | 3546/6019 [01:44<01:07, 36.77it/s]Validation Iterations:  59%|█████▉    | 3550/6019 [01:44<01:07, 36.82it/s]Validation Iterations:  59%|█████▉    | 3554/6019 [01:44<01:06, 36.91it/s]Validation Iterations:  59%|█████▉    | 3558/6019 [01:44<01:06, 36.93it/s]Validation Iterations:  59%|█████▉    | 3562/6019 [01:44<01:06, 36.90it/s]Validation Iterations:  59%|█████▉    | 3566/6019 [01:44<01:06, 36.83it/s]Validation Iterations:  59%|█████▉    | 3570/6019 [01:44<01:06, 36.87it/s]Validation Iterations:  59%|█████▉    | 3574/6019 [01:45<01:06, 36.93it/s]Validation Iterations:  59%|█████▉    | 3578/6019 [01:45<01:06, 36.85it/s]Validation Iterations:  60%|█████▉    | 3582/6019 [01:45<01:06, 36.89it/s]Validation Iterations:  60%|█████▉    | 3586/6019 [01:45<01:06, 36.74it/s]Validation Iterations:  60%|█████▉    | 3590/6019 [01:45<01:06, 36.63it/s]Validation Iterations:  60%|█████▉    | 3594/6019 [01:45<01:06, 36.71it/s]Validation Iterations:  60%|█████▉    | 3598/6019 [01:45<01:05, 36.82it/s]Validation Iterations:  60%|█████▉    | 3602/6019 [01:45<01:05, 36.90it/s]Validation Iterations:  60%|█████▉    | 3606/6019 [01:45<01:05, 36.86it/s]Validation Iterations:  60%|█████▉    | 3610/6019 [01:46<01:05, 36.93it/s]Validation Iterations:  60%|██████    | 3614/6019 [01:46<01:05, 36.95it/s]Validation Iterations:  60%|██████    | 3618/6019 [01:46<01:04, 36.96it/s]Validation Iterations:  60%|██████    | 3622/6019 [01:46<01:04, 37.01it/s]Validation Iterations:  60%|██████    | 3626/6019 [01:46<01:04, 37.06it/s]Validation Iterations:  60%|██████    | 3630/6019 [01:46<01:04, 37.13it/s]Validation Iterations:  60%|██████    | 3634/6019 [01:46<01:04, 37.13it/s]Validation Iterations:  60%|██████    | 3638/6019 [01:46<01:04, 37.03it/s]Validation Iterations:  61%|██████    | 3642/6019 [01:46<01:04, 36.96it/s]Validation Iterations:  61%|██████    | 3646/6019 [01:46<01:04, 36.85it/s]Validation Iterations:  61%|██████    | 3650/6019 [01:47<01:04, 36.62it/s]Validation Iterations:  61%|██████    | 3654/6019 [01:47<01:04, 36.60it/s]Validation Iterations:  61%|██████    | 3658/6019 [01:47<01:04, 36.72it/s]Validation Iterations:  61%|██████    | 3662/6019 [01:47<01:04, 36.63it/s]Validation Iterations:  61%|██████    | 3666/6019 [01:47<01:06, 35.14it/s]Validation Iterations:  61%|██████    | 3670/6019 [01:47<01:06, 35.48it/s]Validation Iterations:  61%|██████    | 3674/6019 [01:47<01:05, 35.87it/s]Validation Iterations:  61%|██████    | 3678/6019 [01:47<01:04, 36.13it/s]Validation Iterations:  61%|██████    | 3682/6019 [01:47<01:04, 36.27it/s]Validation Iterations:  61%|██████    | 3686/6019 [01:48<01:03, 36.47it/s]Validation Iterations:  61%|██████▏   | 3690/6019 [01:48<01:06, 34.82it/s]Validation Iterations:  61%|██████▏   | 3694/6019 [01:48<01:07, 34.34it/s]Validation Iterations:  61%|██████▏   | 3698/6019 [01:48<01:08, 34.00it/s]Validation Iterations:  62%|██████▏   | 3702/6019 [01:48<01:08, 33.65it/s]Validation Iterations:  62%|██████▏   | 3706/6019 [01:48<01:08, 33.77it/s]Validation Iterations:  62%|██████▏   | 3710/6019 [01:48<01:09, 33.44it/s]Validation Iterations:  62%|██████▏   | 3714/6019 [01:48<01:07, 34.11it/s]Validation Iterations:  62%|██████▏   | 3718/6019 [01:49<01:06, 34.51it/s]Validation Iterations:  62%|██████▏   | 3722/6019 [01:49<01:05, 35.16it/s]Validation Iterations:  62%|██████▏   | 3726/6019 [01:49<01:04, 35.67it/s]Validation Iterations:  62%|██████▏   | 3730/6019 [01:49<01:03, 36.03it/s]Validation Iterations:  62%|██████▏   | 3734/6019 [01:49<01:03, 36.26it/s]Validation Iterations:  62%|██████▏   | 3738/6019 [01:49<01:02, 36.40it/s]Validation Iterations:  62%|██████▏   | 3742/6019 [01:49<01:02, 36.50it/s]Validation Iterations:  62%|██████▏   | 3746/6019 [01:49<01:02, 36.53it/s]Validation Iterations:  62%|██████▏   | 3750/6019 [01:49<01:02, 36.57it/s]Validation Iterations:  62%|██████▏   | 3754/6019 [01:50<01:03, 35.85it/s]Validation Iterations:  62%|██████▏   | 3758/6019 [01:50<01:04, 35.18it/s]Validation Iterations:  63%|██████▎   | 3762/6019 [01:50<01:03, 35.53it/s]Validation Iterations:  63%|██████▎   | 3766/6019 [01:50<01:02, 35.90it/s]Validation Iterations:  63%|██████▎   | 3770/6019 [01:50<01:02, 36.16it/s]Validation Iterations:  63%|██████▎   | 3774/6019 [01:50<01:01, 36.26it/s]Validation Iterations:  63%|██████▎   | 3778/6019 [01:50<01:01, 36.44it/s]Validation Iterations:  63%|██████▎   | 3782/6019 [01:50<01:01, 36.55it/s]Validation Iterations:  63%|██████▎   | 3786/6019 [01:50<01:01, 36.16it/s]Validation Iterations:  63%|██████▎   | 3790/6019 [01:51<01:01, 36.03it/s]Validation Iterations:  63%|██████▎   | 3794/6019 [01:51<01:01, 36.21it/s]Validation Iterations:  63%|██████▎   | 3798/6019 [01:51<01:01, 36.35it/s]Validation Iterations:  63%|██████▎   | 3802/6019 [01:51<01:00, 36.45it/s]Validation Iterations:  63%|██████▎   | 3806/6019 [01:51<01:00, 36.53it/s]Validation Iterations:  63%|██████▎   | 3810/6019 [01:51<01:00, 36.41it/s]Validation Iterations:  63%|██████▎   | 3814/6019 [01:51<01:00, 36.25it/s]Validation Iterations:  63%|██████▎   | 3818/6019 [01:51<01:00, 36.24it/s]Validation Iterations:  63%|██████▎   | 3822/6019 [01:51<01:00, 36.18it/s]Validation Iterations:  64%|██████▎   | 3826/6019 [01:52<01:00, 36.20it/s]Validation Iterations:  64%|██████▎   | 3830/6019 [01:52<01:00, 36.06it/s]Validation Iterations:  64%|██████▎   | 3834/6019 [01:52<01:00, 36.23it/s]Validation Iterations:  64%|██████▍   | 3838/6019 [01:52<01:00, 36.17it/s]Validation Iterations:  64%|██████▍   | 3842/6019 [01:52<01:00, 36.18it/s]Validation Iterations:  64%|██████▍   | 3846/6019 [01:52<00:59, 36.23it/s]Validation Iterations:  64%|██████▍   | 3850/6019 [01:52<00:59, 36.29it/s]Validation Iterations:  64%|██████▍   | 3854/6019 [01:52<00:59, 36.45it/s]Validation Iterations:  64%|██████▍   | 3858/6019 [01:52<00:59, 36.49it/s]Validation Iterations:  64%|██████▍   | 3862/6019 [01:53<00:59, 36.35it/s]Validation Iterations:  64%|██████▍   | 3866/6019 [01:53<00:59, 36.31it/s]Validation Iterations:  64%|██████▍   | 3870/6019 [01:53<00:59, 36.27it/s]Validation Iterations:  64%|██████▍   | 3874/6019 [01:53<00:59, 36.34it/s]Validation Iterations:  64%|██████▍   | 3878/6019 [01:53<00:58, 36.29it/s]Validation Iterations:  64%|██████▍   | 3882/6019 [01:53<01:01, 34.75it/s]Validation Iterations:  65%|██████▍   | 3886/6019 [01:53<01:00, 35.17it/s]Validation Iterations:  65%|██████▍   | 3890/6019 [01:53<00:59, 35.61it/s]Validation Iterations:  65%|██████▍   | 3894/6019 [01:53<00:59, 35.96it/s]Validation Iterations:  65%|██████▍   | 3898/6019 [01:54<00:58, 36.19it/s]Validation Iterations:  65%|██████▍   | 3902/6019 [01:54<00:58, 36.32it/s]Validation Iterations:  65%|██████▍   | 3906/6019 [01:54<00:58, 36.31it/s]Validation Iterations:  65%|██████▍   | 3910/6019 [01:54<00:58, 36.25it/s]Validation Iterations:  65%|██████▌   | 3914/6019 [01:54<00:58, 36.26it/s]Validation Iterations:  65%|██████▌   | 3918/6019 [01:54<00:57, 36.38it/s]Validation Iterations:  65%|██████▌   | 3922/6019 [01:54<00:57, 36.54it/s]Validation Iterations:  65%|██████▌   | 3926/6019 [01:54<00:57, 36.63it/s]Validation Iterations:  65%|██████▌   | 3930/6019 [01:54<00:56, 36.72it/s]Validation Iterations:  65%|██████▌   | 3934/6019 [01:55<00:56, 36.75it/s]Validation Iterations:  65%|██████▌   | 3938/6019 [01:55<00:56, 36.85it/s]Validation Iterations:  65%|██████▌   | 3942/6019 [01:55<00:56, 36.78it/s]Validation Iterations:  66%|██████▌   | 3946/6019 [01:55<00:56, 36.51it/s]Validation Iterations:  66%|██████▌   | 3950/6019 [01:55<00:57, 36.15it/s]Validation Iterations:  66%|██████▌   | 3954/6019 [01:55<00:58, 35.30it/s]Validation Iterations:  66%|██████▌   | 3958/6019 [01:55<00:59, 34.89it/s]Validation Iterations:  66%|██████▌   | 3962/6019 [01:55<00:59, 34.70it/s]Validation Iterations:  66%|██████▌   | 3966/6019 [01:55<00:58, 35.08it/s]Validation Iterations:  66%|██████▌   | 3970/6019 [01:56<00:58, 35.10it/s]Validation Iterations:  66%|██████▌   | 3974/6019 [01:56<00:59, 34.60it/s]Validation Iterations:  66%|██████▌   | 3978/6019 [01:56<00:58, 35.19it/s]Validation Iterations:  66%|██████▌   | 3982/6019 [01:56<00:57, 35.50it/s]Validation Iterations:  66%|██████▌   | 3986/6019 [01:56<00:56, 35.94it/s]Validation Iterations:  66%|██████▋   | 3990/6019 [01:56<00:55, 36.24it/s]Validation Iterations:  66%|██████▋   | 3994/6019 [01:56<00:55, 36.44it/s]Validation Iterations:  66%|██████▋   | 3998/6019 [01:56<00:55, 36.53it/s]Validation Iterations:  66%|██████▋   | 4002/6019 [01:56<00:55, 36.33it/s]Validation Iterations:  67%|██████▋   | 4006/6019 [01:57<00:55, 36.49it/s]Validation Iterations:  67%|██████▋   | 4010/6019 [01:57<00:54, 36.59it/s]Validation Iterations:  67%|██████▋   | 4014/6019 [01:57<00:54, 36.73it/s]Validation Iterations:  67%|██████▋   | 4018/6019 [01:57<00:54, 36.87it/s]Validation Iterations:  67%|██████▋   | 4022/6019 [01:57<00:54, 36.94it/s]Validation Iterations:  67%|██████▋   | 4026/6019 [01:57<00:53, 37.05it/s]Validation Iterations:  67%|██████▋   | 4030/6019 [01:57<00:53, 37.06it/s]Validation Iterations:  67%|██████▋   | 4034/6019 [01:57<00:53, 37.15it/s]Validation Iterations:  67%|██████▋   | 4038/6019 [01:57<00:53, 37.05it/s]Validation Iterations:  67%|██████▋   | 4042/6019 [01:57<00:53, 37.02it/s]Validation Iterations:  67%|██████▋   | 4046/6019 [01:58<00:53, 36.59it/s]Validation Iterations:  67%|██████▋   | 4050/6019 [01:58<00:54, 36.28it/s]Validation Iterations:  67%|██████▋   | 4054/6019 [01:58<00:54, 36.12it/s]Validation Iterations:  67%|██████▋   | 4058/6019 [01:58<00:53, 36.43it/s]Validation Iterations:  67%|██████▋   | 4062/6019 [01:58<00:55, 35.51it/s]Validation Iterations:  68%|██████▊   | 4066/6019 [01:58<00:54, 35.61it/s]Validation Iterations:  68%|██████▊   | 4070/6019 [01:58<00:54, 35.98it/s]Validation Iterations:  68%|██████▊   | 4074/6019 [01:58<00:53, 36.19it/s]Validation Iterations:  68%|██████▊   | 4078/6019 [01:58<00:53, 36.35it/s]Validation Iterations:  68%|██████▊   | 4082/6019 [01:59<00:53, 36.45it/s]Validation Iterations:  68%|██████▊   | 4086/6019 [01:59<00:52, 36.53it/s]Validation Iterations:  68%|██████▊   | 4090/6019 [01:59<00:52, 36.58it/s]Validation Iterations:  68%|██████▊   | 4094/6019 [01:59<00:52, 36.66it/s]Validation Iterations:  68%|██████▊   | 4098/6019 [01:59<00:52, 36.65it/s]Validation Iterations:  68%|██████▊   | 4102/6019 [01:59<00:52, 36.63it/s]Validation Iterations:  68%|██████▊   | 4106/6019 [01:59<00:52, 36.74it/s]Validation Iterations:  68%|██████▊   | 4110/6019 [01:59<00:51, 36.78it/s]Validation Iterations:  68%|██████▊   | 4114/6019 [01:59<00:51, 36.86it/s]Validation Iterations:  68%|██████▊   | 4118/6019 [02:00<00:51, 36.85it/s]Validation Iterations:  68%|██████▊   | 4122/6019 [02:00<00:51, 36.77it/s]Validation Iterations:  69%|██████▊   | 4126/6019 [02:00<00:51, 36.81it/s]Validation Iterations:  69%|██████▊   | 4130/6019 [02:00<00:51, 36.80it/s]Validation Iterations:  69%|██████▊   | 4134/6019 [02:00<00:51, 36.80it/s]Validation Iterations:  69%|██████▊   | 4138/6019 [02:00<00:53, 35.36it/s]Validation Iterations:  69%|██████▉   | 4142/6019 [02:00<00:52, 35.74it/s]Validation Iterations:  69%|██████▉   | 4146/6019 [02:00<00:51, 36.10it/s]Validation Iterations:  69%|██████▉   | 4150/6019 [02:00<00:51, 36.31it/s]Validation Iterations:  69%|██████▉   | 4154/6019 [02:01<00:51, 36.52it/s]Validation Iterations:  69%|██████▉   | 4158/6019 [02:01<00:50, 36.66it/s]Validation Iterations:  69%|██████▉   | 4162/6019 [02:01<00:50, 36.72it/s]Validation Iterations:  69%|██████▉   | 4166/6019 [02:01<00:50, 36.66it/s]Validation Iterations:  69%|██████▉   | 4170/6019 [02:01<00:50, 36.59it/s]Validation Iterations:  69%|██████▉   | 4174/6019 [02:01<00:50, 36.62it/s]Validation Iterations:  69%|██████▉   | 4178/6019 [02:01<00:50, 36.68it/s]Validation Iterations:  69%|██████▉   | 4182/6019 [02:01<00:49, 36.78it/s]Validation Iterations:  70%|██████▉   | 4186/6019 [02:01<00:49, 36.71it/s]Validation Iterations:  70%|██████▉   | 4190/6019 [02:02<00:49, 36.64it/s]Validation Iterations:  70%|██████▉   | 4194/6019 [02:02<00:50, 36.42it/s]Validation Iterations:  70%|██████▉   | 4198/6019 [02:02<00:49, 36.52it/s]Validation Iterations:  70%|██████▉   | 4202/6019 [02:02<00:49, 36.64it/s]Validation Iterations:  70%|██████▉   | 4206/6019 [02:02<00:49, 36.65it/s]Validation Iterations:  70%|██████▉   | 4210/6019 [02:02<00:49, 36.75it/s]Validation Iterations:  70%|███████   | 4214/6019 [02:02<00:49, 36.84it/s]Validation Iterations:  70%|███████   | 4218/6019 [02:02<00:48, 36.87it/s]Validation Iterations:  70%|███████   | 4222/6019 [02:02<00:48, 36.92it/s]Validation Iterations:  70%|███████   | 4226/6019 [02:03<00:48, 36.84it/s]Validation Iterations:  70%|███████   | 4230/6019 [02:03<00:48, 36.89it/s]Validation Iterations:  70%|███████   | 4234/6019 [02:03<00:48, 36.96it/s]Validation Iterations:  70%|███████   | 4238/6019 [02:03<00:48, 36.94it/s]Validation Iterations:  70%|███████   | 4242/6019 [02:03<00:48, 36.94it/s]Validation Iterations:  71%|███████   | 4246/6019 [02:03<00:48, 36.22it/s]Validation Iterations:  71%|███████   | 4250/6019 [02:03<00:48, 36.45it/s]Validation Iterations:  71%|███████   | 4254/6019 [02:03<00:48, 36.66it/s]Validation Iterations:  71%|███████   | 4258/6019 [02:03<00:47, 36.79it/s]Validation Iterations:  71%|███████   | 4262/6019 [02:04<00:47, 36.79it/s]Validation Iterations:  71%|███████   | 4266/6019 [02:04<00:47, 36.83it/s]Validation Iterations:  71%|███████   | 4270/6019 [02:04<00:47, 36.91it/s]Validation Iterations:  71%|███████   | 4274/6019 [02:04<00:47, 36.93it/s]Validation Iterations:  71%|███████   | 4278/6019 [02:04<00:47, 36.84it/s]Validation Iterations:  71%|███████   | 4282/6019 [02:04<00:47, 36.86it/s]Validation Iterations:  71%|███████   | 4286/6019 [02:04<00:46, 36.94it/s]Validation Iterations:  71%|███████▏  | 4290/6019 [02:04<00:47, 36.72it/s]Validation Iterations:  71%|███████▏  | 4294/6019 [02:04<00:47, 36.59it/s]Validation Iterations:  71%|███████▏  | 4298/6019 [02:04<00:47, 36.50it/s]Validation Iterations:  71%|███████▏  | 4302/6019 [02:05<00:47, 36.43it/s]Validation Iterations:  72%|███████▏  | 4306/6019 [02:05<00:47, 36.29it/s]Validation Iterations:  72%|███████▏  | 4310/6019 [02:05<00:47, 36.31it/s]Validation Iterations:  72%|███████▏  | 4314/6019 [02:05<00:46, 36.51it/s]Validation Iterations:  72%|███████▏  | 4318/6019 [02:05<00:46, 36.62it/s]Validation Iterations:  72%|███████▏  | 4322/6019 [02:05<00:46, 36.71it/s]Validation Iterations:  72%|███████▏  | 4326/6019 [02:05<00:46, 36.80it/s]Validation Iterations:  72%|███████▏  | 4330/6019 [02:05<00:47, 35.59it/s]Validation Iterations:  72%|███████▏  | 4334/6019 [02:05<00:46, 35.91it/s]Validation Iterations:  72%|███████▏  | 4338/6019 [02:06<00:46, 36.19it/s]Validation Iterations:  72%|███████▏  | 4342/6019 [02:06<00:46, 36.44it/s]Validation Iterations:  72%|███████▏  | 4346/6019 [02:06<00:45, 36.58it/s]Validation Iterations:  72%|███████▏  | 4350/6019 [02:06<00:45, 36.71it/s]Validation Iterations:  72%|███████▏  | 4354/6019 [02:06<00:45, 36.85it/s]Validation Iterations:  72%|███████▏  | 4358/6019 [02:06<00:44, 36.93it/s]Validation Iterations:  72%|███████▏  | 4362/6019 [02:06<00:44, 36.95it/s]Validation Iterations:  73%|███████▎  | 4366/6019 [02:06<00:44, 36.99it/s]Validation Iterations:  73%|███████▎  | 4370/6019 [02:06<00:44, 37.00it/s]Validation Iterations:  73%|███████▎  | 4374/6019 [02:07<00:44, 36.90it/s]Validation Iterations:  73%|███████▎  | 4378/6019 [02:07<00:44, 36.81it/s]Validation Iterations:  73%|███████▎  | 4382/6019 [02:07<00:44, 36.81it/s]Validation Iterations:  73%|███████▎  | 4386/6019 [02:07<00:44, 36.88it/s]Validation Iterations:  73%|███████▎  | 4390/6019 [02:07<00:44, 36.81it/s]Validation Iterations:  73%|███████▎  | 4394/6019 [02:07<00:44, 36.57it/s]Validation Iterations:  73%|███████▎  | 4398/6019 [02:07<00:44, 36.68it/s]Validation Iterations:  73%|███████▎  | 4402/6019 [02:07<00:44, 36.67it/s]Validation Iterations:  73%|███████▎  | 4406/6019 [02:07<00:44, 36.31it/s]Validation Iterations:  73%|███████▎  | 4410/6019 [02:08<00:45, 35.73it/s]Validation Iterations:  73%|███████▎  | 4414/6019 [02:08<00:45, 35.62it/s]Validation Iterations:  73%|███████▎  | 4418/6019 [02:08<00:44, 35.96it/s]Validation Iterations:  73%|███████▎  | 4422/6019 [02:08<00:44, 36.29it/s]Validation Iterations:  74%|███████▎  | 4426/6019 [02:08<00:43, 36.54it/s]Validation Iterations:  74%|███████▎  | 4430/6019 [02:08<00:45, 35.16it/s]Validation Iterations:  74%|███████▎  | 4434/6019 [02:08<00:44, 35.39it/s]Validation Iterations:  74%|███████▎  | 4438/6019 [02:08<00:44, 35.84it/s]Validation Iterations:  74%|███████▍  | 4442/6019 [02:08<00:43, 36.09it/s]Validation Iterations:  74%|███████▍  | 4446/6019 [02:09<00:43, 36.03it/s]Validation Iterations:  74%|███████▍  | 4450/6019 [02:09<00:43, 36.21it/s]Validation Iterations:  74%|███████▍  | 4454/6019 [02:09<00:42, 36.43it/s]Validation Iterations:  74%|███████▍  | 4458/6019 [02:09<00:42, 36.48it/s]Validation Iterations:  74%|███████▍  | 4462/6019 [02:09<00:42, 36.48it/s]Validation Iterations:  74%|███████▍  | 4466/6019 [02:09<00:42, 36.57it/s]Validation Iterations:  74%|███████▍  | 4470/6019 [02:09<00:42, 36.57it/s]Validation Iterations:  74%|███████▍  | 4474/6019 [02:09<00:42, 36.56it/s]Validation Iterations:  74%|███████▍  | 4478/6019 [02:09<00:42, 36.52it/s]Validation Iterations:  74%|███████▍  | 4482/6019 [02:10<00:42, 36.59it/s]Validation Iterations:  75%|███████▍  | 4486/6019 [02:10<00:42, 36.16it/s]Validation Iterations:  75%|███████▍  | 4490/6019 [02:10<00:42, 36.26it/s]Validation Iterations:  75%|███████▍  | 4494/6019 [02:10<00:41, 36.43it/s]Validation Iterations:  75%|███████▍  | 4498/6019 [02:10<00:41, 36.58it/s]Validation Iterations:  75%|███████▍  | 4502/6019 [02:10<00:41, 36.28it/s]Validation Iterations:  75%|███████▍  | 4506/6019 [02:10<00:41, 36.48it/s]Validation Iterations:  75%|███████▍  | 4510/6019 [02:10<00:41, 36.54it/s]Validation Iterations:  75%|███████▍  | 4514/6019 [02:10<00:41, 36.54it/s]Validation Iterations:  75%|███████▌  | 4518/6019 [02:11<00:41, 36.56it/s]Validation Iterations:  75%|███████▌  | 4522/6019 [02:11<00:40, 36.65it/s]Validation Iterations:  75%|███████▌  | 4526/6019 [02:11<00:40, 36.46it/s]Validation Iterations:  75%|███████▌  | 4530/6019 [02:11<00:40, 36.36it/s]Validation Iterations:  75%|███████▌  | 4534/6019 [02:11<00:40, 36.59it/s]Validation Iterations:  75%|███████▌  | 4538/6019 [02:11<00:40, 36.48it/s]Validation Iterations:  75%|███████▌  | 4542/6019 [02:11<00:40, 36.36it/s]Validation Iterations:  76%|███████▌  | 4546/6019 [02:11<00:40, 36.60it/s]Validation Iterations:  76%|███████▌  | 4550/6019 [02:11<00:40, 36.32it/s]Validation Iterations:  76%|███████▌  | 4554/6019 [02:12<00:40, 36.45it/s]Validation Iterations:  76%|███████▌  | 4558/6019 [02:12<00:39, 36.57it/s]Validation Iterations:  76%|███████▌  | 4562/6019 [02:12<00:40, 35.66it/s]Validation Iterations:  76%|███████▌  | 4566/6019 [02:12<00:42, 34.22it/s]Validation Iterations:  76%|███████▌  | 4570/6019 [02:12<00:41, 34.84it/s]Validation Iterations:  76%|███████▌  | 4574/6019 [02:12<00:40, 35.33it/s]Validation Iterations:  76%|███████▌  | 4578/6019 [02:12<00:40, 35.83it/s]Validation Iterations:  76%|███████▌  | 4582/6019 [02:12<00:39, 36.10it/s]Validation Iterations:  76%|███████▌  | 4586/6019 [02:12<00:39, 36.27it/s]Validation Iterations:  76%|███████▋  | 4590/6019 [02:13<00:39, 36.41it/s]Validation Iterations:  76%|███████▋  | 4594/6019 [02:13<00:39, 36.12it/s]Validation Iterations:  76%|███████▋  | 4598/6019 [02:13<00:40, 34.70it/s]Validation Iterations:  76%|███████▋  | 4602/6019 [02:13<00:40, 35.28it/s]Validation Iterations:  77%|███████▋  | 4606/6019 [02:13<00:39, 35.74it/s]Validation Iterations:  77%|███████▋  | 4610/6019 [02:13<00:39, 35.84it/s]Validation Iterations:  77%|███████▋  | 4614/6019 [02:13<00:41, 34.26it/s]Validation Iterations:  77%|███████▋  | 4618/6019 [02:13<00:40, 34.92it/s]Validation Iterations:  77%|███████▋  | 4622/6019 [02:13<00:39, 35.41it/s]Validation Iterations:  77%|███████▋  | 4626/6019 [02:14<00:39, 35.66it/s]Validation Iterations:  77%|███████▋  | 4630/6019 [02:14<00:38, 36.02it/s]Validation Iterations:  77%|███████▋  | 4634/6019 [02:14<00:38, 36.12it/s]Validation Iterations:  77%|███████▋  | 4638/6019 [02:14<00:38, 36.31it/s]Validation Iterations:  77%|███████▋  | 4642/6019 [02:14<00:37, 36.30it/s]Validation Iterations:  77%|███████▋  | 4646/6019 [02:14<00:37, 36.46it/s]Validation Iterations:  77%|███████▋  | 4650/6019 [02:14<00:37, 36.37it/s]Validation Iterations:  77%|███████▋  | 4654/6019 [02:14<00:37, 36.44it/s]Validation Iterations:  77%|███████▋  | 4658/6019 [02:14<00:37, 36.51it/s]Validation Iterations:  77%|███████▋  | 4662/6019 [02:15<00:37, 36.64it/s]Validation Iterations:  78%|███████▊  | 4666/6019 [02:15<00:37, 36.54it/s]Validation Iterations:  78%|███████▊  | 4670/6019 [02:15<00:36, 36.54it/s]Validation Iterations:  78%|███████▊  | 4674/6019 [02:15<00:36, 36.61it/s]Validation Iterations:  78%|███████▊  | 4678/6019 [02:15<00:36, 36.70it/s]Validation Iterations:  78%|███████▊  | 4682/6019 [02:15<00:36, 36.73it/s]Validation Iterations:  78%|███████▊  | 4686/6019 [02:15<00:36, 36.75it/s]Validation Iterations:  78%|███████▊  | 4690/6019 [02:15<00:36, 36.79it/s]Validation Iterations:  78%|███████▊  | 4694/6019 [02:15<00:36, 36.54it/s]Validation Iterations:  78%|███████▊  | 4698/6019 [02:16<00:36, 36.53it/s]Validation Iterations:  78%|███████▊  | 4702/6019 [02:16<00:35, 36.67it/s]Validation Iterations:  78%|███████▊  | 4706/6019 [02:16<00:35, 36.61it/s]Validation Iterations:  78%|███████▊  | 4710/6019 [02:16<00:35, 36.54it/s]Validation Iterations:  78%|███████▊  | 4714/6019 [02:16<00:35, 36.50it/s]Validation Iterations:  78%|███████▊  | 4718/6019 [02:16<00:35, 36.33it/s]Validation Iterations:  78%|███████▊  | 4722/6019 [02:16<00:36, 35.74it/s]Validation Iterations:  79%|███████▊  | 4726/6019 [02:16<00:36, 35.39it/s]Validation Iterations:  79%|███████▊  | 4730/6019 [02:16<00:37, 34.75it/s]Validation Iterations:  79%|███████▊  | 4734/6019 [02:17<00:37, 34.66it/s]Validation Iterations:  79%|███████▊  | 4738/6019 [02:17<00:36, 34.76it/s]Validation Iterations:  79%|███████▉  | 4742/6019 [02:17<00:36, 35.32it/s]Validation Iterations:  79%|███████▉  | 4746/6019 [02:17<00:35, 35.77it/s]Validation Iterations:  79%|███████▉  | 4750/6019 [02:17<00:35, 36.10it/s]Validation Iterations:  79%|███████▉  | 4754/6019 [02:17<00:34, 36.21it/s]Validation Iterations:  79%|███████▉  | 4758/6019 [02:17<00:34, 36.43it/s]Validation Iterations:  79%|███████▉  | 4762/6019 [02:17<00:34, 36.51it/s]Validation Iterations:  79%|███████▉  | 4766/6019 [02:17<00:34, 36.55it/s]Validation Iterations:  79%|███████▉  | 4770/6019 [02:18<00:34, 36.54it/s]Validation Iterations:  79%|███████▉  | 4774/6019 [02:18<00:33, 36.70it/s]Validation Iterations:  79%|███████▉  | 4778/6019 [02:18<00:33, 36.73it/s]Validation Iterations:  79%|███████▉  | 4782/6019 [02:18<00:33, 36.64it/s]Validation Iterations:  80%|███████▉  | 4786/6019 [02:18<00:33, 36.74it/s]Validation Iterations:  80%|███████▉  | 4790/6019 [02:18<00:33, 36.83it/s]Validation Iterations:  80%|███████▉  | 4794/6019 [02:18<00:34, 35.56it/s]Validation Iterations:  80%|███████▉  | 4798/6019 [02:18<00:34, 35.71it/s]Validation Iterations:  80%|███████▉  | 4802/6019 [02:18<00:33, 35.88it/s]Validation Iterations:  80%|███████▉  | 4806/6019 [02:19<00:33, 36.16it/s]Validation Iterations:  80%|███████▉  | 4810/6019 [02:19<00:33, 36.24it/s]Validation Iterations:  80%|███████▉  | 4814/6019 [02:19<00:33, 36.40it/s]Validation Iterations:  80%|████████  | 4818/6019 [02:19<00:32, 36.56it/s]Validation Iterations:  80%|████████  | 4822/6019 [02:19<00:32, 36.49it/s]Validation Iterations:  80%|████████  | 4826/6019 [02:19<00:32, 36.63it/s]Validation Iterations:  80%|████████  | 4830/6019 [02:19<00:32, 36.75it/s]Validation Iterations:  80%|████████  | 4834/6019 [02:19<00:32, 36.78it/s]Validation Iterations:  80%|████████  | 4838/6019 [02:19<00:32, 36.63it/s]Validation Iterations:  80%|████████  | 4842/6019 [02:20<00:32, 36.66it/s]Validation Iterations:  81%|████████  | 4846/6019 [02:20<00:31, 36.76it/s]Validation Iterations:  81%|████████  | 4850/6019 [02:20<00:31, 36.64it/s]Validation Iterations:  81%|████████  | 4854/6019 [02:20<00:31, 36.62it/s]Validation Iterations:  81%|████████  | 4858/6019 [02:20<00:31, 36.61it/s]Validation Iterations:  81%|████████  | 4862/6019 [02:20<00:31, 36.67it/s]Validation Iterations:  81%|████████  | 4866/6019 [02:20<00:31, 36.57it/s]Validation Iterations:  81%|████████  | 4870/6019 [02:20<00:31, 36.62it/s]Validation Iterations:  81%|████████  | 4874/6019 [02:20<00:31, 36.66it/s]Validation Iterations:  81%|████████  | 4878/6019 [02:20<00:31, 36.63it/s]Validation Iterations:  81%|████████  | 4882/6019 [02:21<00:31, 36.59it/s]Validation Iterations:  81%|████████  | 4886/6019 [02:21<00:31, 35.72it/s]Validation Iterations:  81%|████████  | 4890/6019 [02:21<00:31, 35.90it/s]Validation Iterations:  81%|████████▏ | 4894/6019 [02:21<00:31, 36.16it/s]Validation Iterations:  81%|████████▏ | 4898/6019 [02:21<00:30, 36.40it/s]Validation Iterations:  81%|████████▏ | 4902/6019 [02:21<00:30, 36.59it/s]Validation Iterations:  82%|████████▏ | 4906/6019 [02:21<00:30, 36.66it/s]Validation Iterations:  82%|████████▏ | 4910/6019 [02:21<00:30, 36.77it/s]Validation Iterations:  82%|████████▏ | 4914/6019 [02:21<00:30, 36.59it/s]Validation Iterations:  82%|████████▏ | 4918/6019 [02:22<00:30, 36.65it/s]Validation Iterations:  82%|████████▏ | 4922/6019 [02:22<00:29, 36.63it/s]Validation Iterations:  82%|████████▏ | 4926/6019 [02:22<00:29, 36.73it/s]Validation Iterations:  82%|████████▏ | 4930/6019 [02:22<00:29, 36.80it/s]Validation Iterations:  82%|████████▏ | 4934/6019 [02:22<00:29, 36.73it/s]Validation Iterations:  82%|████████▏ | 4938/6019 [02:22<00:29, 36.83it/s]Validation Iterations:  82%|████████▏ | 4942/6019 [02:22<00:29, 36.81it/s]Validation Iterations:  82%|████████▏ | 4946/6019 [02:22<00:29, 36.75it/s]Validation Iterations:  82%|████████▏ | 4950/6019 [02:22<00:29, 36.30it/s]Validation Iterations:  82%|████████▏ | 4954/6019 [02:23<00:29, 36.47it/s]Validation Iterations:  82%|████████▏ | 4958/6019 [02:23<00:28, 36.65it/s]Validation Iterations:  82%|████████▏ | 4962/6019 [02:23<00:28, 36.79it/s]Validation Iterations:  83%|████████▎ | 4966/6019 [02:23<00:28, 36.88it/s]Validation Iterations:  83%|████████▎ | 4970/6019 [02:23<00:28, 36.89it/s]Validation Iterations:  83%|████████▎ | 4974/6019 [02:23<00:28, 36.91it/s]Validation Iterations:  83%|████████▎ | 4978/6019 [02:23<00:28, 36.28it/s]Validation Iterations:  83%|████████▎ | 4982/6019 [02:23<00:29, 35.54it/s]Validation Iterations:  83%|████████▎ | 4986/6019 [02:23<00:28, 35.64it/s]Validation Iterations:  83%|████████▎ | 4990/6019 [02:24<00:28, 35.69it/s]Validation Iterations:  83%|████████▎ | 4994/6019 [02:24<00:28, 35.81it/s]Validation Iterations:  83%|████████▎ | 4998/6019 [02:24<00:28, 36.00it/s]Validation Iterations:  83%|████████▎ | 5002/6019 [02:24<00:28, 36.18it/s]Validation Iterations:  83%|████████▎ | 5006/6019 [02:24<00:28, 36.18it/s]Validation Iterations:  83%|████████▎ | 5010/6019 [02:24<00:27, 36.34it/s]Validation Iterations:  83%|████████▎ | 5014/6019 [02:24<00:27, 36.54it/s]Validation Iterations:  83%|████████▎ | 5018/6019 [02:24<00:28, 35.60it/s]Validation Iterations:  83%|████████▎ | 5022/6019 [02:24<00:28, 35.58it/s]Validation Iterations:  84%|████████▎ | 5026/6019 [02:25<00:27, 35.99it/s]Validation Iterations:  84%|████████▎ | 5030/6019 [02:25<00:27, 36.18it/s]Validation Iterations:  84%|████████▎ | 5034/6019 [02:25<00:27, 35.77it/s]Validation Iterations:  84%|████████▎ | 5038/6019 [02:25<00:27, 35.75it/s]Validation Iterations:  84%|████████▍ | 5042/6019 [02:25<00:27, 35.70it/s]Validation Iterations:  84%|████████▍ | 5046/6019 [02:25<00:27, 35.94it/s]Validation Iterations:  84%|████████▍ | 5050/6019 [02:25<00:26, 36.14it/s]Validation Iterations:  84%|████████▍ | 5054/6019 [02:25<00:26, 35.98it/s]Validation Iterations:  84%|████████▍ | 5058/6019 [02:25<00:26, 36.17it/s]Validation Iterations:  84%|████████▍ | 5062/6019 [02:26<00:26, 36.22it/s]Validation Iterations:  84%|████████▍ | 5066/6019 [02:26<00:26, 36.42it/s]Validation Iterations:  84%|████████▍ | 5070/6019 [02:26<00:26, 35.32it/s]Validation Iterations:  84%|████████▍ | 5074/6019 [02:26<00:26, 35.59it/s]Validation Iterations:  84%|████████▍ | 5078/6019 [02:26<00:26, 36.02it/s]Validation Iterations:  84%|████████▍ | 5082/6019 [02:26<00:25, 36.29it/s]Validation Iterations:  84%|████████▍ | 5086/6019 [02:26<00:25, 36.55it/s]Validation Iterations:  85%|████████▍ | 5090/6019 [02:26<00:25, 36.73it/s]Validation Iterations:  85%|████████▍ | 5094/6019 [02:26<00:25, 36.79it/s]Validation Iterations:  85%|████████▍ | 5098/6019 [02:27<00:25, 36.32it/s]Validation Iterations:  85%|████████▍ | 5102/6019 [02:27<00:25, 36.26it/s]Validation Iterations:  85%|████████▍ | 5106/6019 [02:27<00:25, 35.71it/s]Validation Iterations:  85%|████████▍ | 5110/6019 [02:27<00:28, 32.20it/s]Validation Iterations:  85%|████████▍ | 5114/6019 [02:27<00:27, 32.77it/s]Validation Iterations:  85%|████████▌ | 5118/6019 [02:27<00:27, 33.33it/s]Validation Iterations:  85%|████████▌ | 5122/6019 [02:27<00:26, 34.10it/s]Validation Iterations:  85%|████████▌ | 5126/6019 [02:27<00:25, 34.50it/s]Validation Iterations:  85%|████████▌ | 5130/6019 [02:28<00:25, 34.59it/s]Validation Iterations:  85%|████████▌ | 5134/6019 [02:28<00:25, 34.59it/s]Validation Iterations:  85%|████████▌ | 5138/6019 [02:28<00:25, 34.94it/s]Validation Iterations:  85%|████████▌ | 5142/6019 [02:28<00:24, 35.19it/s]Validation Iterations:  85%|████████▌ | 5146/6019 [02:28<00:24, 35.28it/s]Validation Iterations:  86%|████████▌ | 5150/6019 [02:28<00:24, 35.51it/s]Validation Iterations:  86%|████████▌ | 5154/6019 [02:28<00:25, 34.56it/s]Validation Iterations:  86%|████████▌ | 5158/6019 [02:28<00:25, 33.49it/s]Validation Iterations:  86%|████████▌ | 5162/6019 [02:28<00:25, 33.18it/s]Validation Iterations:  86%|████████▌ | 5166/6019 [02:29<00:25, 33.85it/s]Validation Iterations:  86%|████████▌ | 5170/6019 [02:29<00:24, 34.47it/s]Validation Iterations:  86%|████████▌ | 5174/6019 [02:29<00:24, 33.83it/s]Validation Iterations:  86%|████████▌ | 5178/6019 [02:29<00:24, 33.98it/s]Validation Iterations:  86%|████████▌ | 5182/6019 [02:29<00:24, 34.22it/s]Validation Iterations:  86%|████████▌ | 5186/6019 [02:29<00:24, 34.27it/s]Validation Iterations:  86%|████████▌ | 5190/6019 [02:29<00:27, 30.60it/s]Validation Iterations:  86%|████████▋ | 5194/6019 [02:29<00:25, 31.91it/s]Validation Iterations:  86%|████████▋ | 5198/6019 [02:30<00:25, 32.80it/s]Validation Iterations:  86%|████████▋ | 5202/6019 [02:30<00:24, 33.23it/s]Validation Iterations:  86%|████████▋ | 5206/6019 [02:30<00:24, 32.95it/s]Validation Iterations:  87%|████████▋ | 5210/6019 [02:30<00:25, 31.95it/s]Validation Iterations:  87%|████████▋ | 5214/6019 [02:30<00:24, 32.67it/s]Validation Iterations:  87%|████████▋ | 5218/6019 [02:30<00:24, 32.11it/s]Validation Iterations:  87%|████████▋ | 5222/6019 [02:30<00:24, 32.80it/s]Validation Iterations:  87%|████████▋ | 5226/6019 [02:30<00:23, 33.40it/s]Validation Iterations:  87%|████████▋ | 5230/6019 [02:30<00:23, 33.43it/s]Validation Iterations:  87%|████████▋ | 5234/6019 [02:31<00:23, 33.44it/s]Validation Iterations:  87%|████████▋ | 5238/6019 [02:31<00:23, 33.92it/s]Validation Iterations:  87%|████████▋ | 5242/6019 [02:31<00:22, 33.98it/s]Validation Iterations:  87%|████████▋ | 5246/6019 [02:31<00:22, 34.20it/s]Validation Iterations:  87%|████████▋ | 5250/6019 [02:31<00:22, 34.23it/s]Validation Iterations:  87%|████████▋ | 5254/6019 [02:31<00:22, 34.60it/s]Validation Iterations:  87%|████████▋ | 5258/6019 [02:31<00:22, 34.25it/s]Validation Iterations:  87%|████████▋ | 5262/6019 [02:31<00:22, 34.12it/s]Validation Iterations:  87%|████████▋ | 5266/6019 [02:32<00:22, 33.52it/s]Validation Iterations:  88%|████████▊ | 5270/6019 [02:32<00:22, 32.89it/s]Validation Iterations:  88%|████████▊ | 5274/6019 [02:32<00:22, 33.77it/s]Validation Iterations:  88%|████████▊ | 5278/6019 [02:32<00:21, 34.21it/s]Validation Iterations:  88%|████████▊ | 5282/6019 [02:32<00:22, 32.67it/s]Validation Iterations:  88%|████████▊ | 5286/6019 [02:32<00:22, 32.06it/s]Validation Iterations:  88%|████████▊ | 5290/6019 [02:32<00:22, 33.03it/s]Validation Iterations:  88%|████████▊ | 5294/6019 [02:32<00:21, 33.93it/s]Validation Iterations:  88%|████████▊ | 5298/6019 [02:33<00:20, 34.66it/s]Validation Iterations:  88%|████████▊ | 5302/6019 [02:33<00:22, 32.22it/s]Validation Iterations:  88%|████████▊ | 5306/6019 [02:33<00:23, 30.69it/s]Validation Iterations:  88%|████████▊ | 5310/6019 [02:33<00:28, 24.89it/s]Validation Iterations:  88%|████████▊ | 5313/6019 [02:33<00:30, 23.16it/s]Validation Iterations:  88%|████████▊ | 5316/6019 [02:33<00:33, 21.19it/s]Validation Iterations:  88%|████████▊ | 5319/6019 [02:34<00:33, 20.64it/s]Validation Iterations:  88%|████████▊ | 5322/6019 [02:34<00:33, 20.77it/s]Validation Iterations:  88%|████████▊ | 5325/6019 [02:34<00:34, 19.91it/s]Validation Iterations:  89%|████████▊ | 5328/6019 [02:34<00:35, 19.35it/s]Validation Iterations:  89%|████████▊ | 5330/6019 [02:34<00:36, 19.10it/s]Validation Iterations:  89%|████████▊ | 5332/6019 [02:34<00:35, 19.11it/s]Validation Iterations:  89%|████████▊ | 5334/6019 [02:34<00:37, 18.42it/s]Validation Iterations:  89%|████████▊ | 5336/6019 [02:34<00:37, 18.44it/s]Validation Iterations:  89%|████████▊ | 5339/6019 [02:35<00:36, 18.77it/s]Validation Iterations:  89%|████████▊ | 5341/6019 [02:35<00:36, 18.56it/s]Validation Iterations:  89%|████████▉ | 5344/6019 [02:35<00:35, 18.96it/s]Validation Iterations:  89%|████████▉ | 5346/6019 [02:35<00:35, 18.96it/s]Validation Iterations:  89%|████████▉ | 5348/6019 [02:35<00:36, 18.58it/s]Validation Iterations:  89%|████████▉ | 5351/6019 [02:35<00:34, 19.10it/s]Validation Iterations:  89%|████████▉ | 5353/6019 [02:35<00:35, 18.80it/s]Validation Iterations:  89%|████████▉ | 5355/6019 [02:35<00:34, 19.02it/s]Validation Iterations:  89%|████████▉ | 5357/6019 [02:36<00:35, 18.41it/s]Validation Iterations:  89%|████████▉ | 5359/6019 [02:36<00:36, 17.91it/s]Validation Iterations:  89%|████████▉ | 5362/6019 [02:36<00:35, 18.35it/s]Validation Iterations:  89%|████████▉ | 5364/6019 [02:36<00:35, 18.56it/s]Validation Iterations:  89%|████████▉ | 5367/6019 [02:36<00:34, 18.92it/s]Validation Iterations:  89%|████████▉ | 5370/6019 [02:36<00:32, 19.67it/s]Validation Iterations:  89%|████████▉ | 5373/6019 [02:36<00:32, 19.59it/s]Validation Iterations:  89%|████████▉ | 5376/6019 [02:37<00:33, 19.31it/s]Validation Iterations:  89%|████████▉ | 5378/6019 [02:37<00:33, 19.05it/s]Validation Iterations:  89%|████████▉ | 5380/6019 [02:37<00:34, 18.75it/s]Validation Iterations:  89%|████████▉ | 5383/6019 [02:37<00:32, 19.47it/s]Validation Iterations:  89%|████████▉ | 5386/6019 [02:37<00:32, 19.65it/s]Validation Iterations:  90%|████████▉ | 5388/6019 [02:37<00:32, 19.48it/s]Validation Iterations:  90%|████████▉ | 5391/6019 [02:37<00:30, 20.29it/s]Validation Iterations:  90%|████████▉ | 5394/6019 [02:37<00:33, 18.75it/s]Validation Iterations:  90%|████████▉ | 5396/6019 [02:38<00:32, 18.94it/s]Validation Iterations:  90%|████████▉ | 5398/6019 [02:38<00:32, 19.08it/s]Validation Iterations:  90%|████████▉ | 5401/6019 [02:38<00:30, 20.06it/s]Validation Iterations:  90%|████████▉ | 5404/6019 [02:38<00:32, 18.77it/s]Validation Iterations:  90%|████████▉ | 5407/6019 [02:38<00:30, 19.90it/s]Validation Iterations:  90%|████████▉ | 5410/6019 [02:38<00:32, 18.68it/s]Validation Iterations:  90%|████████▉ | 5413/6019 [02:38<00:31, 19.44it/s]Validation Iterations:  90%|████████▉ | 5415/6019 [02:39<00:31, 19.42it/s]Validation Iterations:  90%|████████▉ | 5417/6019 [02:39<00:31, 19.18it/s]Validation Iterations:  90%|█████████ | 5419/6019 [02:39<00:31, 18.96it/s]Validation Iterations:  90%|█████████ | 5421/6019 [02:39<00:32, 18.60it/s]Validation Iterations:  90%|█████████ | 5423/6019 [02:39<00:31, 18.95it/s]Validation Iterations:  90%|█████████ | 5425/6019 [02:39<00:31, 18.80it/s]Validation Iterations:  90%|█████████ | 5428/6019 [02:39<00:29, 19.94it/s]Validation Iterations:  90%|█████████ | 5431/6019 [02:39<00:29, 19.79it/s]Validation Iterations:  90%|█████████ | 5433/6019 [02:39<00:29, 19.74it/s]Validation Iterations:  90%|█████████ | 5435/6019 [02:40<00:31, 18.81it/s]Validation Iterations:  90%|█████████ | 5438/6019 [02:40<00:29, 19.89it/s]Validation Iterations:  90%|█████████ | 5440/6019 [02:40<00:29, 19.42it/s]Validation Iterations:  90%|█████████ | 5443/6019 [02:40<00:29, 19.65it/s]Validation Iterations:  90%|█████████ | 5445/6019 [02:40<00:29, 19.39it/s]Validation Iterations:  90%|█████████ | 5447/6019 [02:40<00:29, 19.23it/s]Validation Iterations:  91%|█████████ | 5449/6019 [02:40<00:29, 19.27it/s]Validation Iterations:  91%|█████████ | 5451/6019 [02:40<00:29, 19.35it/s]Validation Iterations:  91%|█████████ | 5454/6019 [02:41<00:29, 18.94it/s]Validation Iterations:  91%|█████████ | 5456/6019 [02:41<00:31, 17.93it/s]Validation Iterations:  91%|█████████ | 5459/6019 [02:41<00:29, 19.00it/s]Validation Iterations:  91%|█████████ | 5461/6019 [02:41<00:29, 18.77it/s]Validation Iterations:  91%|█████████ | 5463/6019 [02:41<00:30, 18.45it/s]Validation Iterations:  91%|█████████ | 5465/6019 [02:41<00:30, 18.42it/s]Validation Iterations:  91%|█████████ | 5467/6019 [02:41<00:29, 18.63it/s]Validation Iterations:  91%|█████████ | 5470/6019 [02:41<00:28, 19.39it/s]Validation Iterations:  91%|█████████ | 5472/6019 [02:42<00:29, 18.40it/s]Validation Iterations:  91%|█████████ | 5475/6019 [02:42<00:27, 19.48it/s]Validation Iterations:  91%|█████████ | 5477/6019 [02:42<00:28, 19.05it/s]Validation Iterations:  91%|█████████ | 5479/6019 [02:42<00:29, 18.36it/s]Validation Iterations:  91%|█████████ | 5481/6019 [02:42<00:29, 18.51it/s]Validation Iterations:  91%|█████████ | 5483/6019 [02:42<00:28, 18.49it/s]Validation Iterations:  91%|█████████ | 5486/6019 [02:42<00:28, 18.77it/s]Validation Iterations:  91%|█████████ | 5488/6019 [02:42<00:28, 18.41it/s]Validation Iterations:  91%|█████████ | 5491/6019 [02:43<00:27, 19.23it/s]Validation Iterations:  91%|█████████▏| 5494/6019 [02:43<00:26, 19.46it/s]Validation Iterations:  91%|█████████▏| 5496/6019 [02:43<00:28, 18.40it/s]Validation Iterations:  91%|█████████▏| 5498/6019 [02:43<00:27, 18.67it/s]Validation Iterations:  91%|█████████▏| 5501/6019 [02:43<00:28, 18.49it/s]Validation Iterations:  91%|█████████▏| 5503/6019 [02:43<00:27, 18.44it/s]Validation Iterations:  91%|█████████▏| 5505/6019 [02:43<00:29, 17.58it/s]Validation Iterations:  92%|█████████▏| 5508/6019 [02:43<00:26, 19.06it/s]Validation Iterations:  92%|█████████▏| 5511/6019 [02:44<00:25, 19.74it/s]Validation Iterations:  92%|█████████▏| 5513/6019 [02:44<00:25, 19.57it/s]Validation Iterations:  92%|█████████▏| 5515/6019 [02:44<00:25, 19.59it/s]Validation Iterations:  92%|█████████▏| 5518/6019 [02:44<00:24, 20.60it/s]Validation Iterations:  92%|█████████▏| 5521/6019 [02:44<00:24, 20.40it/s]Validation Iterations:  92%|█████████▏| 5524/6019 [02:44<00:23, 21.09it/s]Validation Iterations:  92%|█████████▏| 5527/6019 [02:44<00:22, 21.78it/s]Validation Iterations:  92%|█████████▏| 5530/6019 [02:45<00:23, 21.16it/s]Validation Iterations:  92%|█████████▏| 5533/6019 [02:45<00:23, 21.11it/s]Validation Iterations:  92%|█████████▏| 5536/6019 [02:45<00:22, 21.58it/s]Validation Iterations:  92%|█████████▏| 5539/6019 [02:45<00:22, 21.39it/s]Validation Iterations:  92%|█████████▏| 5542/6019 [02:45<00:22, 21.40it/s]Validation Iterations:  92%|█████████▏| 5545/6019 [02:45<00:21, 21.99it/s]Validation Iterations:  92%|█████████▏| 5548/6019 [02:45<00:21, 21.65it/s]Validation Iterations:  92%|█████████▏| 5551/6019 [02:46<00:22, 20.72it/s]Validation Iterations:  92%|█████████▏| 5554/6019 [02:46<00:21, 21.24it/s]Validation Iterations:  92%|█████████▏| 5557/6019 [02:46<00:22, 20.99it/s]Validation Iterations:  92%|█████████▏| 5560/6019 [02:46<00:21, 20.89it/s]Validation Iterations:  92%|█████████▏| 5563/6019 [02:46<00:20, 21.92it/s]Validation Iterations:  92%|█████████▏| 5566/6019 [02:46<00:22, 19.98it/s]Validation Iterations:  93%|█████████▎| 5569/6019 [02:46<00:22, 19.88it/s]Validation Iterations:  93%|█████████▎| 5572/6019 [02:47<00:22, 20.21it/s]Validation Iterations:  93%|█████████▎| 5575/6019 [02:47<00:22, 20.10it/s]Validation Iterations:  93%|█████████▎| 5578/6019 [02:47<00:21, 20.30it/s]Validation Iterations:  93%|█████████▎| 5581/6019 [02:47<00:21, 20.50it/s]Validation Iterations:  93%|█████████▎| 5584/6019 [02:47<00:21, 19.86it/s]Validation Iterations:  93%|█████████▎| 5586/6019 [02:47<00:22, 19.53it/s]Validation Iterations:  93%|█████████▎| 5589/6019 [02:47<00:21, 19.60it/s]Validation Iterations:  93%|█████████▎| 5592/6019 [02:48<00:22, 19.29it/s]Validation Iterations:  93%|█████████▎| 5595/6019 [02:48<00:20, 20.97it/s]Validation Iterations:  93%|█████████▎| 5598/6019 [02:48<00:19, 21.69it/s]Validation Iterations:  93%|█████████▎| 5601/6019 [02:48<00:19, 20.93it/s]Validation Iterations:  93%|█████████▎| 5604/6019 [02:48<00:19, 21.00it/s]Validation Iterations:  93%|█████████▎| 5607/6019 [02:48<00:20, 20.10it/s]Validation Iterations:  93%|█████████▎| 5610/6019 [02:48<00:21, 19.45it/s]Validation Iterations:  93%|█████████▎| 5613/6019 [02:49<00:20, 20.10it/s]Validation Iterations:  93%|█████████▎| 5616/6019 [02:49<00:20, 19.68it/s]Validation Iterations:  93%|█████████▎| 5618/6019 [02:49<00:20, 19.51it/s]Validation Iterations:  93%|█████████▎| 5620/6019 [02:49<00:20, 19.50it/s]Validation Iterations:  93%|█████████▎| 5623/6019 [02:49<00:19, 20.69it/s]Validation Iterations:  93%|█████████▎| 5626/6019 [02:49<00:19, 20.33it/s]Validation Iterations:  94%|█████████▎| 5629/6019 [02:49<00:18, 20.77it/s]Validation Iterations:  94%|█████████▎| 5632/6019 [02:50<00:19, 20.13it/s]Validation Iterations:  94%|█████████▎| 5635/6019 [02:50<00:18, 20.32it/s]Validation Iterations:  94%|█████████▎| 5638/6019 [02:50<00:18, 20.40it/s]Validation Iterations:  94%|█████████▎| 5641/6019 [02:50<00:18, 20.59it/s]Validation Iterations:  94%|█████████▍| 5644/6019 [02:50<00:18, 20.12it/s]Validation Iterations:  94%|█████████▍| 5647/6019 [02:50<00:18, 20.60it/s]Validation Iterations:  94%|█████████▍| 5650/6019 [02:50<00:18, 19.74it/s]Validation Iterations:  94%|█████████▍| 5653/6019 [02:51<00:17, 20.94it/s]Validation Iterations:  94%|█████████▍| 5656/6019 [02:51<00:17, 21.12it/s]Validation Iterations:  94%|█████████▍| 5659/6019 [02:51<00:17, 20.58it/s]Validation Iterations:  94%|█████████▍| 5662/6019 [02:51<00:16, 22.07it/s]Validation Iterations:  94%|█████████▍| 5665/6019 [02:51<00:16, 21.57it/s]Validation Iterations:  94%|█████████▍| 5668/6019 [02:51<00:17, 20.60it/s]Validation Iterations:  94%|█████████▍| 5671/6019 [02:51<00:17, 20.41it/s]Validation Iterations:  94%|█████████▍| 5674/6019 [02:52<00:16, 20.76it/s]Validation Iterations:  94%|█████████▍| 5677/6019 [02:52<00:16, 20.79it/s]Validation Iterations:  94%|█████████▍| 5680/6019 [02:52<00:16, 21.17it/s]Validation Iterations:  94%|█████████▍| 5683/6019 [02:52<00:16, 20.85it/s]Validation Iterations:  94%|█████████▍| 5686/6019 [02:52<00:16, 20.42it/s]Validation Iterations:  95%|█████████▍| 5689/6019 [02:52<00:15, 20.83it/s]Validation Iterations:  95%|█████████▍| 5692/6019 [02:52<00:15, 20.90it/s]Validation Iterations:  95%|█████████▍| 5695/6019 [02:53<00:15, 20.77it/s]Validation Iterations:  95%|█████████▍| 5698/6019 [02:53<00:15, 20.51it/s]Validation Iterations:  95%|█████████▍| 5701/6019 [02:53<00:16, 19.34it/s]Validation Iterations:  95%|█████████▍| 5704/6019 [02:53<00:16, 19.42it/s]Validation Iterations:  95%|█████████▍| 5707/6019 [02:53<00:15, 20.67it/s]Validation Iterations:  95%|█████████▍| 5710/6019 [02:53<00:14, 21.23it/s]Validation Iterations:  95%|█████████▍| 5713/6019 [02:53<00:15, 19.97it/s]Validation Iterations:  95%|█████████▍| 5716/6019 [02:54<00:14, 20.21it/s]Validation Iterations:  95%|█████████▌| 5719/6019 [02:54<00:15, 19.60it/s]Validation Iterations:  95%|█████████▌| 5722/6019 [02:54<00:14, 20.43it/s]Validation Iterations:  95%|█████████▌| 5725/6019 [02:54<00:14, 20.46it/s]Validation Iterations:  95%|█████████▌| 5728/6019 [02:54<00:14, 20.45it/s]Validation Iterations:  95%|█████████▌| 5731/6019 [02:54<00:14, 20.24it/s]Validation Iterations:  95%|█████████▌| 5734/6019 [02:54<00:14, 19.88it/s]Validation Iterations:  95%|█████████▌| 5736/6019 [02:55<00:14, 19.74it/s]Validation Iterations:  95%|█████████▌| 5738/6019 [02:55<00:14, 19.54it/s]Validation Iterations:  95%|█████████▌| 5740/6019 [02:55<00:14, 19.38it/s]Validation Iterations:  95%|█████████▌| 5743/6019 [02:55<00:14, 19.59it/s]Validation Iterations:  95%|█████████▌| 5745/6019 [02:55<00:13, 19.60it/s]Validation Iterations:  95%|█████████▌| 5747/6019 [02:55<00:13, 19.65it/s]Validation Iterations:  96%|█████████▌| 5750/6019 [02:55<00:13, 20.28it/s]Validation Iterations:  96%|█████████▌| 5753/6019 [02:55<00:13, 20.27it/s]Validation Iterations:  96%|█████████▌| 5756/6019 [02:56<00:13, 19.71it/s]Validation Iterations:  96%|█████████▌| 5758/6019 [02:56<00:13, 19.64it/s]Validation Iterations:  96%|█████████▌| 5760/6019 [02:56<00:13, 19.40it/s]Validation Iterations:  96%|█████████▌| 5762/6019 [02:56<00:13, 19.31it/s]Validation Iterations:  96%|█████████▌| 5765/6019 [02:56<00:12, 20.93it/s]Validation Iterations:  96%|█████████▌| 5768/6019 [02:56<00:12, 19.65it/s]Validation Iterations:  96%|█████████▌| 5770/6019 [02:56<00:12, 19.72it/s]Validation Iterations:  96%|█████████▌| 5773/6019 [02:56<00:12, 19.90it/s]Validation Iterations:  96%|█████████▌| 5776/6019 [02:57<00:12, 19.64it/s]Validation Iterations:  96%|█████████▌| 5778/6019 [02:57<00:12, 19.28it/s]Validation Iterations:  96%|█████████▌| 5781/6019 [02:57<00:11, 20.13it/s]Validation Iterations:  96%|█████████▌| 5784/6019 [02:57<00:12, 19.31it/s]Validation Iterations:  96%|█████████▌| 5787/6019 [02:57<00:11, 19.70it/s]Validation Iterations:  96%|█████████▌| 5790/6019 [02:57<00:11, 19.79it/s]Validation Iterations:  96%|█████████▌| 5792/6019 [02:57<00:11, 19.66it/s]Validation Iterations:  96%|█████████▋| 5795/6019 [02:58<00:11, 20.19it/s]Validation Iterations:  96%|█████████▋| 5798/6019 [02:58<00:10, 20.54it/s]Validation Iterations:  96%|█████████▋| 5801/6019 [02:58<00:10, 20.45it/s]Validation Iterations:  96%|█████████▋| 5804/6019 [02:58<00:10, 20.01it/s]Validation Iterations:  96%|█████████▋| 5807/6019 [02:58<00:10, 20.13it/s]Validation Iterations:  97%|█████████▋| 5810/6019 [02:58<00:10, 20.75it/s]Validation Iterations:  97%|█████████▋| 5813/6019 [02:58<00:09, 20.97it/s]Validation Iterations:  97%|█████████▋| 5816/6019 [02:59<00:09, 20.71it/s]Validation Iterations:  97%|█████████▋| 5819/6019 [02:59<00:09, 20.01it/s]Validation Iterations:  97%|█████████▋| 5822/6019 [02:59<00:09, 20.10it/s]Validation Iterations:  97%|█████████▋| 5825/6019 [02:59<00:09, 20.46it/s]Validation Iterations:  97%|█████████▋| 5828/6019 [02:59<00:09, 19.44it/s]Validation Iterations:  97%|█████████▋| 5830/6019 [02:59<00:09, 19.22it/s]Validation Iterations:  97%|█████████▋| 5833/6019 [02:59<00:08, 21.28it/s]Validation Iterations:  97%|█████████▋| 5836/6019 [03:00<00:08, 20.91it/s]Validation Iterations:  97%|█████████▋| 5839/6019 [03:00<00:08, 20.64it/s]Validation Iterations:  97%|█████████▋| 5842/6019 [03:00<00:08, 21.60it/s]Validation Iterations:  97%|█████████▋| 5846/6019 [03:00<00:07, 24.35it/s]Validation Iterations:  97%|█████████▋| 5850/6019 [03:00<00:06, 26.45it/s]Validation Iterations:  97%|█████████▋| 5854/6019 [03:00<00:05, 28.19it/s]Validation Iterations:  97%|█████████▋| 5858/6019 [03:00<00:05, 28.86it/s]Validation Iterations:  97%|█████████▋| 5862/6019 [03:00<00:05, 29.71it/s]Validation Iterations:  97%|█████████▋| 5866/6019 [03:01<00:05, 30.22it/s]Validation Iterations:  98%|█████████▊| 5870/6019 [03:01<00:04, 30.60it/s]Validation Iterations:  98%|█████████▊| 5874/6019 [03:01<00:04, 31.19it/s]Validation Iterations:  98%|█████████▊| 5878/6019 [03:01<00:04, 31.10it/s]Validation Iterations:  98%|█████████▊| 5882/6019 [03:01<00:04, 31.40it/s]Validation Iterations:  98%|█████████▊| 5886/6019 [03:01<00:04, 31.54it/s]Validation Iterations:  98%|█████████▊| 5890/6019 [03:01<00:04, 31.59it/s]Validation Iterations:  98%|█████████▊| 5894/6019 [03:01<00:03, 32.06it/s]Validation Iterations:  98%|█████████▊| 5898/6019 [03:02<00:03, 31.58it/s]Validation Iterations:  98%|█████████▊| 5902/6019 [03:02<00:03, 31.85it/s]Validation Iterations:  98%|█████████▊| 5906/6019 [03:02<00:03, 31.95it/s]Validation Iterations:  98%|█████████▊| 5910/6019 [03:02<00:03, 32.01it/s]Validation Iterations:  98%|█████████▊| 5914/6019 [03:02<00:03, 32.48it/s]Validation Iterations:  98%|█████████▊| 5918/6019 [03:02<00:03, 32.27it/s]Validation Iterations:  98%|█████████▊| 5922/6019 [03:02<00:03, 32.17it/s]Validation Iterations:  98%|█████████▊| 5926/6019 [03:02<00:02, 32.17it/s]Validation Iterations:  99%|█████████▊| 5930/6019 [03:03<00:02, 31.72it/s]Validation Iterations:  99%|█████████▊| 5934/6019 [03:03<00:02, 32.43it/s]Validation Iterations:  99%|█████████▊| 5938/6019 [03:03<00:02, 32.15it/s]Validation Iterations:  99%|█████████▊| 5942/6019 [03:03<00:02, 31.94it/s]Validation Iterations:  99%|█████████▉| 5946/6019 [03:03<00:02, 31.89it/s]Validation Iterations:  99%|█████████▉| 5950/6019 [03:03<00:02, 31.84it/s]Validation Iterations:  99%|█████████▉| 5954/6019 [03:03<00:01, 32.56it/s]Validation Iterations:  99%|█████████▉| 5958/6019 [03:03<00:01, 31.98it/s]Validation Iterations:  99%|█████████▉| 5962/6019 [03:04<00:01, 30.85it/s]Validation Iterations:  99%|█████████▉| 5966/6019 [03:04<00:01, 31.15it/s]Validation Iterations:  99%|█████████▉| 5970/6019 [03:04<00:01, 31.27it/s]Validation Iterations:  99%|█████████▉| 5974/6019 [03:04<00:01, 32.07it/s]Validation Iterations:  99%|█████████▉| 5978/6019 [03:04<00:01, 31.70it/s]Validation Iterations:  99%|█████████▉| 5982/6019 [03:04<00:01, 31.82it/s]Validation Iterations:  99%|█████████▉| 5986/6019 [03:04<00:01, 32.16it/s]Validation Iterations: 100%|█████████▉| 5990/6019 [03:04<00:00, 31.93it/s]Validation Iterations: 100%|█████████▉| 5994/6019 [03:05<00:00, 32.60it/s]Validation Iterations: 100%|█████████▉| 5998/6019 [03:05<00:00, 32.03it/s]Validation Iterations: 100%|█████████▉| 6002/6019 [03:05<00:00, 32.23it/s]Validation Iterations: 100%|█████████▉| 6006/6019 [03:05<00:00, 32.01it/s]Validation Iterations: 100%|█████████▉| 6010/6019 [03:05<00:00, 32.03it/s]Validation Iterations: 100%|█████████▉| 6014/6019 [03:05<00:00, 32.43it/s]Validation Iterations: 100%|█████████▉| 6018/6019 [03:05<00:00, 32.31it/s]Validation Iterations: 100%|██████████| 6019/6019 [03:06<00:00, 32.36it/s]{'iou': {'@0.40': 0.37822386622428894, '@0.50': 0.3638559579849243}, 'iou_with_occlusions': {'@0.40': 0.3419281542301178, '@0.50': 0.3037073314189911}}
 
-          [[0.5333, 0.5333, 0.5333,  ..., 0.5412, 0.5412, 0.5333],
-           [0.5333, 0.5333, 0.5333,  ..., 0.5490, 0.5490, 0.5412],
-           [0.5294, 0.5255, 0.5294,  ..., 0.5529, 0.5529, 0.5490],
-           ...,
-           [0.2275, 0.2314, 0.2275,  ..., 0.2588, 0.2667, 0.2667],
-           [0.2275, 0.2353, 0.2275,  ..., 0.2549, 0.2588, 0.2627],
-           [0.2275, 0.2314, 0.2275,  ..., 0.2549, 0.2471, 0.2510]],
-
-          [[0.5333, 0.5333, 0.5333,  ..., 0.5373, 0.5373, 0.5294],
-           [0.5333, 0.5333, 0.5373,  ..., 0.5451, 0.5451, 0.5373],
-           [0.5412, 0.5373, 0.5373,  ..., 0.5490, 0.5490, 0.5451],
-           ...,
-           [0.2275, 0.2314, 0.2275,  ..., 0.2431, 0.2471, 0.2471],
-           [0.2275, 0.2353, 0.2275,  ..., 0.2510, 0.2549, 0.2588],
-           [0.2275, 0.2314, 0.2275,  ..., 0.2510, 0.2431, 0.2471]]],
-
-
-         [[[0.5647, 0.5647, 0.5725,  ..., 0.4078, 0.4078, 0.4039],
-           [0.5686, 0.5686, 0.5804,  ..., 0.4039, 0.4039, 0.4000],
-           [0.5804, 0.5804, 0.5843,  ..., 0.4039, 0.4039, 0.4000],
-           ...,
-           [0.2431, 0.2431, 0.2431,  ..., 0.1765, 0.1804, 0.1843],
-           [0.2392, 0.2431, 0.2431,  ..., 0.1804, 0.1765, 0.1765],
-           [0.2431, 0.2431, 0.2471,  ..., 0.1765, 0.1725, 0.1686]],
-
-          [[0.5804, 0.5765, 0.5765,  ..., 0.4235, 0.4235, 0.4196],
-           [0.5804, 0.5843, 0.5843,  ..., 0.4196, 0.4196, 0.4157],
-           [0.5882, 0.5843, 0.5882,  ..., 0.4196, 0.4235, 0.4196],
-           ...,
-           [0.2588, 0.2588, 0.2588,  ..., 0.1922, 0.1961, 0.2000],
-           [0.2549, 0.2588, 0.2588,  ..., 0.1961, 0.1922, 0.1922],
-           [0.2588, 0.2588, 0.2627,  ..., 0.1961, 0.1922, 0.1882]],
-
-          [[0.5843, 0.5843, 0.5843,  ..., 0.4196, 0.4196, 0.4157],
-           [0.5843, 0.5882, 0.5922,  ..., 0.4157, 0.4157, 0.4118],
-           [0.5961, 0.5922, 0.5961,  ..., 0.4078, 0.4078, 0.4039],
-           ...,
-           [0.2549, 0.2549, 0.2549,  ..., 0.1882, 0.1922, 0.1961],
-           [0.2510, 0.2549, 0.2549,  ..., 0.1961, 0.1922, 0.1922],
-           [0.2549, 0.2549, 0.2588,  ..., 0.2078, 0.2039, 0.2000]]],
-
-
-         [[[0.7373, 0.7373, 0.7451,  ..., 0.5020, 0.5020, 0.5020],
-           [0.7294, 0.7333, 0.7412,  ..., 0.5020, 0.5020, 0.5020],
-           [0.7216, 0.7255, 0.7333,  ..., 0.4980, 0.5020, 0.5020],
-           ...,
-           [0.3255, 0.3255, 0.3333,  ..., 0.1529, 0.1490, 0.1490],
-           [0.3216, 0.3255, 0.3333,  ..., 0.1490, 0.1490, 0.1569],
-           [0.3255, 0.3255, 0.3294,  ..., 0.1451, 0.1529, 0.1569]],
-
-          [[0.7529, 0.7529, 0.7608,  ..., 0.5176, 0.5176, 0.5176],
-           [0.7451, 0.7490, 0.7569,  ..., 0.5176, 0.5176, 0.5176],
-           [0.7373, 0.7412, 0.7490,  ..., 0.5137, 0.5176, 0.5176],
-           ...,
-           [0.3412, 0.3412, 0.3490,  ..., 0.1725, 0.1686, 0.1686],
-           [0.3373, 0.3412, 0.3490,  ..., 0.1686, 0.1647, 0.1725],
-           [0.3412, 0.3412, 0.3451,  ..., 0.1647, 0.1686, 0.1686]],
-
-          [[0.7647, 0.7647, 0.7725,  ..., 0.5137, 0.5137, 0.5137],
-           [0.7569, 0.7608, 0.7686,  ..., 0.5137, 0.5137, 0.5137],
-           [0.7490, 0.7529, 0.7608,  ..., 0.5098, 0.5137, 0.5137],
-           ...,
-           [0.3451, 0.3451, 0.3529,  ..., 0.1490, 0.1490, 0.1490],
-           [0.3412, 0.3451, 0.3529,  ..., 0.1608, 0.1608, 0.1647],
-           [0.3451, 0.3451, 0.3490,  ..., 0.1608, 0.1647, 0.1647]]],
-
-
-         [[[0.3490, 0.3529, 0.3569,  ..., 0.6314, 0.6275, 0.6275],
-           [0.3529, 0.3569, 0.3569,  ..., 0.6314, 0.6314, 0.6314],
-           [0.3529, 0.3608, 0.3569,  ..., 0.6314, 0.6314, 0.6235],
-           ...,
-           [0.1373, 0.1412, 0.1333,  ..., 0.2863, 0.2784, 0.2745],
-           [0.1333, 0.1294, 0.1333,  ..., 0.2863, 0.2784, 0.2745],
-           [0.1333, 0.1255, 0.1294,  ..., 0.2824, 0.2784, 0.2745]],
-
-          [[0.3529, 0.3569, 0.3608,  ..., 0.6353, 0.6314, 0.6314],
-           [0.3569, 0.3608, 0.3608,  ..., 0.6353, 0.6353, 0.6353],
-           [0.3569, 0.3647, 0.3608,  ..., 0.6392, 0.6392, 0.6314],
-           ...,
-           [0.1451, 0.1490, 0.1451,  ..., 0.3020, 0.2941, 0.2902],
-           [0.1569, 0.1529, 0.1529,  ..., 0.3020, 0.2941, 0.2902],
-           [0.1569, 0.1490, 0.1529,  ..., 0.3059, 0.3020, 0.2980]],
-
-          [[0.3333, 0.3373, 0.3412,  ..., 0.6431, 0.6392, 0.6392],
-           [0.3373, 0.3412, 0.3412,  ..., 0.6431, 0.6431, 0.6392],
-           [0.3373, 0.3451, 0.3412,  ..., 0.6353, 0.6353, 0.6275],
-           ...,
-           [0.1412, 0.1451, 0.1412,  ..., 0.2980, 0.2902, 0.2863],
-           [0.1529, 0.1451, 0.1490,  ..., 0.2980, 0.2902, 0.2863],
-           [0.1569, 0.1490, 0.1529,  ..., 0.2980, 0.2941, 0.2902]]],
-
-
-         [[[0.6392, 0.6392, 0.6392,  ..., 0.5608, 0.5608, 0.5608],
-           [0.6431, 0.6431, 0.6392,  ..., 0.5608, 0.5608, 0.5608],
-           [0.6431, 0.6431, 0.6431,  ..., 0.5647, 0.5569, 0.5569],
-           ...,
-           [0.5529, 0.5608, 0.5647,  ..., 0.4627, 0.4902, 0.5216],
-           [0.5490, 0.5412, 0.5451,  ..., 0.4235, 0.4392, 0.4588],
-           [0.5098, 0.4980, 0.5059,  ..., 0.4510, 0.4627, 0.4784]],
-
-          [[0.6392, 0.6392, 0.6392,  ..., 0.5765, 0.5765, 0.5765],
-           [0.6431, 0.6431, 0.6392,  ..., 0.5765, 0.5765, 0.5765],
-           [0.6431, 0.6431, 0.6431,  ..., 0.5804, 0.5725, 0.5725],
-           ...,
-           [0.5608, 0.5686, 0.5725,  ..., 0.4863, 0.5176, 0.5451],
-           [0.5608, 0.5529, 0.5529,  ..., 0.4471, 0.4627, 0.4824],
-           [0.5255, 0.5137, 0.5176,  ..., 0.4745, 0.4863, 0.5020]],
-
-          [[0.6471, 0.6471, 0.6471,  ..., 0.5804, 0.5804, 0.5804],
-           [0.6510, 0.6510, 0.6471,  ..., 0.5804, 0.5804, 0.5804],
-           [0.6510, 0.6510, 0.6510,  ..., 0.5843, 0.5765, 0.5765],
-           ...,
-           [0.5569, 0.5647, 0.5686,  ..., 0.4784, 0.5020, 0.5255],
-           [0.5569, 0.5490, 0.5490,  ..., 0.4431, 0.4588, 0.4745],
-           [0.5216, 0.5098, 0.5137,  ..., 0.4667, 0.4784, 0.4941]]],
-
-
-         [[[0.2941, 0.3020, 0.3137,  ..., 0.6824, 0.6824, 0.6824],
-           [0.2902, 0.2980, 0.3059,  ..., 0.6863, 0.6863, 0.6863],
-           [0.2863, 0.2941, 0.3020,  ..., 0.6902, 0.6863, 0.6824],
-           ...,
-           [0.0706, 0.0824, 0.0941,  ..., 0.2941, 0.2863, 0.2902],
-           [0.0627, 0.0784, 0.0941,  ..., 0.2902, 0.2863, 0.2863],
-           [0.0706, 0.0941, 0.1020,  ..., 0.2902, 0.2824, 0.2902]],
-
-          [[0.3255, 0.3333, 0.3451,  ..., 0.7020, 0.7020, 0.7020],
-           [0.3255, 0.3333, 0.3412,  ..., 0.7059, 0.7059, 0.7059],
-           [0.3294, 0.3412, 0.3490,  ..., 0.7098, 0.7059, 0.7020],
-           ...,
-           [0.1137, 0.1216, 0.1216,  ..., 0.3176, 0.3098, 0.3137],
-           [0.1059, 0.1176, 0.1216,  ..., 0.3137, 0.3098, 0.3098],
-           [0.1137, 0.1255, 0.1137,  ..., 0.3137, 0.3059, 0.3137]],
-
-          [[0.3373, 0.3451, 0.3569,  ..., 0.7176, 0.7176, 0.7176],
-           [0.3333, 0.3412, 0.3490,  ..., 0.7216, 0.7216, 0.7216],
-           [0.3294, 0.3412, 0.3490,  ..., 0.7216, 0.7176, 0.7137],
-           ...,
-           [0.0941, 0.1059, 0.1059,  ..., 0.3176, 0.3098, 0.3137],
-           [0.0706, 0.0824, 0.0902,  ..., 0.3137, 0.3098, 0.3098],
-           [0.0627, 0.0824, 0.0863,  ..., 0.3137, 0.3059, 0.3137]]]],
-
-
-
-        [[[[0.1529, 0.1451, 0.1333,  ..., 0.8078, 0.8078, 0.8039],
-           [0.1255, 0.1451, 0.1373,  ..., 0.8118, 0.8078, 0.8039],
-           [0.1451, 0.1490, 0.1451,  ..., 0.8118, 0.8078, 0.8000],
-           ...,
-           [0.2431, 0.2510, 0.2549,  ..., 0.3412, 0.3412, 0.3412],
-           [0.2431, 0.2510, 0.2588,  ..., 0.3373, 0.3333, 0.3333],
-           [0.2549, 0.2627, 0.2667,  ..., 0.3333, 0.3333, 0.3373]],
-
-          [[0.2000, 0.1922, 0.1804,  ..., 0.8235, 0.8235, 0.8196],
-           [0.1725, 0.1922, 0.1843,  ..., 0.8275, 0.8235, 0.8196],
-           [0.1843, 0.1922, 0.1843,  ..., 0.8314, 0.8235, 0.8196],
-           ...,
-           [0.2549, 0.2627, 0.2667,  ..., 0.3569, 0.3569, 0.3569],
-           [0.2588, 0.2667, 0.2745,  ..., 0.3529, 0.3490, 0.3529],
-           [0.2627, 0.2706, 0.2784,  ..., 0.3490, 0.3529, 0.3569]],
-
-          [[0.1922, 0.1843, 0.1725,  ..., 0.8353, 0.8353, 0.8314],
-           [0.1686, 0.1843, 0.1765,  ..., 0.8392, 0.8353, 0.8314],
-           [0.1882, 0.1922, 0.1882,  ..., 0.8431, 0.8353, 0.8314],
-           ...,
-           [0.2392, 0.2392, 0.2431,  ..., 0.3529, 0.3529, 0.3529],
-           [0.2392, 0.2431, 0.2471,  ..., 0.3490, 0.3451, 0.3412],
-           [0.2471, 0.2510, 0.2510,  ..., 0.3451, 0.3373, 0.3333]]],
-
-
-         [[[0.6549, 0.6549, 0.6549,  ..., 0.0549, 0.0824, 0.0902],
-           [0.6549, 0.6588, 0.6549,  ..., 0.0627, 0.0824, 0.0902],
-           [0.6588, 0.6549, 0.6588,  ..., 0.0745, 0.0745, 0.0902],
-           ...,
-           [0.2314, 0.2353, 0.2392,  ..., 0.2784, 0.2784, 0.2706],
-           [0.2235, 0.2235, 0.2314,  ..., 0.2784, 0.2745, 0.2745],
-           [0.2235, 0.2235, 0.2275,  ..., 0.2863, 0.2706, 0.2706]],
-
-          [[0.6706, 0.6706, 0.6706,  ..., 0.0549, 0.0784, 0.0863],
-           [0.6706, 0.6745, 0.6706,  ..., 0.0667, 0.0784, 0.0784],
-           [0.6745, 0.6706, 0.6745,  ..., 0.0784, 0.0706, 0.0824],
-           ...,
-           [0.2471, 0.2510, 0.2549,  ..., 0.2980, 0.2980, 0.2902],
-           [0.2392, 0.2392, 0.2471,  ..., 0.2980, 0.2941, 0.2941],
-           [0.2392, 0.2392, 0.2431,  ..., 0.3059, 0.2902, 0.2902]],
-
-          [[0.6824, 0.6824, 0.6824,  ..., 0.0431, 0.0627, 0.0706],
-           [0.6824, 0.6863, 0.6824,  ..., 0.0471, 0.0549, 0.0549],
-           [0.6863, 0.6824, 0.6863,  ..., 0.0588, 0.0471, 0.0549],
-           ...,
-           [0.2431, 0.2471, 0.2510,  ..., 0.2745, 0.2745, 0.2667],
-           [0.2353, 0.2353, 0.2431,  ..., 0.2745, 0.2706, 0.2706],
-           [0.2353, 0.2353, 0.2392,  ..., 0.2902, 0.2745, 0.2745]]],
-
-
-         [[[0.5255, 0.4863, 0.3882,  ..., 0.2980, 0.2980, 0.2980],
-           [0.5373, 0.4667, 0.3451,  ..., 0.2980, 0.2980, 0.2941],
-           [0.5333, 0.4314, 0.3216,  ..., 0.2980, 0.2980, 0.2863],
-           ...,
-           [0.5725, 0.5725, 0.5686,  ..., 0.2157, 0.2275, 0.2275],
-           [0.5765, 0.5765, 0.5725,  ..., 0.2039, 0.2078, 0.2078],
-           [0.5804, 0.5804, 0.5765,  ..., 0.2000, 0.2000, 0.2039]],
-
-          [[0.5529, 0.5176, 0.4118,  ..., 0.2941, 0.2941, 0.2941],
-           [0.5608, 0.4902, 0.3686,  ..., 0.2941, 0.2980, 0.2902],
-           [0.5529, 0.4549, 0.3451,  ..., 0.3020, 0.3020, 0.2902],
-           ...,
-           [0.6157, 0.6157, 0.6118,  ..., 0.2392, 0.2510, 0.2510],
-           [0.6196, 0.6196, 0.6157,  ..., 0.2275, 0.2314, 0.2314],
-           [0.6235, 0.6235, 0.6196,  ..., 0.2235, 0.2235, 0.2235]],
-
-          [[0.5804, 0.5216, 0.4000,  ..., 0.2745, 0.2745, 0.2745],
-           [0.5804, 0.4902, 0.3569,  ..., 0.2745, 0.2784, 0.2706],
-           [0.5608, 0.4471, 0.3333,  ..., 0.2824, 0.2824, 0.2706],
-           ...,
-           [0.6392, 0.6392, 0.6353,  ..., 0.2392, 0.2510, 0.2510],
-           [0.6431, 0.6431, 0.6392,  ..., 0.2275, 0.2353, 0.2353],
-           [0.6471, 0.6471, 0.6431,  ..., 0.2235, 0.2314, 0.2353]]],
-
-
-         [[[1.0000, 1.0000, 1.0000,  ..., 0.0941, 0.1059, 0.1020],
-           [1.0000, 1.0000, 1.0000,  ..., 0.0824, 0.0980, 0.0941],
-           [0.9961, 1.0000, 1.0000,  ..., 0.0824, 0.1059, 0.1137],
-           ...,
-           [0.3608, 0.3686, 0.3647,  ..., 0.1686, 0.1765, 0.1725],
-           [0.3608, 0.3569, 0.3412,  ..., 0.1647, 0.1647, 0.1725],
-           [0.3451, 0.3529, 0.3451,  ..., 0.1804, 0.1725, 0.1725]],
-
-          [[1.0000, 1.0000, 1.0000,  ..., 0.1176, 0.1294, 0.1216],
-           [1.0000, 1.0000, 1.0000,  ..., 0.1216, 0.1333, 0.1294],
-           [1.0000, 1.0000, 1.0000,  ..., 0.1098, 0.1333, 0.1373],
-           ...,
-           [0.3765, 0.3843, 0.3804,  ..., 0.1882, 0.1922, 0.1882],
-           [0.3765, 0.3725, 0.3569,  ..., 0.1843, 0.1804, 0.1882],
-           [0.3608, 0.3686, 0.3608,  ..., 0.2000, 0.1882, 0.1882]],
-
-          [[1.0000, 1.0000, 1.0000,  ..., 0.1059, 0.1216, 0.1137],
-           [0.9961, 1.0000, 1.0000,  ..., 0.1059, 0.1216, 0.1137],
-           [0.9843, 0.9882, 0.9922,  ..., 0.0941, 0.1176, 0.1216],
-           ...,
-           [0.3804, 0.3882, 0.3843,  ..., 0.1725, 0.1843, 0.1843],
-           [0.3804, 0.3804, 0.3608,  ..., 0.1686, 0.1725, 0.1882],
-           [0.3725, 0.3804, 0.3725,  ..., 0.1804, 0.1843, 0.2000]]],
-
-
-         [[[0.0667, 0.0627, 0.0784,  ..., 0.7725, 0.7686, 0.7686],
-           [0.0431, 0.0471, 0.0549,  ..., 0.7686, 0.7686, 0.7686],
-           [0.0392, 0.0471, 0.0392,  ..., 0.7686, 0.7647, 0.7608],
-           ...,
-           [0.4745, 0.4627, 0.4706,  ..., 0.5569, 0.5490, 0.5412],
-           [0.4824, 0.4863, 0.4745,  ..., 0.5608, 0.5608, 0.5529],
-           [0.4902, 0.5020, 0.4902,  ..., 0.5373, 0.5451, 0.5451]],
-
-          [[0.0941, 0.0902, 0.1020,  ..., 0.7882, 0.7843, 0.7843],
-           [0.0863, 0.0863, 0.0941,  ..., 0.7843, 0.7843, 0.7843],
-           [0.0588, 0.0667, 0.0588,  ..., 0.7843, 0.7804, 0.7765],
-           ...,
-           [0.4902, 0.4784, 0.4863,  ..., 0.5804, 0.5725, 0.5647],
-           [0.4980, 0.5020, 0.4902,  ..., 0.5843, 0.5843, 0.5765],
-           [0.5059, 0.5176, 0.5059,  ..., 0.5608, 0.5686, 0.5686]],
-
-          [[0.0784, 0.0706, 0.0863,  ..., 0.7922, 0.7882, 0.7882],
-           [0.0549, 0.0588, 0.0667,  ..., 0.7882, 0.7882, 0.7882],
-           [0.0510, 0.0549, 0.0510,  ..., 0.7882, 0.7843, 0.7804],
-           ...,
-           [0.4824, 0.4745, 0.4824,  ..., 0.5647, 0.5569, 0.5451],
-           [0.4941, 0.4980, 0.4863,  ..., 0.5804, 0.5804, 0.5725],
-           [0.5020, 0.5137, 0.5020,  ..., 0.5529, 0.5608, 0.5608]]],
-
-
-         [[[0.2667, 0.2471, 0.2431,  ..., 0.3373, 0.3255, 0.3255],
-           [0.2627, 0.2471, 0.2431,  ..., 0.3451, 0.3373, 0.3412],
-           [0.2745, 0.2588, 0.2549,  ..., 0.3451, 0.3451, 0.3412],
-           ...,
-           [0.3725, 0.3686, 0.3608,  ..., 0.5804, 0.5765, 0.5686],
-           [0.2863, 0.2824, 0.2745,  ..., 0.5843, 0.5804, 0.5765],
-           [0.2392, 0.2353, 0.2353,  ..., 0.5843, 0.5765, 0.5725]],
-
-          [[0.2824, 0.2627, 0.2588,  ..., 0.3647, 0.3608, 0.3647],
-           [0.2784, 0.2627, 0.2627,  ..., 0.3686, 0.3686, 0.3765],
-           [0.2941, 0.2784, 0.2784,  ..., 0.3647, 0.3647, 0.3647],
-           ...,
-           [0.4039, 0.4000, 0.3922,  ..., 0.6235, 0.6196, 0.6118],
-           [0.3176, 0.3137, 0.3098,  ..., 0.6275, 0.6235, 0.6196],
-           [0.2824, 0.2824, 0.2824,  ..., 0.6275, 0.6196, 0.6157]],
-
-          [[0.2863, 0.2667, 0.2627,  ..., 0.3725, 0.3647, 0.3686],
-           [0.2824, 0.2667, 0.2667,  ..., 0.3804, 0.3765, 0.3843],
-           [0.2941, 0.2784, 0.2784,  ..., 0.3765, 0.3765, 0.3765],
-           ...,
-           [0.4314, 0.4275, 0.4196,  ..., 0.6471, 0.6431, 0.6353],
-           [0.3294, 0.3255, 0.3216,  ..., 0.6510, 0.6471, 0.6431],
-           [0.2863, 0.2824, 0.2824,  ..., 0.6510, 0.6431, 0.6392]]]],
-
-
-
-        [[[[0.4667, 0.4353, 0.5059,  ..., 0.2627, 0.3608, 0.3686],
-           [0.5255, 0.4392, 0.3843,  ..., 0.2549, 0.3490, 0.3216],
-           [0.5333, 0.4784, 0.3647,  ..., 0.2549, 0.2784, 0.2706],
-           ...,
-           [0.1529, 0.1529, 0.1451,  ..., 0.3176, 0.5333, 0.7804],
-           [0.1608, 0.1608, 0.1647,  ..., 0.3020, 0.4314, 0.7098],
-           [0.1490, 0.1569, 0.1647,  ..., 0.2824, 0.3569, 0.6118]],
-
-          [[0.4706, 0.4392, 0.5098,  ..., 0.2745, 0.3725, 0.3804],
-           [0.5333, 0.4471, 0.3922,  ..., 0.2667, 0.3569, 0.3373],
-           [0.5373, 0.4863, 0.3765,  ..., 0.2510, 0.2706, 0.2706],
-           ...,
-           [0.1686, 0.1686, 0.1608,  ..., 0.3059, 0.5098, 0.7490],
-           [0.1804, 0.1804, 0.1804,  ..., 0.2902, 0.4118, 0.6863],
-           [0.1843, 0.1843, 0.1843,  ..., 0.2824, 0.3490, 0.6000]],
-
-          [[0.4471, 0.4196, 0.4980,  ..., 0.2078, 0.2941, 0.2941],
-           [0.4784, 0.3961, 0.3529,  ..., 0.1961, 0.2745, 0.2431],
-           [0.5059, 0.4314, 0.3098,  ..., 0.1922, 0.2078, 0.2039],
-           ...,
-           [0.1647, 0.1647, 0.1569,  ..., 0.2588, 0.4431, 0.6706],
-           [0.1765, 0.1765, 0.1765,  ..., 0.2510, 0.3529, 0.6118],
-           [0.1725, 0.1765, 0.1804,  ..., 0.2588, 0.3059, 0.5451]]],
-
-
-         [[[0.5176, 0.5176, 0.5098,  ..., 0.0745, 0.0706, 0.0706],
-           [0.5216, 0.5176, 0.5059,  ..., 0.0667, 0.0471, 0.0627],
-           [0.5176, 0.5098, 0.4980,  ..., 0.0627, 0.0510, 0.0667],
-           ...,
-           [0.4706, 0.5059, 0.4980,  ..., 0.4235, 0.4157, 0.4157],
-           [0.4431, 0.4667, 0.4549,  ..., 0.4196, 0.4157, 0.4196],
-           [0.4039, 0.4471, 0.4392,  ..., 0.4471, 0.4235, 0.4196]],
-
-          [[0.5490, 0.5529, 0.5569,  ..., 0.0824, 0.0863, 0.0902],
-           [0.5490, 0.5529, 0.5529,  ..., 0.0706, 0.0627, 0.0824],
-           [0.5490, 0.5451, 0.5490,  ..., 0.0706, 0.0784, 0.1059],
-           ...,
-           [0.4745, 0.5098, 0.5020,  ..., 0.4275, 0.4196, 0.4196],
-           [0.4471, 0.4706, 0.4588,  ..., 0.4235, 0.4196, 0.4235],
-           [0.4078, 0.4510, 0.4431,  ..., 0.4549, 0.4275, 0.4196]],
-
-          [[0.6235, 0.6196, 0.6078,  ..., 0.0784, 0.0824, 0.0824],
-           [0.6196, 0.6196, 0.6039,  ..., 0.0863, 0.0706, 0.0863],
-           [0.6078, 0.6039, 0.5961,  ..., 0.0745, 0.0588, 0.0745],
-           ...,
-           [0.4549, 0.4902, 0.4824,  ..., 0.4078, 0.4000, 0.4000],
-           [0.4275, 0.4510, 0.4392,  ..., 0.4039, 0.4039, 0.4039],
-           [0.3882, 0.4314, 0.4235,  ..., 0.4431, 0.4157, 0.4118]]],
-
-
-         [[[0.1373, 0.1373, 0.1569,  ..., 0.2235, 0.2157, 0.2118],
-           [0.1255, 0.1294, 0.1529,  ..., 0.2078, 0.2078, 0.2078],
-           [0.1608, 0.1412, 0.1255,  ..., 0.2353, 0.2431, 0.2471],
-           ...,
-           [0.6510, 0.6588, 0.6667,  ..., 0.4078, 0.4118, 0.4314],
-           [0.6431, 0.6471, 0.6510,  ..., 0.4941, 0.4627, 0.4353],
-           [0.6392, 0.6471, 0.6549,  ..., 0.4902, 0.4706, 0.4392]],
-
-          [[0.1529, 0.1569, 0.1725,  ..., 0.2549, 0.2510, 0.2471],
-           [0.1412, 0.1451, 0.1686,  ..., 0.2431, 0.2431, 0.2431],
-           [0.1765, 0.1569, 0.1412,  ..., 0.2471, 0.2549, 0.2588],
-           ...,
-           [0.6549, 0.6627, 0.6706,  ..., 0.4000, 0.4000, 0.4196],
-           [0.6392, 0.6471, 0.6549,  ..., 0.4784, 0.4510, 0.4275],
-           [0.6235, 0.6392, 0.6510,  ..., 0.4588, 0.4471, 0.4314]],
-
-          [[0.1647, 0.1686, 0.1843,  ..., 0.2627, 0.2549, 0.2510],
-           [0.1490, 0.1569, 0.1843,  ..., 0.2510, 0.2510, 0.2510],
-           [0.1608, 0.1608, 0.1686,  ..., 0.2706, 0.2706, 0.2706],
-           ...,
-           [0.6745, 0.6824, 0.6902,  ..., 0.3569, 0.3569, 0.3882],
-           [0.6627, 0.6667, 0.6745,  ..., 0.4431, 0.4157, 0.4000],
-           [0.6471, 0.6627, 0.6745,  ..., 0.4314, 0.4353, 0.4196]]],
-
-
-         [[[0.2784, 0.2902, 0.3176,  ..., 0.8627, 0.8627, 0.8588],
-           [0.2745, 0.2549, 0.2863,  ..., 0.8627, 0.8627, 0.8510],
-           [0.2745, 0.2549, 0.2824,  ..., 0.8588, 0.8431, 0.8314],
-           ...,
-           [0.5882, 0.5725, 0.6314,  ..., 0.2941, 0.2902, 0.3176],
-           [0.7137, 0.6706, 0.6824,  ..., 0.4078, 0.3529, 0.3373],
-           [0.6784, 0.6471, 0.7137,  ..., 0.5725, 0.5255, 0.4431]],
-
-          [[0.2824, 0.2902, 0.3216,  ..., 0.9255, 0.9255, 0.9216],
-           [0.2784, 0.2549, 0.2863,  ..., 0.9255, 0.9255, 0.9137],
-           [0.2784, 0.2627, 0.2902,  ..., 0.9098, 0.8941, 0.8863],
-           ...,
-           [0.5843, 0.5686, 0.6235,  ..., 0.3098, 0.3059, 0.3333],
-           [0.7137, 0.6706, 0.6745,  ..., 0.4157, 0.3608, 0.3412],
-           [0.6824, 0.6431, 0.6980,  ..., 0.5608, 0.5098, 0.4275]],
-
-          [[0.2745, 0.2902, 0.3451,  ..., 0.9882, 0.9882, 0.9843],
-           [0.2627, 0.2667, 0.3255,  ..., 0.9882, 0.9882, 0.9765],
-           [0.2667, 0.2549, 0.2980,  ..., 0.9804, 0.9608, 0.9490],
-           ...,
-           [0.5765, 0.5686, 0.6275,  ..., 0.3529, 0.3490, 0.3804],
-           [0.6902, 0.6510, 0.6510,  ..., 0.4471, 0.4000, 0.3843],
-           [0.6627, 0.6235, 0.6667,  ..., 0.5686, 0.5255, 0.4510]]],
-
-
-         [[[0.2706, 0.2784, 0.2824,  ..., 0.1255, 0.1569, 0.1765],
-           [0.2784, 0.2745, 0.2745,  ..., 0.1255, 0.1255, 0.1333],
-           [0.2745, 0.2706, 0.2745,  ..., 0.1137, 0.1059, 0.1137],
-           ...,
-           [0.2235, 0.2275, 0.2235,  ..., 0.3294, 0.3333, 0.3294],
-           [0.2314, 0.2353, 0.2314,  ..., 0.3216, 0.3216, 0.3255],
-           [0.2235, 0.2314, 0.2314,  ..., 0.3176, 0.3098, 0.3137]],
-
-          [[0.2863, 0.2941, 0.2980,  ..., 0.1333, 0.1608, 0.1804],
-           [0.2941, 0.2902, 0.2902,  ..., 0.1373, 0.1333, 0.1412],
-           [0.2902, 0.2863, 0.2902,  ..., 0.1333, 0.1255, 0.1373],
-           ...,
-           [0.2392, 0.2471, 0.2510,  ..., 0.3333, 0.3294, 0.3176],
-           [0.2510, 0.2549, 0.2588,  ..., 0.3255, 0.3216, 0.3176],
-           [0.2549, 0.2627, 0.2627,  ..., 0.3216, 0.3137, 0.3176]],
-
-          [[0.2902, 0.2980, 0.3020,  ..., 0.1137, 0.1412, 0.1608],
-           [0.2980, 0.2980, 0.2941,  ..., 0.1176, 0.1137, 0.1216],
-           [0.2980, 0.2941, 0.3020,  ..., 0.1137, 0.1059, 0.1176],
-           ...,
-           [0.2510, 0.2588, 0.2627,  ..., 0.3098, 0.3098, 0.2980],
-           [0.2627, 0.2667, 0.2667,  ..., 0.3020, 0.3020, 0.2980],
-           [0.2667, 0.2745, 0.2745,  ..., 0.3020, 0.2941, 0.2980]]],
-
-
-         [[[0.1451, 0.1882, 0.3020,  ..., 0.1333, 0.1373, 0.1725],
-           [0.1412, 0.1882, 0.3020,  ..., 0.1608, 0.2039, 0.2784],
-           [0.1451, 0.1882, 0.3020,  ..., 0.1843, 0.2353, 0.2235],
-           ...,
-           [0.4118, 0.3961, 0.3098,  ..., 0.2314, 0.2157, 0.1529],
-           [0.3725, 0.3647, 0.2863,  ..., 0.2431, 0.2000, 0.1490],
-           [0.2314, 0.2314, 0.2314,  ..., 0.2392, 0.1608, 0.1333]],
-
-          [[0.1294, 0.1804, 0.3020,  ..., 0.1412, 0.1451, 0.1804],
-           [0.1255, 0.1804, 0.2980,  ..., 0.1686, 0.2118, 0.2863],
-           [0.1294, 0.1804, 0.3020,  ..., 0.1882, 0.2392, 0.2275],
-           ...,
-           [0.3843, 0.3686, 0.2824,  ..., 0.2510, 0.2314, 0.1725],
-           [0.3529, 0.3451, 0.2667,  ..., 0.2627, 0.2157, 0.1608],
-           [0.2392, 0.2353, 0.2314,  ..., 0.2627, 0.1765, 0.1490]],
-
-          [[0.1255, 0.1922, 0.3294,  ..., 0.1216, 0.1255, 0.1608],
-           [0.1216, 0.1882, 0.3255,  ..., 0.1490, 0.1922, 0.2667],
-           [0.1176, 0.1804, 0.3216,  ..., 0.1686, 0.2196, 0.2078],
-           ...,
-           [0.3294, 0.3176, 0.2392,  ..., 0.2510, 0.2588, 0.1843],
-           [0.3020, 0.2941, 0.2157,  ..., 0.2627, 0.2471, 0.1843],
-           [0.1961, 0.1804, 0.1725,  ..., 0.2588, 0.2196, 0.1922]]]],
-
-
-
-        [[[[0.5333, 0.5333, 0.5373,  ..., 0.2314, 0.2627, 0.2275],
-           [0.5373, 0.5373, 0.5412,  ..., 0.1922, 0.2000, 0.1647],
-           [0.5451, 0.5451, 0.5451,  ..., 0.1569, 0.1686, 0.1882],
-           ...,
-           [0.6471, 0.6039, 0.5529,  ..., 0.5255, 0.5294, 0.5294],
-           [0.4706, 0.4627, 0.4510,  ..., 0.5216, 0.5176, 0.5373],
-           [0.4510, 0.4510, 0.4471,  ..., 0.5176, 0.5137, 0.5294]],
-
-          [[0.5804, 0.5804, 0.5843,  ..., 0.2431, 0.2745, 0.2392],
-           [0.5843, 0.5843, 0.5882,  ..., 0.2039, 0.2118, 0.1765],
-           [0.5804, 0.5804, 0.5804,  ..., 0.1686, 0.1843, 0.2039],
-           ...,
-           [0.6471, 0.6039, 0.5529,  ..., 0.5216, 0.5294, 0.5333],
-           [0.4706, 0.4627, 0.4549,  ..., 0.5137, 0.5176, 0.5373],
-           [0.4510, 0.4549, 0.4510,  ..., 0.5059, 0.5020, 0.5176]],
-
-          [[0.6431, 0.6431, 0.6471,  ..., 0.2039, 0.2392, 0.2118],
-           [0.6471, 0.6471, 0.6510,  ..., 0.1647, 0.1804, 0.1490],
-           [0.6471, 0.6471, 0.6471,  ..., 0.1373, 0.1608, 0.1804],
-           ...,
-           [0.6471, 0.6039, 0.5529,  ..., 0.4980, 0.5059, 0.5098],
-           [0.4667, 0.4588, 0.4471,  ..., 0.4941, 0.4941, 0.5137],
-           [0.4353, 0.4353, 0.4353,  ..., 0.4863, 0.4824, 0.4980]]],
-
-
-         [[[0.3333, 0.3569, 0.3216,  ..., 0.5176, 0.5137, 0.5137],
-           [0.2863, 0.3176, 0.3255,  ..., 0.5176, 0.5137, 0.5137],
-           [0.2627, 0.2314, 0.2745,  ..., 0.5176, 0.5176, 0.5137],
-           ...,
-           [0.7608, 0.8000, 0.7216,  ..., 0.0980, 0.0824, 0.0627],
-           [0.6431, 0.6000, 0.5059,  ..., 0.1137, 0.1098, 0.0941],
-           [0.4627, 0.4784, 0.4627,  ..., 0.1451, 0.1373, 0.1216]],
-
-          [[0.3608, 0.3725, 0.3294,  ..., 0.5686, 0.5647, 0.5647],
-           [0.3137, 0.3333, 0.3333,  ..., 0.5686, 0.5647, 0.5647],
-           [0.2784, 0.2431, 0.2863,  ..., 0.5686, 0.5686, 0.5647],
-           ...,
-           [0.7647, 0.8039, 0.7255,  ..., 0.1216, 0.1176, 0.1020],
-           [0.6471, 0.6039, 0.5059,  ..., 0.1333, 0.1373, 0.1294],
-           [0.4549, 0.4745, 0.4588,  ..., 0.1412, 0.1412, 0.1412]],
-
-          [[0.2902, 0.3098, 0.2745,  ..., 0.6039, 0.6000, 0.6000],
-           [0.2431, 0.2706, 0.2784,  ..., 0.6039, 0.6000, 0.6000],
-           [0.2196, 0.1961, 0.2471,  ..., 0.6039, 0.6039, 0.6000],
-           ...,
-           [0.7333, 0.7765, 0.7059,  ..., 0.1255, 0.1137, 0.1020],
-           [0.6275, 0.5804, 0.4863,  ..., 0.1373, 0.1412, 0.1294],
-           [0.4510, 0.4627, 0.4392,  ..., 0.1451, 0.1412, 0.1373]]],
-
-
-         [[[0.6706, 0.6706, 0.6745,  ..., 0.1059, 0.1020, 0.0980],
-           [0.6706, 0.6745, 0.6706,  ..., 0.1137, 0.1059, 0.0980],
-           [0.6667, 0.6745, 0.6784,  ..., 0.1137, 0.1137, 0.1137],
-           ...,
-           [0.0824, 0.0784, 0.0667,  ..., 0.2588, 0.2549, 0.2471],
-           [0.1333, 0.1176, 0.0941,  ..., 0.2510, 0.2510, 0.2471],
-           [0.1882, 0.1765, 0.1647,  ..., 0.2392, 0.2392, 0.2471]],
-
-          [[0.7137, 0.7137, 0.7176,  ..., 0.1255, 0.1294, 0.1333],
-           [0.7137, 0.7176, 0.7137,  ..., 0.1333, 0.1333, 0.1294],
-           [0.7137, 0.7216, 0.7255,  ..., 0.1294, 0.1333, 0.1216],
-           ...,
-           [0.1059, 0.1020, 0.0941,  ..., 0.2824, 0.2784, 0.2706],
-           [0.1569, 0.1412, 0.1216,  ..., 0.2745, 0.2745, 0.2706],
-           [0.2000, 0.1961, 0.1843,  ..., 0.2627, 0.2627, 0.2706]],
-
-          [[0.7843, 0.7843, 0.7882,  ..., 0.1216, 0.1216, 0.1216],
-           [0.7843, 0.7882, 0.7843,  ..., 0.1176, 0.1176, 0.1137],
-           [0.7765, 0.7843, 0.7882,  ..., 0.1098, 0.1137, 0.1020],
-           ...,
-           [0.0902, 0.0863, 0.0784,  ..., 0.2824, 0.2784, 0.2706],
-           [0.1333, 0.1176, 0.0941,  ..., 0.2745, 0.2745, 0.2706],
-           [0.1961, 0.1882, 0.1686,  ..., 0.2627, 0.2627, 0.2706]]],
-
-
-         [[[0.6549, 0.6627, 0.6588,  ..., 0.1725, 0.1765, 0.1333],
-           [0.6549, 0.6627, 0.6588,  ..., 0.1804, 0.2196, 0.1765],
-           [0.6510, 0.6549, 0.6588,  ..., 0.2039, 0.1686, 0.1608],
-           ...,
-           [0.4549, 0.4824, 0.4941,  ..., 0.5569, 0.7020, 0.7569],
-           [0.4431, 0.4941, 0.4941,  ..., 0.7333, 0.7765, 0.7843],
-           [0.4549, 0.4902, 0.4706,  ..., 0.7647, 0.7686, 0.7725]],
-
-          [[0.6706, 0.6784, 0.6745,  ..., 0.1804, 0.1843, 0.1412],
-           [0.6706, 0.6784, 0.6745,  ..., 0.1882, 0.2314, 0.1882],
-           [0.6667, 0.6706, 0.6745,  ..., 0.2078, 0.1765, 0.1647],
-           ...,
-           [0.4510, 0.4784, 0.4902,  ..., 0.5373, 0.6745, 0.7294],
-           [0.4431, 0.4902, 0.4863,  ..., 0.7137, 0.7490, 0.7569],
-           [0.4588, 0.4824, 0.4510,  ..., 0.7569, 0.7569, 0.7647]],
-
-          [[0.7137, 0.7216, 0.7176,  ..., 0.1647, 0.1647, 0.1176],
-           [0.7137, 0.7216, 0.7176,  ..., 0.1686, 0.2039, 0.1608],
-           [0.7098, 0.7137, 0.7176,  ..., 0.1882, 0.1490, 0.1373],
-           ...,
-           [0.4314, 0.4588, 0.4706,  ..., 0.4980, 0.6314, 0.6824],
-           [0.4235, 0.4706, 0.4667,  ..., 0.6667, 0.7098, 0.7176],
-           [0.4392, 0.4667, 0.4392,  ..., 0.7059, 0.7176, 0.7216]]],
-
-
-         [[[0.2392, 0.2392, 0.2392,  ..., 0.4863, 0.4902, 0.4902],
-           [0.2471, 0.2353, 0.2353,  ..., 0.4902, 0.4902, 0.4902],
-           [0.2549, 0.2510, 0.2471,  ..., 0.5020, 0.4980, 0.4980],
-           ...,
-           [0.3765, 0.3725, 0.3765,  ..., 0.3765, 0.3725, 0.3686],
-           [0.3686, 0.3608, 0.3608,  ..., 0.3647, 0.3686, 0.3686],
-           [0.3647, 0.3529, 0.3529,  ..., 0.3608, 0.3647, 0.3686]],
-
-          [[0.2392, 0.2392, 0.2392,  ..., 0.5137, 0.5176, 0.5176],
-           [0.2471, 0.2353, 0.2353,  ..., 0.5176, 0.5176, 0.5176],
-           [0.2588, 0.2549, 0.2510,  ..., 0.5294, 0.5255, 0.5255],
-           ...,
-           [0.3725, 0.3686, 0.3725,  ..., 0.3804, 0.3765, 0.3725],
-           [0.3647, 0.3569, 0.3569,  ..., 0.3686, 0.3725, 0.3725],
-           [0.3608, 0.3490, 0.3490,  ..., 0.3647, 0.3686, 0.3725]],
-
-          [[0.2314, 0.2314, 0.2314,  ..., 0.5451, 0.5490, 0.5490],
-           [0.2392, 0.2275, 0.2275,  ..., 0.5490, 0.5490, 0.5490],
-           [0.2431, 0.2353, 0.2314,  ..., 0.5608, 0.5569, 0.5569],
-           ...,
-           [0.3569, 0.3529, 0.3569,  ..., 0.3608, 0.3569, 0.3529],
-           [0.3490, 0.3412, 0.3412,  ..., 0.3451, 0.3529, 0.3529],
-           [0.3451, 0.3333, 0.3333,  ..., 0.3412, 0.3451, 0.3490]]],
-
-
-         [[[0.3098, 0.3255, 0.3333,  ..., 0.4275, 0.4235, 0.4157],
-           [0.3255, 0.3373, 0.3569,  ..., 0.3961, 0.4078, 0.4078],
-           [0.3333, 0.3373, 0.3412,  ..., 0.4431, 0.4314, 0.4000],
-           ...,
-           [0.3216, 0.3490, 0.3529,  ..., 0.7804, 0.7765, 0.7686],
-           [0.3176, 0.3451, 0.3373,  ..., 0.7569, 0.7608, 0.7451],
-           [0.2941, 0.3294, 0.3333,  ..., 0.7373, 0.7647, 0.7725]],
-
-          [[0.3255, 0.3412, 0.3490,  ..., 0.4392, 0.4392, 0.4275],
-           [0.3412, 0.3529, 0.3725,  ..., 0.4078, 0.4196, 0.4196],
-           [0.3490, 0.3490, 0.3569,  ..., 0.4510, 0.4392, 0.4078],
-           ...,
-           [0.3373, 0.3647, 0.3686,  ..., 0.7725, 0.7686, 0.7608],
-           [0.3412, 0.3686, 0.3608,  ..., 0.7490, 0.7569, 0.7373],
-           [0.3255, 0.3529, 0.3569,  ..., 0.7294, 0.7569, 0.7686]],
-
-          [[0.3373, 0.3529, 0.3529,  ..., 0.3961, 0.3922, 0.3882],
-           [0.3529, 0.3647, 0.3765,  ..., 0.3725, 0.3843, 0.3843],
-           [0.3725, 0.3686, 0.3686,  ..., 0.4078, 0.3961, 0.3647],
-           ...,
-           [0.3686, 0.3961, 0.4039,  ..., 0.7765, 0.7725, 0.7647],
-           [0.3529, 0.3843, 0.3804,  ..., 0.7529, 0.7569, 0.7373],
-           [0.3412, 0.3882, 0.4000,  ..., 0.7333, 0.7529, 0.7569]]]]]), 'intrinsics': tensor([[[[377.3588,   0.0000, 248.1723],
-          [  0.0000, 377.3588,  89.2746],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[375.8439,   0.0000, 247.9764],
-          [  0.0000, 375.8439,  94.9954],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[377.0246,   0.0000, 245.3366],
-          [  0.0000, 377.0246,  89.5863],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[376.4958,   0.0000, 248.8731],
-          [  0.0000, 376.4958,  94.1504],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[239.0673,   0.0000, 257.3332],
-          [  0.0000, 239.0673,  97.0655],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[374.9889,   0.0000, 247.6131],
-          [  0.0000, 374.9889,  92.7645],
-          [  0.0000,   0.0000,   1.0000]]],
-
-
-        [[[377.3588,   0.0000, 248.1723],
-          [  0.0000, 377.3588,  89.2746],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[375.8439,   0.0000, 247.9764],
-          [  0.0000, 375.8439,  94.9954],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[377.0246,   0.0000, 245.3366],
-          [  0.0000, 377.0246,  89.5863],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[376.4958,   0.0000, 248.8731],
-          [  0.0000, 376.4958,  94.1504],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[239.0673,   0.0000, 257.3332],
-          [  0.0000, 239.0673,  97.0655],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[374.9889,   0.0000, 247.6131],
-          [  0.0000, 374.9889,  92.7645],
-          [  0.0000,   0.0000,   1.0000]]],
-
-
-        [[[381.7794,   0.0000, 247.9846],
-          [  0.0000, 381.7794,  97.9255],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[379.9252,   0.0000, 244.8801],
-          [  0.0000, 379.9252, 101.4521],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[378.2542,   0.0000, 242.3905],
-          [  0.0000, 378.2542, 102.6003],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[377.0224,   0.0000, 237.6338],
-          [  0.0000, 377.0224, 101.8327],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[242.7663,   0.0000, 248.7659],
-          [  0.0000, 242.7663,  98.5335],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[377.8541,   0.0000, 242.1759],
-          [  0.0000, 377.8541, 104.3587],
-          [  0.0000,   0.0000,   1.0000]]],
-
-
-        [[[381.7794,   0.0000, 247.9846],
-          [  0.0000, 381.7794,  97.9255],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[379.9252,   0.0000, 244.8801],
-          [  0.0000, 379.9252, 101.4521],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[378.2542,   0.0000, 242.3905],
-          [  0.0000, 378.2542, 102.6003],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[377.0224,   0.0000, 237.6338],
-          [  0.0000, 377.0224, 101.8327],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[242.7663,   0.0000, 248.7659],
-          [  0.0000, 242.7663,  98.5335],
-          [  0.0000,   0.0000,   1.0000]],
-
-         [[377.8541,   0.0000, 242.1759],
-          [  0.0000, 377.8541, 104.3587],
-          [  0.0000,   0.0000,   1.0000]]]]), 'extrinsics': tensor([[[[ 8.2230e-01, -5.6892e-01, -1.2281e-02, -6.6455e-01],
-          [ 6.1799e-03,  3.0509e-02, -9.9952e-01,  1.4908e+00],
-          [ 5.6902e-01,  8.2183e-01,  2.8603e-02, -1.1009e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 9.7549e-03, -9.9960e-01, -2.6432e-02,  1.0437e-02],
-          [ 8.1403e-03,  2.6512e-02, -9.9962e-01,  1.4829e+00],
-          [ 9.9992e-01,  9.5360e-03,  8.3957e-03, -1.3958e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[-8.4422e-01, -5.3549e-01, -2.3311e-02,  8.6961e-01],
-          [ 1.6219e-02,  1.7950e-02, -9.9971e-01,  1.4973e+00],
-          [ 5.3575e-01, -8.4435e-01, -6.4687e-03, -1.1359e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 9.4786e-01,  3.1868e-01,  2.1419e-03, -1.1419e+00],
-          [-9.0292e-03,  3.3573e-02, -9.9940e-01,  1.5620e+00],
-          [-3.1856e-01,  9.4727e-01,  3.4700e-02, -1.5668e-01],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 9.3587e-03,  9.9962e-01,  2.5854e-02, -2.8259e-02],
-          [-6.9407e-03,  2.5919e-02, -9.9964e-01,  1.5673e+00],
-          [-9.9993e-01,  9.1759e-03,  7.1806e-03, -5.9082e-02],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[-9.2362e-01,  3.8330e-01,  3.7154e-03,  9.8340e-01],
-          [-2.7640e-03,  3.0331e-03, -9.9999e-01,  1.5473e+00],
-          [-3.8330e-01, -9.2362e-01, -1.7420e-03, -1.1627e-01],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]]],
-
-
-        [[[ 8.2270e-01, -5.6828e-01, -1.5146e-02, -7.5592e-01],
-          [ 1.6265e-03,  2.8996e-02, -9.9958e-01,  1.4887e+00],
-          [ 5.6848e-01,  8.2233e-01,  2.4780e-02, -1.1628e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 1.0401e-02, -9.9964e-01, -2.4748e-02,  9.0942e-03],
-          [ 4.0161e-03,  2.4791e-02, -9.9968e-01,  1.4812e+00],
-          [ 9.9994e-01,  1.0298e-02,  4.2725e-03, -1.4838e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+0Validation Iterations:  30%|██▉       | 448/1505 [46:12<2:44:02,  9.31s/it]Validation Iterations:  30%|██▉       | 449/1505 [46:19<2:31:46,  8.62s/it]Validation Iterations:  30%|██▉       | 450/1505 [46:28<2:33:24,  8.72s/it]Validation Iterations:  30%|██▉       | 451/1505 [46:34<2:18:37,  7.89s/it]Validation Iterations:  30%|███       | 452/1505 [46:42<2:20:00,  7.98s/it]Validation Iterations:  30%|███       | 453/1505 [46:53<2:36:11,  8.91s/it]  0.0000e+00,  1.0000e+00]],
-
-         [[ 9.2206e-03,  9.9969e-01,  2.3340e-02, -2.8381e-02],
-          [-1.0141e-02,  2.3434e-02, -9.9967e-01,  1.5673e+00],
-          [-9.9991e-01,  8.9809e-03,  1.0354e-02, -3.4119e-02],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[-9.2377e-01,  3.8289e-01,  6.1763e-03,  1.0279e+00],
-          [-6.3366e-03,  8.4247e-04, -9.9998e-01,  1.5469e+00],
-          [-3.8289e-01, -9.2379e-01,  1.6480e-03, -9.8145e-02],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]]],
-
-
-        [[[ 8.2063e-01, -5.7046e-01,  3.3886e-02, -5.5118e-01],
-          [ 1.3322e-02, -4.0184e-02, -9.9910e-01,  1.5151e+00],
-          [ 5.7131e-01,  8.2034e-01, -2.5376e-02, -9.9695e-01],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 5.4088e-03, -9.9901e-01,  4.4203e-02,  1.0132e-02],
-          [ 7.7902e-03, -4.4160e-02, -9.9899e-01,  1.5238e+00],
-          [ 9.9995e-01,  5.7477e-03,  7.5436e-03, -1.2822e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[-8.3294e-01, -5.5334e-01,  3.8954e-03,  7.7063e-01],
-          [ 1.3177e-02, -2.6872e-02, -9.9955e-01,  1.5079e+00],
-          [ 5.5320e-01, -8.3252e-01,  2.9674e-02, -1.0719e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 9.4770e-01,  3.1917e-01,  1.7115e-03, -1.1499e+00],
-          [ 2.0979e-02, -5.6939e-02, -9.9816e-01,  1.5884e+00],
-          [-3.1849e-01,  9.4598e-01, -6.0656e-02, -1.0181e-01],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 2.8115e-03,  9.9889e-01, -4.7019e-02,  2.1973e-03],
-          [-4.1221e-03, -4.7007e-02, -9.9889e-01,  1.5790e+00],
-          [-9.9999e-01,  3.0022e-03,  3.9854e-03, -1.0840e-01],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[-9.3439e-01,  3.5420e-01, -3.8227e-02,  9.2499e-01],
-          [ 2.8826e-02, -3.1781e-02, -9.9908e-01,  1.5580e+00],
-          [-3.5509e-01, -9.3463e-01,  1.9486e-02, -1.4197e-01],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]]],
-
-
-        [[[ 8.2071e-01, -5.7125e-01, -1.0514e-02, -9.6478e-01],
-          [ 5.2373e-03,  2.5924e-02, -9.9965e-01,  1.5083e+00],
-          [ 5.7132e-01,  8.2037e-01,  2.4268e-02, -1.2804e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 5.5971e-03, -9.9975e-01, -2.1860e-02,  5.0659e-03],
-          [-6.6982e-05,  2.1860e-02, -9.9976e-01,  1.5205e+00],
-          [ 9.9998e-01,  5.5972e-03,  5.5389e-05, -1.6923e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[-8.3291e-01, -5.5279e-01, -2.6236e-02,  1.0327e+00],
-          [ 5.5515e-03,  3.9059e-02, -9.9922e-01,  1.5036e+00],
-          [ 5.5338e-01, -8.3241e-01, -2.9464e-02, -1.2487e+00],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 9.4775e-01,  3.1860e-01,  1.6273e-02, -1.1423e+00],
-          [ 1.4238e-02,  8.7139e-03, -9.9986e-01,  1.5886e+00],
-          [-3.1870e-01,  9.4785e-01,  3.7221e-03, -1.0382e-01],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[ 2.5187e-03,  9.9982e-01,  1.8706e-02,  2.6855e-03],
-          [-1.1191e-02,  1.8733e-02, -9.9976e-01,  1.5794e+00],
-          [-9.9993e-01,  2.3088e-03,  1.1236e-02,  1.9531e-03],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-         [[-9.3467e-01,  3.5542e-01, -7.9461e-03,  1.1362e+00],
-          [ 2.1442e-02,  3.4049e-02, -9.9919e-01,  1.5515e+00],
-          [-3.5486e-01, -9.3409e-01, -3.9446e-02, -6.3599e-02],
-          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]]]]), 'bev': tensor([[[[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         ...,
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]]],
-
-
-        [[[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         ...,
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]]],
-
-
-        [[[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         ...,
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]]],
-
-
-        [[[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 1., 1., 1.],
-          [0., 0., 0.,  ..., 1., 1., 1.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         ...,
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]],
-
-         [[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]]]]), 'view': tensor([[[  0.,  -2., 100.],
-         [ -2.,   0., 100.],
-         [  0.,   0.,   1.]],
-
-        [[  0.,  -2., 100.],
-         [ -2.,   0., 100.],
-         [  0.,   0.,   1.]],
-
-        [[  0.,  -2., 100.],
-         [ -2.,   0., 100.],
-         [  0.,   0.,   1.]],
-
-        [[  0.,  -2., 100.],
-         [ -2.,   0., 100.],
-         [  0.,   0.,   1.]]]), 'visibility': tensor([[[255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         ...,
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255]],
-
-        [[255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         ...,
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255]],
-
-        [[255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         ...,
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255]],
-
-        [[255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         ...,
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255],
-         [255, 255, 255,  ..., 255, 255, 255]]], dtype=torch.uint8), 'center': tensor([[[[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]]],
-
-
-        [[[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]]],
-
-
-        [[[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]]],
-
-
-        [[[0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          ...,
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.],
-          [0., 0., 0.,  ..., 0., 0., 0.]]]]), 'pose': tensor([[[-6.4862e-01,  7.6111e-01,  0.0000e+00,  9.3042e+02],
-         [-7.6111e-01, -6.4862e-01,  0.0000e+00,  6.3460e+02],
-         [ 0.0000e+00,  0.0000e+00,  1.0000e+00,  0.0000e+00],
-         [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-        [[ 8.4439e-01,  5.3573e-01,  0.0000e+00,  1.1623e+03],
-         [-5.3573e-01,  8.4439e-01,  0.0000e+00,  1.5592e+03],
-         [ 0.0000e+00,  0.0000e+00,  1.0000e+00,  0.0000e+00],
-         [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-        [[-6.2512e-01, -7.8052e-01,  0.0000e+00,  1.7538e+03],
-         [ 7.8052e-01, -6.2512e-01,  0.0000e+00,  2.6244e+03],
-         [ 0.0000e+00,  0.0000e+00,  1.0000e+00,  0.0000e+00],
-         [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]],
-
-        [[-8.7574e-01, -4.8279e-01,  0.0000e+00,  2.0434e+03],
-         [ 4.8279e-01, -8.7574e-01,  0.0000e+00,  2.3251e+03],
-         [ 0.0000e+00,  0.0000e+00,  1.0000e+00,  0.0000e+00],
-         [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  1.0000e+00]]])}
-/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/utils.py:366: UserWarning: Skipping _decide_input_format
- -1
-  warnings.warn("Skipping _decide_input_format\n {}".format(e.args[0]))
-/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/einops/einops.py:179: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  axes_lengths[unknown_axis] = length // known_product
-/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/symbolic_helper.py:719: UserWarning: allowzero=0 by default. In order to honor zero value in shape use allowzero=1
-  warnings.warn("allowzero=0 by default. In order to honor zero value in shape use allowzero=1")
-Error executing job with overrides: ['+experiment=gkt_nuscenes_vehicle_kernel_7x1.yaml', 'data.dataset_dir=/media/ava/DATA3/DATA/sherly/data/nuscenes', 'data.labels_dir=/media/ava/DATA3/DATA/sherly/data/cvt_labels_nuscenes', 'experiment.ckptt=/media/ava/DATA3/DATA/raj/GKT/segmentation/pretrained_models/map_segmentation_gkt_7x1_conv_setting2.ckpt']
-Traceback (most recent call last):
-  File "scripts/eval.py", line 98, in main
-    torch.onnx.export(
-  File "/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/__init__.py", line 305, in export
-    return utils.export(model, args, f, export_params, verbose, training,
-  File "/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/utils.py", line 118, in export
-    _export(model, args, f, export_params, verbose, training, input_names, output_names,
-  File "/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/utils.py", line 719, in _export
-    _model_to_graph(model, args, verbose, input_names,
-  File "/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/utils.py", line 503, in _model_to_graph
-    graph = _optimize_graph(graph, operator_export_type,
-  File "/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/utils.py", line 232, in _optimize_graph
-    graph = torch._C._jit_pass_onnx(graph, operator_export_type)
-  File "/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/__init__.py", line 354, in _run_symbolic_function
-    return utils._run_symbolic_function(*args, **kwargs)
-  File "/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/utils.py", line 1057, in _run_symbolic_function
-    symbolic_fn = _find_symbolic_in_registry(domain, op_name, opset_version, operator_export_type)
-  File "/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/utils.py", line 1011, in _find_symbolic_in_registry
-    return sym_registry.get_registered_op(op_name, domain, opset_version)
-  File "/home/ava/anaconda3/envs/raj-gkt/lib/python3.8/site-packages/torch/onnx/symbolic_registry.py", line 129, in get_registered_op
-    raise RuntimeError(msg)
-RuntimeError: Exporting the operator inverse to ONNX opset version 15 is not supported. Please feel free to request support or submit a pull request on PyTorch GitHub.
-
-Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

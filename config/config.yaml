@@ -17,6 +17,8 @@ experiment:
   checkpoint_interval: 1000
   log_image_interval: 500
   ckptt: "-"
+  export: False
+  ort: False
 
 loader:
   batch_size: 1
